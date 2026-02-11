@@ -1,12 +1,10 @@
 import Hero from '../components/Hero'
-import ShopByMood from '../components/ShopByMood'
 import LivingGallery from '../components/LivingGallery'
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-alabaster">
       <Hero />
-      <ShopByMood />
       <LivingGallery />
       
       {/* Newsletter Section */}
