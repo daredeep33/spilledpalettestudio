@@ -44,21 +44,6 @@ export const artworks: Artwork[] = [
     "price": 45
   },
   {
-    "id": "abstract-palm-tree",
-    "title": "Abstract Palm Tree",
-    "category": "botanical",
-    "cloudinaryId": "v1770830705/spilledpalette/artwork/botanical/abstract-palm-tree.tiff",
-    "insituId": "v1770830708/spilledpalette/insitu/botanical/botanical-abstract-palm-tree-in-situ.png",
-    "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/v1770830705/spilledpalette/artwork/botanical/abstract-palm-tree.tiff",
-    "insituUrl": "https://res.cloudinary.com/dzg9imnjl/image/upload/v1770830708/spilledpalette/insitu/botanical/botanical-abstract-palm-tree-in-situ.png",
-    "thumb": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_400,q_auto,f_auto/v1770830705/spilledpalette/artwork/botanical/abstract-palm-tree.tiff",
-    "preview": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_800,q_auto,f_auto/v1770830705/spilledpalette/artwork/botanical/abstract-palm-tree.tiff",
-    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830705/spilledpalette/artwork/botanical/abstract-palm-tree.tiff",
-    "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830708/spilledpalette/insitu/botanical/botanical-abstract-palm-tree-in-situ.png",
-    "aspectRatio": "portrait",
-    "price": 45
-  },
-  {
     "id": "abstract-plant-design-3",
     "title": "Abstract Plant Design 3",
     "category": "botanical",
