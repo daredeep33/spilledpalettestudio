@@ -3,7 +3,11 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Spilled Palette Studio | Aswathi Bindhu Jawahar',
-  description: 'Digital paintings that breathe life into your space.',
+  description: 'Handcrafted digital paintings that transform your space into a sanctuary of color, calm, and creative energy.',
+  icons: {
+    icon: '/favicon.png',
+    apple: '/favicon.png',
+  },
 }
 
 export default function RootLayout({

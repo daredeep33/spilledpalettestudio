@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Hero from '../components/Hero'
 import AboutArtist from '../components/AboutArtist'
 import Gallery from '../components/Gallery'
@@ -21,8 +22,17 @@ function Navigation() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FDFBF7]/95 backdrop-blur-sm border-b border-[#E8E4DF]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <a href="#" className="font-serif text-xl text-[#2C2C2C]">
-            Spilled Palette Studio
+          <a href="#" className="flex items-center gap-2">
+            <Image
+              src="/logo.png"
+              alt="Spilled Palette Studio"
+              width={40}
+              height={40}
+              className="rounded-full"
+            />
+            <span className="font-serif text-xl text-[#2C2C2C] hidden sm:block">
+              Spilled Palette Studio
+            </span>
           </a>
           <div className="hidden md:flex space-x-8">
             <a href="#gallery" className="text-[#2C2C2C]/70 hover:text-[#D4A574] transition-colors text-sm">
