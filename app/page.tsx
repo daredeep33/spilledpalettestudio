@@ -51,7 +51,7 @@ function Footer() {
             <p className="text-[#FDFBF7]/60 text-sm">Original artwork by Aswathi Bindhu Jawahar</p>
           </div>
           <div className="flex space-x-6">
-            <a href="#" className="text-[#FDFBF7]/60 hover:text-[#D4A574] transition-colors text-sm">Instagram</a>
+            <a href="https://www.instagram.com/thespilledpalettestudio" target="_blank" rel="noopener noreferrer" className="text-[#FDFBF7]/60 hover:text-[#D4A574] transition-colors text-sm">Instagram</a>
             <a href="#" className="text-[#FDFBF7]/60 hover:text-[#D4A574] transition-colors text-sm">Pinterest</a>
             <a href="#contact" className="text-[#FDFBF7]/60 hover:text-[#D4A574] transition-colors text-sm">Contact</a>
           </div>
