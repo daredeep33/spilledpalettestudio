@@ -1,64 +1,65 @@
 import Hero from '../components/Hero'
-import LivingGallery from '../components/LivingGallery'
+import AboutArtist from '../components/AboutArtist'
+import Gallery from '../components/Gallery'
+import Contact from '../components/Contact'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-alabaster">
+    <main className="min-h-screen bg-[#FDFBF7]">
+      <Navigation />
       <Hero />
-      <LivingGallery />
-      
-      {/* Newsletter Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-charcoal text-alabaster">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="font-serif text-3xl sm:text-4xl mb-4">
-            Join the <span className="italic">Studio</span>
-          </h2>
-          <p className="text-alabaster/70 mb-8">
-            Be the first to know about new collections, exclusive prints, and behind-the-scenes studio life.
-          </p>
-          <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-            <input
-              type="email"
-              placeholder="Enter your email"
-              className="flex-1 px-5 py-3 rounded-full bg-alabaster/10 border border-alabaster/20 text-alabaster placeholder:text-alabaster/50 focus:outline-none focus:border-terracotta"
-            />
-            <button
-              type="submit"
-              className="px-8 py-3 rounded-full bg-terracotta text-white font-medium hover:bg-terracotta/90 transition-colors"
-            >
-              Subscribe
-            </button>
-          </form>
-        </div>
-      </section>
-      
-      {/* Footer */}
-      <footer className="py-12 px-4 sm:px-6 lg:px-8 bg-charcoal border-t border-alabaster/10">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            <div className="text-center md:text-left">
-              <h3 className="font-serif text-2xl text-alabaster mb-2">
-                Spilled Palette Studio
-              </h3>
-              <p className="text-alabaster/50 text-sm">
-                Digital paintings by Aswathi Bindhu Jawahar
-              </p>
-            </div>
-            
-            <div className="flex gap-6">
-              <a href="#" className="text-alabaster/50 hover:text-terracotta transition-colors">Instagram</a>
-              <a href="#" className="text-alabaster/50 hover:text-terracotta transition-colors">Pinterest</a>
-              <a href="#" className="text-alabaster/50 hover:text-terracotta transition-colors">Contact</a>
-            </div>
-          </div>
-          
-          <div className="mt-8 pt-8 border-t border-alabaster/10 text-center">
-            <p className="text-alabaster/30 text-sm">
-              © 2026 Spilled Palette Studio. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
+      <Gallery />
+      <AboutArtist />
+      <Contact />
+      <Footer />
     </main>
+  )
+}
+
+function Navigation() {
+  return (
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FDFBF7]/95 backdrop-blur-sm border-b border-[#E8E4DF]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-16">
+          <a href="#" className="font-serif text-xl text-[#2C2C2C]">
+            Spilled Palette Studio
+          </a>
+          <div className="hidden md:flex space-x-8">
+            <a href="#gallery" className="text-[#2C2C2C]/70 hover:text-[#D4A574] transition-colors text-sm">
+              Gallery
+            </a>
+            <a href="#about" className="text-[#2C2C2C]/70 hover:text-[#D4A574] transition-colors text-sm">
+              About
+            </a>
+            <a href="#contact" className="text-[#2C2C2C]/70 hover:text-[#D4A574] transition-colors text-sm">
+              Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  )
+}
+
+function Footer() {
+  return (
+    <footer className="bg-[#2C2C2C] text-[#FDFBF7] py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="mb-6 md:mb-0 text-center md:text-left">
+            <h3 className="font-serif text-2xl mb-2">Spilled Palette Studio</h3>
+            <p className="text-[#FDFBF7]/60 text-sm">Original artwork by Aswathi Bindhu Jawahar</p>
+          </div>
+          <div className="flex space-x-6">
+            <a href="#" className="text-[#FDFBF7]/60 hover:text-[#D4A574] transition-colors text-sm">Instagram</a>
+            <a href="#" className="text-[#FDFBF7]/60 hover:text-[#D4A574] transition-colors text-sm">Pinterest</a>
+            <a href="#contact" className="text-[#FDFBF7]/60 hover:text-[#D4A574] transition-colors text-sm">Contact</a>
+          </div>
+        </div>
+        <div className="mt-8 pt-8 border-t border-[#FDFBF7]/10 text-center">
+          <p className="text-[#FDFBF7]/40 text-sm">© 2026 Spilled Palette Studio. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   )
 }
