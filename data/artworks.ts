@@ -42,7 +42,8 @@ export const artworks: Artwork[] = [
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830699/spilledpalette/artwork/botanical/abstract-palm-illustration.tiff",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830702/spilledpalette/insitu/botanical/botanical-abstract-palm-illustration-in-situ.png",
     "aspectRatio": "portrait",
-    "price": 45
+    "price": 45,
+    "artistPick": true
   },
   {
     "id": "abstract-plant-design-3",

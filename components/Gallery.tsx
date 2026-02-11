@@ -5,8 +5,26 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
 import { artworks, categories, type Artwork } from '../data/artworks'
 
-function ArtworkCard({ artwork }: { artwork: Artwork }) {
+interface GalleryProps {
+  onInquire?: (artwork: Artwork) => void;
+}
+
+function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (artwork: Artwork) => void }) {
   const [isHovered, setIsHovered] = useState(false)
+
+  const handleInquire = () => {
+    if (onInquire) {
+      onInquire(artwork)
+    } else {
+      // Scroll to contact with artwork title
+      const contactSection = document.getElementById('contact')
+      if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth' })
+        // Store artwork title in sessionStorage for contact form
+        sessionStorage.setItem('inquiryArtwork', artwork.title)
+      }
+    }
+  }
 
   return (
     <motion.div
@@ -19,6 +37,13 @@ function ArtworkCard({ artwork }: { artwork: Artwork }) {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="relative w-full h-full rounded-xl overflow-hidden bg-[#E8E4DF] group cursor-pointer">
+        {/* Artist's Pick Badge */}
+        {artwork.artistPick && (
+          <div className="absolute top-3 left-3 z-20 bg-[#D4A574] text-white px-3 py-1 rounded-full text-xs font-medium shadow-lg">
+            ★ Artist's Pick
+          </div>
+        )}
+
         {/* In-Situ Image - Default View */}
         <motion.div
           animate={{ 
@@ -60,10 +85,10 @@ function ArtworkCard({ artwork }: { artwork: Artwork }) {
           initial={{ opacity: 0 }}
           animate={{ opacity: isHovered ? 1 : 0 }}
           transition={{ duration: 0.3 }}
-          className="absolute inset-0 bg-gradient-to-t from-[#2C2C2C]/80 via-transparent to-transparent"
+          className="absolute inset-0 bg-gradient-to-t from-[#2C2C2C]/90 via-[#2C2C2C]/20 to-transparent"
         />
 
-        {/* Content - Always Visible */}
+        {/* Content */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -72,7 +97,21 @@ function ArtworkCard({ artwork }: { artwork: Artwork }) {
         >
           <h3 className="text-[#FDFBF7] font-serif text-lg mb-1 drop-shadow-lg">{artwork.title}</h3>
           <p className="text-[#FDFBF7]/80 text-sm mb-2 capitalize drop-shadow">{artwork.category}</p>
-          <p className="text-[#D4A574] font-medium">${artwork.price}</p>
+          <p className="text-[#D4A574] font-medium mb-3">${artwork.price}</p>
+          
+          {/* Inquire Button */}
+          <motion.button
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: isHovered ? 1 : 0, y: isHovered ? 0 : 10 }}
+            transition={{ duration: 0.3 }}
+            onClick={(e) => {
+              e.stopPropagation()
+              handleInquire()
+            }}
+            className="w-full bg-[#FDFBF7] text-[#2C2C2C] py-2 rounded-full text-sm font-medium hover:bg-[#D4A574] hover:text-white transition-colors"
+          >
+            Inquire About This Piece
+          </motion.button>
         </motion.div>
 
         {/* Hover Hint */}
@@ -80,7 +119,7 @@ function ArtworkCard({ artwork }: { artwork: Artwork }) {
           initial={{ opacity: 0 }}
           animate={{ opacity: isHovered ? 0 : 1 }}
           transition={{ duration: 0.3 }}
-          className="absolute top-4 right-4 bg-[#FDFBF7]/90 backdrop-blur-sm px-3 py-1.5 rounded-full"
+          className="absolute top-3 right-3 bg-[#FDFBF7]/90 backdrop-blur-sm px-3 py-1.5 rounded-full"
         >
           <span className="text-[#2C2C2C] text-xs font-medium">Hover to see artwork</span>
         </motion.div>
@@ -89,13 +128,22 @@ function ArtworkCard({ artwork }: { artwork: Artwork }) {
   )
 }
 
-export default function Gallery() {
+export default function Gallery({ onInquire }: GalleryProps) {
   const [activeCategory, setActiveCategory] = useState('all')
 
+  // Sort: Artist's Picks first, then all others
+  const sortedArtworks = useMemo(() => {
+    const picks = artworks.filter(a => a.artistPick)
+    const others = artworks.filter(a => !a.artistPick)
+    return [...picks, ...others]
+  }, [])
+
   const filteredArtworks = useMemo(() => {
-    if (activeCategory === 'all') return artworks
-    return artworks.filter((a) => a.category === activeCategory)
-  }, [activeCategory])
+    if (activeCategory === 'all') return sortedArtworks
+    return sortedArtworks.filter((a) => a.category === activeCategory)
+  }, [activeCategory, sortedArtworks])
+
+  const artistPicksCount = artworks.filter(a => a.artistPick).length
 
   return (
     <section id="gallery" className="py-20 px-4 sm:px-6 lg:px-8 bg-[#FDFBF7]">
@@ -113,6 +161,11 @@ export default function Gallery() {
           <p className="text-[#2C2C2C]/60 text-lg max-w-xl mx-auto">
             {artworks.length} original artworks, each with its own story
           </p>
+          {artistPicksCount > 0 && (
+            <p className="text-[#D4A574] text-sm mt-2">
+              ★ {artistPicksCount} Artist's Pick{artistPicksCount > 1 ? 's' : ''} featured
+            </p>
+          )}
         </motion.div>
 
         {/* Category Filter */}
@@ -141,7 +194,7 @@ export default function Gallery() {
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-4">
           <AnimatePresence mode="popLayout">
             {filteredArtworks.map((artwork) => (
-              <ArtworkCard key={artwork.id} artwork={artwork} />
+              <ArtworkCard key={artwork.id} artwork={artwork} onInquire={onInquire} />
             ))}
           </AnimatePresence>
         </div>
@@ -150,6 +203,9 @@ export default function Gallery() {
         <div className="text-center mt-12">
           <p className="text-[#2C2C2C]/50 text-sm">
             Showing {filteredArtworks.length} of {artworks.length} artworks
+          </p>
+          <p className="text-[#2C2C2C]/40 text-xs mt-2">
+            Click "Inquire" to ask about any piece
           </p>
         </div>
       </div>
