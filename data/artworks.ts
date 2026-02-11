@@ -12,6 +12,7 @@ export interface Artwork {
   insituFull: string
   aspectRatio: 'portrait' | 'landscape' | 'square'
   price: number
+  artistPick?: boolean
 }
 
 export const categories = [

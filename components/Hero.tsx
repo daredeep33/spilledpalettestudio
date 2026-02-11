@@ -18,13 +18,13 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="mb-8"
+          className="mb-6"
         >
           <Image
             src="/logo.png"
             alt="Spilled Palette Studio"
-            width={200}
-            height={200}
+            width={120}
+            height={120}
             className="mx-auto"
             priority
           />
@@ -45,7 +45,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="font-serif text-5xl sm:text-6xl lg:text-7xl text-[#2C2C2C] leading-[1.1] mb-6"
+          className="font-serif text-6xl sm:text-7xl lg:text-8xl text-[#2C2C2C] leading-[1.05] mb-6"
         >
           Aswathi
           <br />

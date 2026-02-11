@@ -3,19 +3,45 @@
 import { motion } from 'framer-motion'
 import { useState } from 'react'
 
-export default function Contact() {
+interface ContactProps {
+  artworkTitle?: string;
+}
+
+export default function Contact({ artworkTitle }: ContactProps = {}) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: ''
+    message: artworkTitle ? `I'm interested in "${artworkTitle}". ` : '',
   })
   const [submitted, setSubmitted] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission
-    setSubmitted(true)
-    setTimeout(() => setSubmitted(false), 3000)
+    setSubmitting(true)
+    
+    // Formspree integration
+    const form = e.target as HTMLFormElement
+    const formData = new FormData(form)
+    
+    try {
+      const response = await fetch('https://formspree.io/f/xnqelnjr', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      })
+      
+      if (response.ok) {
+        setSubmitted(true)
+        setFormData({ name: '', email: '', message: '' })
+      }
+    } catch (error) {
+      console.error('Error:', error)
+    } finally {
+      setSubmitting(false)
+    }
   }
 
   return (
@@ -56,18 +82,21 @@ export default function Contact() {
                 </svg>
               </div>
               <h3 className="font-serif text-2xl text-[#2C2C2C] mb-2">Message Sent!</h3>
-              <p className="text-[#2C2C2C]/60">Thank you for reaching out. I'll get back to you soon.</p>
+              <p className="text-[#2C2C2C]/60">Thank you for reaching out. I'll get back to you within 24 hours.</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-6">
+              <input type="hidden" name="_subject" value="New inquiry from Spilled Palette Studio" />
+              
               <div className="grid sm:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-[#2C2C2C] mb-2">
-                    Your Name
+                    Your Name *
                   </label>
                   <input
                     type="text"
                     id="name"
+                    name="name"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className="w-full px-4 py-3 rounded-lg border border-[#E8E4DF] focus:border-[#D4A574] focus:outline-none transition-colors bg-[#FDFBF7]"
@@ -77,11 +106,12 @@ export default function Contact() {
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-[#2C2C2C] mb-2">
-                    Email Address
+                    Email Address *
                   </label>
                   <input
                     type="email"
                     id="email"
+                    name="email"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     className="w-full px-4 py-3 rounded-lg border border-[#E8E4DF] focus:border-[#D4A574] focus:outline-none transition-colors bg-[#FDFBF7]"
@@ -93,10 +123,11 @@ export default function Contact() {
               
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-[#2C2C2C] mb-2">
-                  Your Message
+                  Your Message *
                 </label>
                 <textarea
                   id="message"
+                  name="message"
                   rows={5}
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
@@ -108,9 +139,10 @@ export default function Contact() {
 
               <button
                 type="submit"
-                className="w-full sm:w-auto px-8 py-4 bg-[#2C2C2C] text-[#FDFBF7] rounded-full font-medium hover:bg-[#D4A574] transition-colors"
+                disabled={submitting}
+                className="w-full sm:w-auto px-8 py-4 bg-[#2C2C2C] text-[#FDFBF7] rounded-full font-medium hover:bg-[#D4A574] transition-colors disabled:opacity-50"
               >
-                Send Message
+                {submitting ? 'Sending...' : 'Send Message'}
               </button>
             </form>
           )}
@@ -124,13 +156,24 @@ export default function Contact() {
           transition={{ delay: 0.2 }}
           className="mt-12 text-center"
         >
-          <p className="text-[#2C2C2C]/60 mb-2">Or reach out directly:</p>
+          <p className="text-[#2C2C2C]/60 mb-4">Prefer email? Reach out directly:</p>
           <a 
             href="mailto:hello@spilledpalettestudio.com" 
-            className="text-[#D4A574] hover:underline"
+            className="text-[#D4A574] hover:underline text-lg"
           >
             hello@spilledpalettestudio.com
           </a>
+          
+          <div className="mt-8 flex justify-center gap-6">
+            <div className="text-center">
+              <p className="text-[#2C2C2C]/50 text-sm">Response Time</p>
+              <p className="text-[#2C2C2C] font-medium">Within 24 hours</p>
+            </div>
+            <div className="text-center">
+              <p className="text-[#2C2C2C]/50 text-sm">Worldwide Shipping</p>
+              <p className="text-[#2C2C2C] font-medium">3-5 business days</p>
+            </div>
+          </div>
         </motion.div>
       </div>
     </section>
