@@ -19,15 +19,38 @@ function ArtworkCard({ artwork }: { artwork: Artwork }) {
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="relative w-full h-full rounded-xl overflow-hidden bg-whisper group cursor-pointer">
-        {/* Artwork Image - Use Cloudinary thumb for performance */}
+        {/* Artwork Image - Default View */}
         <motion.div
-          animate={{ scale: isHovered ? 1.05 : 1 }}
-          transition={{ duration: 0.6 }}
+          animate={{ 
+            scale: isHovered ? 1.05 : 1,
+            opacity: isHovered ? 0 : 1
+          }}
+          transition={{ duration: 0.4 }}
           className="absolute inset-0"
         >
           <Image
             src={artwork.thumb}
             alt={artwork.title}
+            fill
+            className="object-cover"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            unoptimized
+          />
+        </motion.div>
+
+        {/* In-Situ Image - Hover View */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ 
+            opacity: isHovered ? 1 : 0,
+            scale: isHovered ? 1.05 : 1
+          }}
+          transition={{ duration: 0.4 }}
+          className="absolute inset-0"
+        >
+          <Image
+            src={artwork.insituUrl}
+            alt={`${artwork.title} in room setting`}
             fill
             className="object-cover"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
