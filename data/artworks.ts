@@ -12,12 +12,15 @@ export interface Artwork {
   insituFull: string
   aspectRatio: 'portrait' | 'landscape' | 'square'
   price: number
+  artistPick?: boolean
 }
 
 export const categories = [
   { id: 'all', label: 'All Collection' },
   { id: 'sanctuary', label: 'The Sanctuary Series' },
   { id: 'botanical', label: 'Botanical Studio' },
+  { id: 'floral', label: 'Floral Collection' },
+  { id: 'leaf', label: 'Leaf Studies' },
   { id: 'modern', label: 'Modern Muse' },
   { id: 'dreamers', label: 'Little Dreamers' },
   { id: 'dopamine', label: 'Dopamine Decor' },
