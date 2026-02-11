@@ -54,7 +54,7 @@ mapping.artworks.forEach((artwork, index) => {
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/${artworkPath}",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/${insituPath}",
     "aspectRatio": "portrait",
-    "price": 45
+    "price": 45${artwork.artistPick ? ',\n    "artistPick": true' : ''}
   }${isLast ? '' : ','}\n`;
 });
 
