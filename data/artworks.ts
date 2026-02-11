@@ -1,7 +1,7 @@
 export interface Artwork {
   id: string
   title: string
-  category: 'sanctuary' | 'botanical' | 'modern' | 'dreamers' | 'dopamine' | 'ink' | 'patterns'
+  category: 'sanctuary' | 'botanical' | 'floral' | 'leaf' | 'modern' | 'dreamers' | 'dopamine' | 'ink' | 'pattern'
   cloudinaryId: string
   insituId: string
   url: string
