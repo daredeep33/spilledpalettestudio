@@ -17,7 +17,7 @@ export default function AboutArtist() {
             className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-[#E8E4DF]"
           >
             <Image
-              src="/images/hero-generated.jpg"
+              src="/images/aswathi.jpg"
               alt="Aswathi Bindhu Jawahar - Artist"
               fill
               className="object-cover"
