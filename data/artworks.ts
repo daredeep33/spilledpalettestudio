@@ -1,7 +1,7 @@
 export interface Artwork {
   id: string
   title: string
-  category: 'sanctuary' | 'botanical' | 'modern' | 'dreamers' | 'dopamine' | 'ink' | 'patterns'
+  category: 'sanctuary' | 'botanical' | 'floral' | 'leaf' | 'modern' | 'dreamers' | 'dopamine' | 'ink' | 'pattern'
   cloudinaryId: string
   insituId: string
   url: string
@@ -18,11 +18,13 @@ export const categories = [
   { id: 'all', label: 'All Collection' },
   { id: 'sanctuary', label: 'The Sanctuary Series' },
   { id: 'botanical', label: 'Botanical Studio' },
+  { id: 'floral', label: 'Floral Collection' },
+  { id: 'leaf', label: 'Leaf Studies' },
   { id: 'modern', label: 'Modern Muse' },
   { id: 'dreamers', label: 'Little Dreamers' },
   { id: 'dopamine', label: 'Dopamine Decor' },
   { id: 'ink', label: 'Ink & Word' },
-  { id: 'patterns', label: 'The Pattern Library' },
+  { id: 'pattern', label: 'The Pattern Library' },
 ] as const
 
 export const artworks: Artwork[] = [
