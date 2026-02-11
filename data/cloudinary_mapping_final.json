@@ -1,0 +1,1411 @@
+{
+  "uploaded_at": "2026-02-11T17:24:56Z",
+  "cloud_name": "dzg9imnjl",
+  "artworks": [
+    {
+      "id": "1",
+      "category": "botanical",
+      "title": "abstract-palm-illustration",
+      "artwork": {
+        "filename": "abstract-palm-illustration.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830699/spilledpalette/artwork/botanical/abstract-palm-illustration.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-abstract-palm-illustration-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830702/spilledpalette/insitu/botanical/botanical-abstract-palm-illustration-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "2",
+      "category": "botanical",
+      "title": "abstract-palm-tree",
+      "artwork": {
+        "filename": "abstract-palm-tree.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830705/spilledpalette/artwork/botanical/abstract-palm-tree.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-abstract-palm-tree-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830708/spilledpalette/insitu/botanical/botanical-abstract-palm-tree-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "3",
+      "category": "botanical",
+      "title": "abstract-plant-design-3",
+      "artwork": {
+        "filename": "abstract-plant-design-3.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830712/spilledpalette/artwork/botanical/abstract-plant-design-3.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-abstract-plant-design-3-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830716/spilledpalette/insitu/botanical/botanical-abstract-plant-design-3-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "4",
+      "category": "botanical",
+      "title": "abstract-plant-drawing",
+      "artwork": {
+        "filename": "abstract-plant-drawing.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830719/spilledpalette/artwork/botanical/abstract-plant-drawing.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-abstract-plant-drawing-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830722/spilledpalette/insitu/botanical/botanical-abstract-plant-drawing-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "5",
+      "category": "botanical",
+      "title": "abstract-plant-moons",
+      "artwork": {
+        "filename": "abstract-plant-moons.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830726/spilledpalette/artwork/botanical/abstract-plant-moons.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-abstract-plant-moons-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830730/spilledpalette/insitu/botanical/botanical-abstract-plant-moons-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "6",
+      "category": "botanical",
+      "title": "abstract-plants-1",
+      "artwork": {
+        "filename": "abstract-plants-1.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830733/spilledpalette/artwork/botanical/abstract-plants-1.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-abstract-plants-1-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830737/spilledpalette/insitu/botanical/botanical-abstract-plants-1-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "7",
+      "category": "botanical",
+      "title": "abstract-plants-circle",
+      "artwork": {
+        "filename": "abstract-plants-circle.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830740/spilledpalette/artwork/botanical/abstract-plants-circle.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-abstract-plants-circle-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830744/spilledpalette/insitu/botanical/botanical-abstract-plants-circle-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "8",
+      "category": "botanical",
+      "title": "abstract-plants-pastel",
+      "artwork": {
+        "filename": "abstract-plants-pastel.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830747/spilledpalette/artwork/botanical/abstract-plants-pastel.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-abstract-plants-pastel-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830750/spilledpalette/insitu/botanical/botanical-abstract-plants-pastel-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "9",
+      "category": "botanical",
+      "title": "berries-plant-illustration",
+      "artwork": {
+        "filename": "berries-plant-illustration.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830754/spilledpalette/artwork/botanical/berries-plant-illustration.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-berries-plant-illustration-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830757/spilledpalette/insitu/botanical/botanical-berries-plant-illustration-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "10",
+      "category": "botanical",
+      "title": "boho-plant-illustration",
+      "artwork": {
+        "filename": "boho-plant-illustration.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830761/spilledpalette/artwork/botanical/boho-plant-illustration.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-boho-plant-illustration-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830764/spilledpalette/insitu/botanical/botanical-boho-plant-illustration-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "11",
+      "category": "botanical",
+      "title": "boho-plants-arch",
+      "artwork": {
+        "filename": "boho-plants-arch.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830767/spilledpalette/artwork/botanical/boho-plants-arch.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-boho-plants-arch-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830771/spilledpalette/insitu/botanical/botanical-boho-plants-arch-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "12",
+      "category": "botanical",
+      "title": "circle-branches-pattern",
+      "artwork": {
+        "filename": "circle-branches-pattern.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830774/spilledpalette/artwork/botanical/circle-branches-pattern.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-circle-branches-pattern-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830778/spilledpalette/insitu/botanical/botanical-circle-branches-pattern-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "13",
+      "category": "botanical",
+      "title": "colorful-leaf-branch",
+      "artwork": {
+        "filename": "colorful-leaf-branch.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830781/spilledpalette/artwork/botanical/colorful-leaf-branch.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-colorful-leaf-branch-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830785/spilledpalette/insitu/botanical/botanical-colorful-leaf-branch-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "14",
+      "category": "botanical",
+      "title": "green-circle-branch",
+      "artwork": {
+        "filename": "green-circle-branch.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830788/spilledpalette/artwork/botanical/green-circle-branch.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-green-circle-branch-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830791/spilledpalette/insitu/botanical/botanical-green-circle-branch-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "15",
+      "category": "botanical",
+      "title": "leaf-branch-drawing",
+      "artwork": {
+        "filename": "leaf-branch-drawing.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830794/spilledpalette/artwork/botanical/leaf-branch-drawing.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-leaf-branch-drawing-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830798/spilledpalette/insitu/botanical/botanical-leaf-branch-drawing-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "16",
+      "category": "botanical",
+      "title": "leafy-branch-pastel",
+      "artwork": {
+        "filename": "leafy-branch-pastel.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830805/spilledpalette/artwork/botanical/leafy-branch-pastel.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-leafy-branch-pastel-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830808/spilledpalette/insitu/botanical/botanical-leafy-branch-pastel-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "17",
+      "category": "botanical",
+      "title": "leafy-circle-vases",
+      "artwork": {
+        "filename": "leafy-circle-vases.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830812/spilledpalette/artwork/botanical/leafy-circle-vases.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-leafy-circle-vases-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830816/spilledpalette/insitu/botanical/botanical-leafy-circle-vases-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "18",
+      "category": "botanical",
+      "title": "minimalist-branch-lines",
+      "artwork": {
+        "filename": "minimalist-branch-lines.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830820/spilledpalette/artwork/botanical/minimalist-branch-lines.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-minimalist-branch-lines-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830825/spilledpalette/insitu/botanical/botanical-minimalist-branch-lines-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "19",
+      "category": "botanical",
+      "title": "palm-branch-shapes",
+      "artwork": {
+        "filename": "palm-branch-shapes.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830828/spilledpalette/artwork/botanical/palm-branch-shapes.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-palm-branch-shapes-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830839/spilledpalette/insitu/botanical/botanical-palm-branch-shapes-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "20",
+      "category": "botanical",
+      "title": "palm-leaves-art",
+      "artwork": {
+        "filename": "palm-leaves-art.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830843/spilledpalette/artwork/botanical/palm-leaves-art.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-palm-leaves-art-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830847/spilledpalette/insitu/botanical/botanical-palm-leaves-art-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "21",
+      "category": "botanical",
+      "title": "pastel-plant-illustration",
+      "artwork": {
+        "filename": "pastel-plant-illustration.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830850/spilledpalette/artwork/botanical/pastel-plant-illustration.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-pastel-plant-illustration-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830854/spilledpalette/insitu/botanical/botanical-pastel-plant-illustration-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "22",
+      "category": "botanical",
+      "title": "vase-fern-silhouette",
+      "artwork": {
+        "filename": "vase-fern-silhouette.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830858/spilledpalette/artwork/botanical/vase-fern-silhouette.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-vase-fern-silhouette-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830861/spilledpalette/insitu/botanical/botanical-vase-fern-silhouette-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "23",
+      "category": "botanical",
+      "title": "vase-plants-illustration",
+      "artwork": {
+        "filename": "vase-plants-illustration.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830865/spilledpalette/artwork/botanical/vase-plants-illustration.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-vase-plants-illustration-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830868/spilledpalette/insitu/botanical/botanical-vase-plants-illustration-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "24",
+      "category": "botanical",
+      "title": "vases-with-plants-2",
+      "artwork": {
+        "filename": "vases-with-plants-2.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830871/spilledpalette/artwork/botanical/vases-with-plants-2.tiff"
+      },
+      "insitu": {
+        "filename": "botanical-vases-with-plants-2-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830875/spilledpalette/insitu/botanical/botanical-vases-with-plants-2-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "26",
+      "category": "dopamine",
+      "title": "floral-butterfly-artwork",
+      "artwork": {
+        "filename": "floral-butterfly-artwork.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830885/spilledpalette/artwork/dopamine/floral-butterfly-artwork.tiff"
+      },
+      "insitu": {
+        "filename": "dopamine-floral-butterfly-artwork-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830888/spilledpalette/insitu/dopamine/dopamine-floral-butterfly-artwork-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "27",
+      "category": "dopamine",
+      "title": "floral-happiness-design",
+      "artwork": {
+        "filename": "floral-happiness-design.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830892/spilledpalette/artwork/dopamine/floral-happiness-design.tiff"
+      },
+      "insitu": {
+        "filename": "dopamine-floral-happiness-design-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830898/spilledpalette/insitu/dopamine/dopamine-floral-happiness-design-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "28",
+      "category": "dopamine",
+      "title": "teal-rainbow-art",
+      "artwork": {
+        "filename": "teal-rainbow-art.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830904/spilledpalette/artwork/dopamine/teal-rainbow-art.tiff"
+      },
+      "insitu": {
+        "filename": "dopamine-teal-rainbow-art-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830908/spilledpalette/insitu/dopamine/dopamine-teal-rainbow-art-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "29",
+      "category": "dreamers",
+      "title": "dandelion-pastel-circles",
+      "artwork": {
+        "filename": "dandelion-pastel-circles.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830911/spilledpalette/artwork/dreamers/dandelion-pastel-circles.tiff"
+      },
+      "insitu": {
+        "filename": "dreamers-dandelion-pastel-circles-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830915/spilledpalette/insitu/dreamers/dreamers-dandelion-pastel-circles-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "30",
+      "category": "dreamers",
+      "title": "pastel-circle-pattern",
+      "artwork": {
+        "filename": "pastel-circle-pattern.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830918/spilledpalette/artwork/dreamers/pastel-circle-pattern.tiff"
+      },
+      "insitu": {
+        "filename": "dreamers-pastel-circle-pattern-in-situ.png",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830922/spilledpalette/insitu/dreamers/dreamers-pastel-circle-pattern-in-situ.png"
+      }
+    }
+,
+    {
+      "id": "31",
+      "category": "floral",
+      "title": "abstract-floral-art-1",
+      "artwork": {
+        "filename": "abstract-floral-art-1.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830925/spilledpalette/artwork/floral/abstract-floral-art-1.tiff"
+      },
+      "insitu": {
+        "filename": "floral-abstract-floral-art-1-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830929/spilledpalette/insitu/floral/floral-abstract-floral-art-1-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "32",
+      "category": "floral",
+      "title": "abstract-floral-art",
+      "artwork": {
+        "filename": "abstract-floral-art.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830932/spilledpalette/artwork/floral/abstract-floral-art.tiff"
+      },
+      "insitu": {
+        "filename": "floral-abstract-floral-art-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830935/spilledpalette/insitu/floral/floral-abstract-floral-art-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "33",
+      "category": "floral",
+      "title": "abstract-floral-design-1",
+      "artwork": {
+        "filename": "abstract-floral-design-1.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830939/spilledpalette/artwork/floral/abstract-floral-design-1.tiff"
+      },
+      "insitu": {
+        "filename": "floral-abstract-floral-design-1-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830942/spilledpalette/insitu/floral/floral-abstract-floral-design-1-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "34",
+      "category": "floral",
+      "title": "abstract-floral-design-2",
+      "artwork": {
+        "filename": "abstract-floral-design-2.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830945/spilledpalette/artwork/floral/abstract-floral-design-2.tiff"
+      },
+      "insitu": {
+        "filename": "floral-abstract-floral-design-2-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830949/spilledpalette/insitu/floral/floral-abstract-floral-design-2-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "35",
+      "category": "floral",
+      "title": "abstract-floral-design-7",
+      "artwork": {
+        "filename": "abstract-floral-design-7.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830952/spilledpalette/artwork/floral/abstract-floral-design-7.tiff"
+      },
+      "insitu": {
+        "filename": "floral-abstract-floral-design-7-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830957/spilledpalette/insitu/floral/floral-abstract-floral-design-7-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "36",
+      "category": "floral",
+      "title": "abstract-floral-design-8",
+      "artwork": {
+        "filename": "abstract-floral-design-8.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830962/spilledpalette/artwork/floral/abstract-floral-design-8.tiff"
+      },
+      "insitu": {
+        "filename": "floral-abstract-floral-design-8-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830965/spilledpalette/insitu/floral/floral-abstract-floral-design-8-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "37",
+      "category": "floral",
+      "title": "abstract-floral-design-9",
+      "artwork": {
+        "filename": "abstract-floral-design-9.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830968/spilledpalette/artwork/floral/abstract-floral-design-9.tiff"
+      },
+      "insitu": {
+        "filename": "floral-abstract-floral-design-9-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830972/spilledpalette/insitu/floral/floral-abstract-floral-design-9-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "38",
+      "category": "floral",
+      "title": "abstract-floral-design",
+      "artwork": {
+        "filename": "abstract-floral-design.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830975/spilledpalette/artwork/floral/abstract-floral-design.tiff"
+      },
+      "insitu": {
+        "filename": "floral-abstract-floral-design-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830979/spilledpalette/insitu/floral/floral-abstract-floral-design-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "39",
+      "category": "floral",
+      "title": "abstract-floral-pattern-1",
+      "artwork": {
+        "filename": "abstract-floral-pattern-1.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830983/spilledpalette/artwork/floral/abstract-floral-pattern-1.tiff"
+      },
+      "insitu": {
+        "filename": "floral-abstract-floral-pattern-1-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830987/spilledpalette/insitu/floral/floral-abstract-floral-pattern-1-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "40",
+      "category": "floral",
+      "title": "abstract-floral-pattern-6",
+      "artwork": {
+        "filename": "abstract-floral-pattern-6.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830992/spilledpalette/artwork/floral/abstract-floral-pattern-6.tiff"
+      },
+      "insitu": {
+        "filename": "floral-abstract-floral-pattern-6-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830998/spilledpalette/insitu/floral/floral-abstract-floral-pattern-6-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "41",
+      "category": "floral",
+      "title": "abstract-floral-pattern",
+      "artwork": {
+        "filename": "abstract-floral-pattern.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831003/spilledpalette/artwork/floral/abstract-floral-pattern.tiff"
+      },
+      "insitu": {
+        "filename": "floral-abstract-floral-pattern-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831008/spilledpalette/insitu/floral/floral-abstract-floral-pattern-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "42",
+      "category": "floral",
+      "title": "abstract-flower-olive",
+      "artwork": {
+        "filename": "abstract-flower-olive.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831012/spilledpalette/artwork/floral/abstract-flower-olive.tiff"
+      },
+      "insitu": {
+        "filename": "floral-abstract-flower-olive-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831016/spilledpalette/insitu/floral/floral-abstract-flower-olive-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "43",
+      "category": "floral",
+      "title": "floral-abstract-art-1",
+      "artwork": {
+        "filename": "floral-abstract-art-1.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831020/spilledpalette/artwork/floral/floral-abstract-art-1.tiff"
+      },
+      "insitu": {
+        "filename": "floral-floral-abstract-art-1-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831024/spilledpalette/insitu/floral/floral-floral-abstract-art-1-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "44",
+      "category": "floral",
+      "title": "floral-abstract-bubbles",
+      "artwork": {
+        "filename": "floral-abstract-bubbles.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831028/spilledpalette/artwork/floral/floral-abstract-bubbles.tiff"
+      },
+      "insitu": {
+        "filename": "floral-floral-abstract-bubbles-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831032/spilledpalette/insitu/floral/floral-floral-abstract-bubbles-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "45",
+      "category": "floral",
+      "title": "floral-abstract-pattern",
+      "artwork": {
+        "filename": "floral-abstract-pattern.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831036/spilledpalette/artwork/floral/floral-abstract-pattern.tiff"
+      },
+      "insitu": {
+        "filename": "floral-floral-abstract-pattern-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831039/spilledpalette/insitu/floral/floral-floral-abstract-pattern-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "46",
+      "category": "floral",
+      "title": "floral-circle-design",
+      "artwork": {
+        "filename": "floral-circle-design.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831042/spilledpalette/artwork/floral/floral-circle-design.tiff"
+      },
+      "insitu": {
+        "filename": "floral-floral-circle-design-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831045/spilledpalette/insitu/floral/floral-floral-circle-design-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "47",
+      "category": "floral",
+      "title": "floral-circle-pattern-1",
+      "artwork": {
+        "filename": "floral-circle-pattern-1.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831049/spilledpalette/artwork/floral/floral-circle-pattern-1.tiff"
+      },
+      "insitu": {
+        "filename": "floral-floral-circle-pattern-1-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831052/spilledpalette/insitu/floral/floral-floral-circle-pattern-1-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "48",
+      "category": "floral",
+      "title": "floral-crescent-moon",
+      "artwork": {
+        "filename": "floral-crescent-moon.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831055/spilledpalette/artwork/floral/floral-crescent-moon.tiff"
+      },
+      "insitu": {
+        "filename": "floral-floral-crescent-moon-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831058/spilledpalette/insitu/floral/floral-floral-crescent-moon-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "49",
+      "category": "floral",
+      "title": "floral-division-artwork",
+      "artwork": {
+        "filename": "floral-division-artwork.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831061/spilledpalette/artwork/floral/floral-division-artwork.tiff"
+      },
+      "insitu": {
+        "filename": "floral-floral-division-artwork-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831065/spilledpalette/insitu/floral/floral-floral-division-artwork-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "50",
+      "category": "floral",
+      "title": "floral-leaf-pattern",
+      "artwork": {
+        "filename": "floral-leaf-pattern.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831068/spilledpalette/artwork/floral/floral-leaf-pattern.tiff"
+      },
+      "insitu": {
+        "filename": "floral-floral-leaf-pattern-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831071/spilledpalette/insitu/floral/floral-floral-leaf-pattern-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "51",
+      "category": "floral",
+      "title": "floral-line-art",
+      "artwork": {
+        "filename": "floral-line-art.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831075/spilledpalette/artwork/floral/floral-line-art.tiff"
+      },
+      "insitu": {
+        "filename": "floral-floral-line-art-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831079/spilledpalette/insitu/floral/floral-floral-line-art-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "52",
+      "category": "floral",
+      "title": "floral-pattern-art",
+      "artwork": {
+        "filename": "floral-pattern-art.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831084/spilledpalette/artwork/floral/floral-pattern-art.tiff"
+      },
+      "insitu": {
+        "filename": "floral-floral-pattern-art-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831087/spilledpalette/insitu/floral/floral-floral-pattern-art-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "53",
+      "category": "floral",
+      "title": "floral-watercolor-abstract",
+      "artwork": {
+        "filename": "floral-watercolor-abstract.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831091/spilledpalette/artwork/floral/floral-watercolor-abstract.tiff"
+      },
+      "insitu": {
+        "filename": "floral-floral-watercolor-abstract-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831094/spilledpalette/insitu/floral/floral-floral-watercolor-abstract-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "54",
+      "category": "floral",
+      "title": "flower-line-art-abstract",
+      "artwork": {
+        "filename": "flower-line-art-abstract.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831097/spilledpalette/artwork/floral/flower-line-art-abstract.tiff"
+      },
+      "insitu": {
+        "filename": "floral-flower-line-art-abstract-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831100/spilledpalette/insitu/floral/floral-flower-line-art-abstract-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "55",
+      "category": "floral",
+      "title": "pastel-floral-abstract",
+      "artwork": {
+        "filename": "pastel-floral-abstract.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831103/spilledpalette/artwork/floral/pastel-floral-abstract.tiff"
+      },
+      "insitu": {
+        "filename": "floral-pastel-floral-abstract-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831107/spilledpalette/insitu/floral/floral-pastel-floral-abstract-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "56",
+      "category": "floral",
+      "title": "striped-flower-drawing",
+      "artwork": {
+        "filename": "striped-flower-drawing.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831112/spilledpalette/artwork/floral/striped-flower-drawing.tiff"
+      },
+      "insitu": {
+        "filename": "floral-striped-flower-drawing-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831116/spilledpalette/insitu/floral/floral-striped-flower-drawing-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "57",
+      "category": "floral",
+      "title": "woman-floral-sketch",
+      "artwork": {
+        "filename": "woman-floral-sketch.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831119/spilledpalette/artwork/floral/woman-floral-sketch.tiff"
+      },
+      "insitu": {
+        "filename": "floral-woman-floral-sketch-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831123/spilledpalette/insitu/floral/floral-woman-floral-sketch-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "58",
+      "category": "leaf",
+      "title": "abstract-foliage-art",
+      "artwork": {
+        "filename": "abstract-foliage-art.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831126/spilledpalette/artwork/leaf/abstract-foliage-art.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-abstract-foliage-art-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831130/spilledpalette/insitu/leaf/leaf-abstract-foliage-art-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "59",
+      "category": "leaf",
+      "title": "abstract-foliage-pattern",
+      "artwork": {
+        "filename": "abstract-foliage-pattern.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831133/spilledpalette/artwork/leaf/abstract-foliage-pattern.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-abstract-foliage-pattern-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831137/spilledpalette/insitu/leaf/leaf-abstract-foliage-pattern-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "60",
+      "category": "leaf",
+      "title": "abstract-leaf-design-1",
+      "artwork": {
+        "filename": "abstract-leaf-design-1.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831140/spilledpalette/artwork/leaf/abstract-leaf-design-1.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-abstract-leaf-design-1-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831145/spilledpalette/insitu/leaf/leaf-abstract-leaf-design-1-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "61",
+      "category": "leaf",
+      "title": "abstract-leaf-design",
+      "artwork": {
+        "filename": "abstract-leaf-design.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831149/spilledpalette/artwork/leaf/abstract-leaf-design.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-abstract-leaf-design-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831153/spilledpalette/insitu/leaf/leaf-abstract-leaf-design-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "62",
+      "category": "leaf",
+      "title": "abstract-leaf-pattern-1",
+      "artwork": {
+        "filename": "abstract-leaf-pattern-1.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831156/spilledpalette/artwork/leaf/abstract-leaf-pattern-1.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-abstract-leaf-pattern-1-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831161/spilledpalette/insitu/leaf/leaf-abstract-leaf-pattern-1-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "63",
+      "category": "leaf",
+      "title": "abstract-leaf-pattern",
+      "artwork": {
+        "filename": "abstract-leaf-pattern.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831166/spilledpalette/artwork/leaf/abstract-leaf-pattern.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-abstract-leaf-pattern-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831171/spilledpalette/insitu/leaf/leaf-abstract-leaf-pattern-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "64",
+      "category": "leaf",
+      "title": "abstract-leaves-artwork",
+      "artwork": {
+        "filename": "abstract-leaves-artwork.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831174/spilledpalette/artwork/leaf/abstract-leaves-artwork.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-abstract-leaves-artwork-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831177/spilledpalette/insitu/leaf/leaf-abstract-leaves-artwork-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "65",
+      "category": "leaf",
+      "title": "abstract-leaves-neutral",
+      "artwork": {
+        "filename": "abstract-leaves-neutral.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831180/spilledpalette/artwork/leaf/abstract-leaves-neutral.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-abstract-leaves-neutral-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831184/spilledpalette/insitu/leaf/leaf-abstract-leaves-neutral-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "66",
+      "category": "leaf",
+      "title": "abstract-leaves-pastel-2",
+      "artwork": {
+        "filename": "abstract-leaves-pastel-2.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831187/spilledpalette/artwork/leaf/abstract-leaves-pastel-2.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-abstract-leaves-pastel-2-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831191/spilledpalette/insitu/leaf/leaf-abstract-leaves-pastel-2-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "67",
+      "category": "leaf",
+      "title": "abstract-leaves-pastel",
+      "artwork": {
+        "filename": "abstract-leaves-pastel.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831194/spilledpalette/artwork/leaf/abstract-leaves-pastel.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-abstract-leaves-pastel-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831198/spilledpalette/insitu/leaf/leaf-abstract-leaves-pastel-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "68",
+      "category": "leaf",
+      "title": "abstract-leaves-pattern-1",
+      "artwork": {
+        "filename": "abstract-leaves-pattern-1.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831203/spilledpalette/artwork/leaf/abstract-leaves-pattern-1.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-abstract-leaves-pattern-1-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831207/spilledpalette/insitu/leaf/leaf-abstract-leaves-pattern-1-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "69",
+      "category": "leaf",
+      "title": "brown-leaf-abstract",
+      "artwork": {
+        "filename": "brown-leaf-abstract.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831210/spilledpalette/artwork/leaf/brown-leaf-abstract.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-brown-leaf-abstract-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831214/spilledpalette/insitu/leaf/leaf-brown-leaf-abstract-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "70",
+      "category": "leaf",
+      "title": "brown-leaves-illustration",
+      "artwork": {
+        "filename": "brown-leaves-illustration.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831217/spilledpalette/artwork/leaf/brown-leaves-illustration.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-brown-leaves-illustration-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831221/spilledpalette/insitu/leaf/leaf-brown-leaves-illustration-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "71",
+      "category": "leaf",
+      "title": "green-foliage-illustration",
+      "artwork": {
+        "filename": "green-foliage-illustration.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831224/spilledpalette/artwork/leaf/green-foliage-illustration.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-green-foliage-illustration-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831228/spilledpalette/insitu/leaf/leaf-green-foliage-illustration-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "72",
+      "category": "leaf",
+      "title": "leaf-berry-pattern",
+      "artwork": {
+        "filename": "leaf-berry-pattern.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831232/spilledpalette/artwork/leaf/leaf-berry-pattern.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-leaf-berry-pattern-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831235/spilledpalette/insitu/leaf/leaf-leaf-berry-pattern-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "73",
+      "category": "leaf",
+      "title": "pink-foliage-design",
+      "artwork": {
+        "filename": "pink-foliage-design.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831238/spilledpalette/artwork/leaf/pink-foliage-design.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-pink-foliage-design-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831245/spilledpalette/insitu/leaf/leaf-pink-foliage-design-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "74",
+      "category": "leaf",
+      "title": "pink-leaf-illustration",
+      "artwork": {
+        "filename": "pink-leaf-illustration.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831249/spilledpalette/artwork/leaf/pink-leaf-illustration.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-pink-leaf-illustration-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831252/spilledpalette/insitu/leaf/leaf-pink-leaf-illustration-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "75",
+      "category": "leaf",
+      "title": "striped-leaves-illustration",
+      "artwork": {
+        "filename": "striped-leaves-illustration.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831259/spilledpalette/artwork/leaf/striped-leaves-illustration.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-striped-leaves-illustration-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831263/spilledpalette/insitu/leaf/leaf-striped-leaves-illustration-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "76",
+      "category": "leaf",
+      "title": "stylized-plumeria-leaves",
+      "artwork": {
+        "filename": "stylized-plumeria-leaves.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831267/spilledpalette/artwork/leaf/stylized-plumeria-leaves.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-stylized-plumeria-leaves-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831270/spilledpalette/insitu/leaf/leaf-stylized-plumeria-leaves-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "77",
+      "category": "leaf",
+      "title": "wavy-foliage-pattern",
+      "artwork": {
+        "filename": "wavy-foliage-pattern.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831274/spilledpalette/artwork/leaf/wavy-foliage-pattern.tiff"
+      },
+      "insitu": {
+        "filename": "leaf-wavy-foliage-pattern-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831277/spilledpalette/insitu/leaf/leaf-wavy-foliage-pattern-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "78",
+      "category": "modern",
+      "title": "abstract-botanical-rainbow",
+      "artwork": {
+        "filename": "abstract-botanical-rainbow.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831281/spilledpalette/artwork/modern/abstract-botanical-rainbow.tiff"
+      },
+      "insitu": {
+        "filename": "modern-abstract-botanical-rainbow-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831284/spilledpalette/insitu/modern/modern-abstract-botanical-rainbow-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "79",
+      "category": "modern",
+      "title": "abstract-floral-shapes-1",
+      "artwork": {
+        "filename": "abstract-floral-shapes-1.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831287/spilledpalette/artwork/modern/abstract-floral-shapes-1.tiff"
+      },
+      "insitu": {
+        "filename": "modern-abstract-floral-shapes-1-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831290/spilledpalette/insitu/modern/modern-abstract-floral-shapes-1-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "80",
+      "category": "modern",
+      "title": "abstract-floral-shapes-2",
+      "artwork": {
+        "filename": "abstract-floral-shapes-2.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831293/spilledpalette/artwork/modern/abstract-floral-shapes-2.tiff"
+      },
+      "insitu": {
+        "filename": "modern-abstract-floral-shapes-2-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831297/spilledpalette/insitu/modern/modern-abstract-floral-shapes-2-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "81",
+      "category": "modern",
+      "title": "abstract-floral-shapes",
+      "artwork": {
+        "filename": "abstract-floral-shapes.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831300/spilledpalette/artwork/modern/abstract-floral-shapes.tiff"
+      },
+      "insitu": {
+        "filename": "modern-abstract-floral-shapes-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831304/spilledpalette/insitu/modern/modern-abstract-floral-shapes-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "82",
+      "category": "modern",
+      "title": "abstract-plants-shapes",
+      "artwork": {
+        "filename": "abstract-plants-shapes.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831307/spilledpalette/artwork/modern/abstract-plants-shapes.tiff"
+      },
+      "insitu": {
+        "filename": "modern-abstract-plants-shapes-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831311/spilledpalette/insitu/modern/modern-abstract-plants-shapes-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "83",
+      "category": "modern",
+      "title": "abstract-shapes-plant",
+      "artwork": {
+        "filename": "abstract-shapes-plant.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831314/spilledpalette/artwork/modern/abstract-shapes-plant.tiff"
+      },
+      "insitu": {
+        "filename": "modern-abstract-shapes-plant-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831319/spilledpalette/insitu/modern/modern-abstract-shapes-plant-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "84",
+      "category": "modern",
+      "title": "abstract-sunburst-graphic",
+      "artwork": {
+        "filename": "abstract-sunburst-graphic.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831322/spilledpalette/artwork/modern/abstract-sunburst-graphic.tiff"
+      },
+      "insitu": {
+        "filename": "modern-abstract-sunburst-graphic-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831326/spilledpalette/insitu/modern/modern-abstract-sunburst-graphic-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "85",
+      "category": "modern",
+      "title": "botanical-art-abstract",
+      "artwork": {
+        "filename": "botanical-art-abstract.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831330/spilledpalette/artwork/modern/botanical-art-abstract.tiff"
+      },
+      "insitu": {
+        "filename": "modern-botanical-art-abstract-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831335/spilledpalette/insitu/modern/modern-botanical-art-abstract-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "86",
+      "category": "modern",
+      "title": "stylized-eye-graphic",
+      "artwork": {
+        "filename": "stylized-eye-graphic.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831338/spilledpalette/artwork/modern/stylized-eye-graphic.tiff"
+      },
+      "insitu": {
+        "filename": "modern-stylized-eye-graphic-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831341/spilledpalette/insitu/modern/modern-stylized-eye-graphic-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "87",
+      "category": "pattern",
+      "title": "botanical-circles-art",
+      "artwork": {
+        "filename": "botanical-circles-art.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831345/spilledpalette/artwork/pattern/botanical-circles-art.tiff"
+      },
+      "insitu": {
+        "filename": "pattern-botanical-circles-art-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831348/spilledpalette/insitu/pattern/pattern-botanical-circles-art-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "88",
+      "category": "pattern",
+      "title": "botanical-circles-illustration",
+      "artwork": {
+        "filename": "botanical-circles-illustration.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831352/spilledpalette/artwork/pattern/botanical-circles-illustration.tiff"
+      },
+      "insitu": {
+        "filename": "pattern-botanical-circles-illustration-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831355/spilledpalette/insitu/pattern/pattern-botanical-circles-illustration-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "89",
+      "category": "pattern",
+      "title": "botanical-dots-pattern",
+      "artwork": {
+        "filename": "botanical-dots-pattern.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831358/spilledpalette/artwork/pattern/botanical-dots-pattern.tiff"
+      },
+      "insitu": {
+        "filename": "pattern-botanical-dots-pattern-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831361/spilledpalette/insitu/pattern/pattern-botanical-dots-pattern-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "90",
+      "category": "pattern",
+      "title": "leafy-dots-pattern",
+      "artwork": {
+        "filename": "leafy-dots-pattern.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831364/spilledpalette/artwork/pattern/leafy-dots-pattern.tiff"
+      },
+      "insitu": {
+        "filename": "pattern-leafy-dots-pattern-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831368/spilledpalette/insitu/pattern/pattern-leafy-dots-pattern-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "91",
+      "category": "pattern",
+      "title": "leaves-dots-pattern",
+      "artwork": {
+        "filename": "leaves-dots-pattern.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831371/spilledpalette/artwork/pattern/leaves-dots-pattern.tiff"
+      },
+      "insitu": {
+        "filename": "pattern-leaves-dots-pattern-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831375/spilledpalette/insitu/pattern/pattern-leaves-dots-pattern-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "92",
+      "category": "sanctuary",
+      "title": "abstract-grass-landscape",
+      "artwork": {
+        "filename": "abstract-grass-landscape.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831378/spilledpalette/artwork/sanctuary/abstract-grass-landscape.tiff"
+      },
+      "insitu": {
+        "filename": "sanctuary-abstract-grass-landscape-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831381/spilledpalette/insitu/sanctuary/sanctuary-abstract-grass-landscape-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "93",
+      "category": "sanctuary",
+      "title": "abstract-leaf-sun",
+      "artwork": {
+        "filename": "abstract-leaf-sun.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831384/spilledpalette/artwork/sanctuary/abstract-leaf-sun.tiff"
+      },
+      "insitu": {
+        "filename": "sanctuary-abstract-leaf-sun-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831388/spilledpalette/insitu/sanctuary/sanctuary-abstract-leaf-sun-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "94",
+      "category": "sanctuary",
+      "title": "abstract-nature-scene",
+      "artwork": {
+        "filename": "abstract-nature-scene.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831391/spilledpalette/artwork/sanctuary/abstract-nature-scene.tiff"
+      },
+      "insitu": {
+        "filename": "sanctuary-abstract-nature-scene-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831395/spilledpalette/insitu/sanctuary/sanctuary-abstract-nature-scene-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "95",
+      "category": "sanctuary",
+      "title": "botanical-art-sunburst",
+      "artwork": {
+        "filename": "botanical-art-sunburst.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831398/spilledpalette/artwork/sanctuary/botanical-art-sunburst.tiff"
+      },
+      "insitu": {
+        "filename": "sanctuary-botanical-art-sunburst-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831402/spilledpalette/insitu/sanctuary/sanctuary-botanical-art-sunburst-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "96",
+      "category": "sanctuary",
+      "title": "botanical-sun-abstract",
+      "artwork": {
+        "filename": "botanical-sun-abstract.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831405/spilledpalette/artwork/sanctuary/botanical-sun-abstract.tiff"
+      },
+      "insitu": {
+        "filename": "sanctuary-botanical-sun-abstract-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831409/spilledpalette/insitu/sanctuary/sanctuary-botanical-sun-abstract-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "97",
+      "category": "sanctuary",
+      "title": "botanical-sun-print",
+      "artwork": {
+        "filename": "botanical-sun-print.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831412/spilledpalette/artwork/sanctuary/botanical-sun-print.tiff"
+      },
+      "insitu": {
+        "filename": "sanctuary-botanical-sun-print-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831415/spilledpalette/insitu/sanctuary/sanctuary-botanical-sun-print-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "98",
+      "category": "sanctuary",
+      "title": "brown-hills-sunset",
+      "artwork": {
+        "filename": "brown-hills-sunset.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831419/spilledpalette/artwork/sanctuary/brown-hills-sunset.tiff"
+      },
+      "insitu": {
+        "filename": "sanctuary-brown-hills-sunset-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831423/spilledpalette/insitu/sanctuary/sanctuary-brown-hills-sunset-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "99",
+      "category": "sanctuary",
+      "title": "orange-sun-branch",
+      "artwork": {
+        "filename": "orange-sun-branch.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831426/spilledpalette/artwork/sanctuary/orange-sun-branch.tiff"
+      },
+      "insitu": {
+        "filename": "sanctuary-orange-sun-branch-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831431/spilledpalette/insitu/sanctuary/sanctuary-orange-sun-branch-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "100",
+      "category": "sanctuary",
+      "title": "underwater-scene-art",
+      "artwork": {
+        "filename": "underwater-scene-art.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831435/spilledpalette/artwork/sanctuary/underwater-scene-art.tiff"
+      },
+      "insitu": {
+        "filename": "sanctuary-underwater-scene-art-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831439/spilledpalette/insitu/sanctuary/sanctuary-underwater-scene-art-in-situ.jpg"
+      }
+    }
+,
+    {
+      "id": "101",
+      "category": "sanctuary",
+      "title": "willow-tree-landscape",
+      "artwork": {
+        "filename": "willow-tree-landscape.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831443/spilledpalette/artwork/sanctuary/willow-tree-landscape.tiff"
+      },
+      "insitu": {
+        "filename": "sanctuary-willow-tree-landscape-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831446/spilledpalette/insitu/sanctuary/sanctuary-willow-tree-landscape-in-situ.jpg"
+      }
+    }
+
+  ],
+  stats: {
+    total: 101,
+    success: 100,
+    failed: 0
+  }
+}
