@@ -34,57 +34,57 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="relative aspect-[3/4] mb-4 break-inside-avoid group cursor-pointer"
+        className="relative mb-4 break-inside-avoid group cursor-pointer"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <div className="relative w-full h-full rounded-xl overflow-hidden bg-[#E8E4DF]">
-          {/* ... existing content ... */}
-        {/* Artist's Pick Badge */}
-        {artwork.artistPick && (
-          <div className="absolute top-3 left-3 z-20 bg-[#D4A574] text-white px-3 py-1 rounded-full text-xs font-medium shadow-lg">
-            ★ Artist's Pick
-          </div>
-        )}
-
-        {/* In-Situ Image - Default View */}
-        <motion.div
-          animate={{ 
-            opacity: isHovered ? 0 : 1,
-            scale: isHovered ? 1.05 : 1
-          }}
-          transition={{ duration: 0.6, ease: [0.33, 1, 0.68, 1] }}
-          className="absolute inset-0"
+        <div 
+          className="relative w-full rounded-xl overflow-hidden bg-[#E8E4DF]"
+          style={{ aspectRatio: artwork.aspectRatio === 'landscape' ? '4/3' : '3/4' }}
         >
-          <Image
-            src={artwork.insituUrl}
-            alt={`${artwork.title} in room setting`}
-            fill
-            className="object-cover transition-transform duration-700"
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            unoptimized
-          />
-        </motion.div>
+          {/* Artist's Pick Badge */}
+          {artwork.artistPick && (
+            <div className="absolute top-3 left-3 z-20 bg-[#D4A574] text-white px-3 py-1 rounded-full text-xs font-medium shadow-lg">
+              ★ Artist's Pick
+            </div>
+          )}
 
-        {/* Artwork Image - Hover View */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ 
-            opacity: isHovered ? 1 : 0,
-            scale: isHovered ? 1 : 1.1
-          }}
-          transition={{ duration: 0.6, ease: [0.33, 1, 0.68, 1] }}
-          className="absolute inset-0"
-        >
-          <Image
-            src={artwork.thumb}
-            alt={artwork.title}
-            fill
-            className="object-cover transition-transform duration-700"
-            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-            unoptimized
-          />
-        </motion.div>
+          {/* In-Situ Image - Default View */}
+          <motion.div
+            animate={{ 
+              opacity: isHovered ? 0 : 1
+            }}
+            transition={{ duration: 0.4 }}
+            className="absolute inset-0"
+          >
+            <Image
+              src={artwork.insituUrl}
+              alt={`${artwork.title} in room setting`}
+              fill
+              className="object-cover"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              unoptimized
+            />
+          </motion.div>
+
+          {/* Artwork Image - Hover View */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ 
+              opacity: isHovered ? 1 : 0
+            }}
+            transition={{ duration: 0.4 }}
+            className="absolute inset-0"
+          >
+            <Image
+              src={artwork.thumb}
+              alt={artwork.title}
+              fill
+              className="object-cover"
+              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              unoptimized
+            />
+          </motion.div>
 
         {/* Hover Overlay */}
         <motion.div
@@ -151,6 +151,15 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
 
 export default function Gallery({ onInquire }: GalleryProps) {
   const [activeCategory, setActiveCategory] = useState('all')
+
+  // Listen for mood filter events
+  useMemo(() => {
+    if (typeof window !== 'undefined') {
+      window.addEventListener('filterCategory', (e: any) => {
+        setActiveCategory(e.detail);
+      });
+    }
+  }, []);
 
   // Sort: Artist's Picks first, then all others
   const sortedArtworks = useMemo(() => {

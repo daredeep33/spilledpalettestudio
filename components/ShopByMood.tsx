@@ -55,14 +55,21 @@ export default function ShopByMood() {
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
           {moods.map((mood, index) => (
-            <motion.a
+            <motion.button
               key={mood.id}
-              href={`#gallery?mood=${mood.id}`}
+              onClick={() => {
+                const gallery = document.getElementById('gallery');
+                if (gallery) {
+                  gallery.scrollIntoView({ behavior: 'smooth' });
+                  // We'll need to trigger the category filter in Gallery.tsx
+                  window.dispatchEvent(new CustomEvent('filterCategory', { detail: mood.id }));
+                }
+              }}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1, duration: 0.5 }}
-              className="group cursor-pointer"
+              className="group cursor-pointer bg-transparent border-none p-0 outline-none w-full"
             >
               <div className="relative aspect-square mb-4">
                 {/* Circle background */}
