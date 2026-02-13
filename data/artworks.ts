@@ -13,6 +13,7 @@ export interface Artwork {
   aspectRatio: 'portrait' | 'landscape' | 'square'
   price: number
   artistPick?: boolean
+  buyUrl?: string
 }
 
 export const categories = [
