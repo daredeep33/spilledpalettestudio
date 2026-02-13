@@ -17,11 +17,9 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
     if (onInquire) {
       onInquire(artwork)
     } else {
-      // Scroll to contact with artwork title
       const contactSection = document.getElementById('contact')
       if (contactSection) {
         contactSection.scrollIntoView({ behavior: 'smooth' })
-        // Store artwork title in sessionStorage for contact form
         sessionStorage.setItem('inquiryArtwork', artwork.title)
       }
     }
@@ -86,65 +84,64 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
             />
           </motion.div>
 
-        {/* Hover Overlay */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: isHovered ? 1 : 0 }}
-          transition={{ duration: 0.3 }}
-          className="absolute inset-0 bg-gradient-to-t from-[#2C2C2C]/90 via-[#2C2C2C]/20 to-transparent"
-        />
-
-        {/* Content */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.3, delay: 0.2 }}
-          className="absolute inset-x-4 bottom-4"
-        >
-          <h3 className="text-[#FDFBF7] font-serif text-lg mb-1 drop-shadow-lg">{artwork.title}</h3>
-          <p className="text-[#FDFBF7]/80 text-sm mb-2 capitalize drop-shadow">{artwork.category}</p>
-          <p className="text-[#D4A574] font-medium mb-3">${artwork.price}</p>
-          
-          {/* Buy Button */}
-          <motion.button
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: isHovered ? 1 : 0, y: isHovered ? 0 : 10 }}
+          {/* Hover Overlay */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: isHovered ? 1 : 0 }}
             transition={{ duration: 0.3 }}
-            onClick={(e) => {
-              e.stopPropagation()
-              // Impulse Buy: Open Checkout or Selection
-              const buyUrl = artwork.buyUrl || `#contact`
-              window.open(buyUrl, '_blank')
-            }}
-            className="w-full bg-[#D4A574] text-white py-2 rounded-full text-sm font-medium hover:bg-[#2C2C2C] transition-colors shadow-lg"
+            className="absolute inset-0 bg-gradient-to-t from-[#2C2C2C]/90 via-[#2C2C2C]/20 to-transparent"
+          />
+
+          {/* Content */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.3, delay: 0.2 }}
+            className="absolute inset-x-4 bottom-4"
           >
-            Buy Physical Print — ${artwork.price}
-          </motion.button>
-        </motion.div>
+            <h3 className="text-[#FDFBF7] font-serif text-lg mb-1 drop-shadow-lg">{artwork.title}</h3>
+            <p className="text-[#FDFBF7]/80 text-sm mb-2 capitalize drop-shadow">{artwork.category}</p>
+            <p className="text-[#D4A574] font-medium mb-3">${artwork.price}</p>
+            
+            {/* Buy Button */}
+            <motion.button
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: isHovered ? 1 : 0, y: isHovered ? 0 : 10 }}
+              transition={{ duration: 0.3 }}
+              onClick={(e) => {
+                e.stopPropagation()
+                const buyUrl = artwork.buyUrl || `#contact`
+                window.open(buyUrl, '_blank')
+              }}
+              className="w-full bg-[#D4A574] text-white py-2 rounded-full text-sm font-medium hover:bg-[#2C2C2C] transition-colors shadow-lg"
+            >
+              Buy Physical Print — ${artwork.price}
+            </motion.button>
+          </motion.div>
 
-        {/* Physical Quality Badge */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: isHovered ? 1 : 0 }}
-          transition={{ duration: 0.3 }}
-          className="absolute top-3 left-3 z-30"
-        >
-          <div className="bg-[#2C2C2C]/80 backdrop-blur-md text-[#FDFBF7] px-2 py-1 rounded text-[10px] uppercase tracking-widest">
-            Museum Grade
-          </div>
-        </motion.div>
+          {/* Physical Quality Badge */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: isHovered ? 1 : 0 }}
+            transition={{ duration: 0.3 }}
+            className="absolute top-3 left-3 z-30"
+          >
+            <div className="bg-[#2C2C2C]/80 backdrop-blur-md text-[#FDFBF7] px-2 py-1 rounded text-[10px] uppercase tracking-widest">
+              Museum Grade
+            </div>
+          </motion.div>
 
-        {/* Hover Hint */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: isHovered ? 0 : 1 }}
-          transition={{ duration: 0.3 }}
-          className="absolute top-3 right-3 bg-[#FDFBF7]/90 backdrop-blur-sm px-3 py-1.5 rounded-full"
-        >
-          <span className="text-[#2C2C2C] text-xs font-medium">Hover to see artwork</span>
-        </motion.div>
-      </div>
-    </motion.div>
+          {/* Hover Hint */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: isHovered ? 0 : 1 }}
+            transition={{ duration: 0.3 }}
+            className="absolute top-3 right-3 bg-[#FDFBF7]/90 backdrop-blur-sm px-3 py-1.5 rounded-full"
+          >
+            <span className="text-[#2C2C2C] text-xs font-medium">Hover to see artwork</span>
+          </motion.div>
+        </div>
+      </motion.div>
     </Link>
   )
 }
@@ -178,7 +175,6 @@ export default function Gallery({ onInquire }: GalleryProps) {
   return (
     <section id="gallery" className="py-20 px-4 sm:px-6 lg:px-8 bg-[#FDFBF7]">
       <div className="max-w-7xl mx-auto">
-        {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -198,7 +194,6 @@ export default function Gallery({ onInquire }: GalleryProps) {
           )}
         </motion.div>
 
-        {/* Category Filter */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -220,7 +215,6 @@ export default function Gallery({ onInquire }: GalleryProps) {
           ))}
         </motion.div>
 
-        {/* Masonry Grid */}
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-4">
           <AnimatePresence mode="popLayout">
             {filteredArtworks.map((artwork) => (
@@ -229,13 +223,12 @@ export default function Gallery({ onInquire }: GalleryProps) {
           </AnimatePresence>
         </div>
 
-        {/* Stats */}
         <div className="text-center mt-12">
           <p className="text-[#2C2C2C]/50 text-sm">
             Showing {filteredArtworks.length} of {artworks.length} artworks
           </p>
           <p className="text-[#2C2C2C]/40 text-xs mt-2">
-            Click "Inquire" to ask about any piece
+            Click any piece to see its story
           </p>
         </div>
       </div>
