@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
+import Link from 'next/link'
 import { artworks, categories, type Artwork } from '../data/artworks'
 
 interface GalleryProps {
@@ -27,16 +28,18 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
   }
 
   return (
-    <motion.div
-      layout
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      className="relative aspect-[3/4] mb-4 break-inside-avoid"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      <div className="relative w-full h-full rounded-xl overflow-hidden bg-[#E8E4DF] group cursor-pointer">
+    <Link href={`/gallery/${artwork.id}`}>
+      <motion.div
+        layout
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        className="relative aspect-[3/4] mb-4 break-inside-avoid group cursor-pointer"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
+        <div className="relative w-full h-full rounded-xl overflow-hidden bg-[#E8E4DF]">
+          {/* ... existing content ... */}
         {/* Artist's Pick Badge */}
         {artwork.artistPick && (
           <div className="absolute top-3 left-3 z-20 bg-[#D4A574] text-white px-3 py-1 rounded-full text-xs font-medium shadow-lg">
@@ -50,14 +53,14 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
             opacity: isHovered ? 0 : 1,
             scale: isHovered ? 1.05 : 1
           }}
-          transition={{ duration: 0.4 }}
+          transition={{ duration: 0.6, ease: [0.33, 1, 0.68, 1] }}
           className="absolute inset-0"
         >
           <Image
             src={artwork.insituUrl}
             alt={`${artwork.title} in room setting`}
             fill
-            className="object-cover"
+            className="object-cover transition-transform duration-700"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             unoptimized
           />
@@ -66,15 +69,18 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
         {/* Artwork Image - Hover View */}
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: isHovered ? 1 : 0 }}
-          transition={{ duration: 0.4 }}
+          animate={{ 
+            opacity: isHovered ? 1 : 0,
+            scale: isHovered ? 1 : 1.1
+          }}
+          transition={{ duration: 0.6, ease: [0.33, 1, 0.68, 1] }}
           className="absolute inset-0"
         >
           <Image
             src={artwork.thumb}
             alt={artwork.title}
             fill
-            className="object-cover"
+            className="object-cover transition-transform duration-700"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
             unoptimized
           />
@@ -99,19 +105,33 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
           <p className="text-[#FDFBF7]/80 text-sm mb-2 capitalize drop-shadow">{artwork.category}</p>
           <p className="text-[#D4A574] font-medium mb-3">${artwork.price}</p>
           
-          {/* Inquire Button */}
+          {/* Buy Button */}
           <motion.button
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: isHovered ? 1 : 0, y: isHovered ? 0 : 10 }}
             transition={{ duration: 0.3 }}
             onClick={(e) => {
               e.stopPropagation()
-              handleInquire()
+              // Impulse Buy: Open Checkout or Selection
+              const buyUrl = artwork.buyUrl || `#contact`
+              window.open(buyUrl, '_blank')
             }}
-            className="w-full bg-[#FDFBF7] text-[#2C2C2C] py-2 rounded-full text-sm font-medium hover:bg-[#D4A574] hover:text-white transition-colors"
+            className="w-full bg-[#D4A574] text-white py-2 rounded-full text-sm font-medium hover:bg-[#2C2C2C] transition-colors shadow-lg"
           >
-            Inquire About This Piece
+            Buy Physical Print — ${artwork.price}
           </motion.button>
+        </motion.div>
+
+        {/* Physical Quality Badge */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: isHovered ? 1 : 0 }}
+          transition={{ duration: 0.3 }}
+          className="absolute top-3 left-3 z-30"
+        >
+          <div className="bg-[#2C2C2C]/80 backdrop-blur-md text-[#FDFBF7] px-2 py-1 rounded text-[10px] uppercase tracking-widest">
+            Museum Grade
+          </div>
         </motion.div>
 
         {/* Hover Hint */}
@@ -125,6 +145,7 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
         </motion.div>
       </div>
     </motion.div>
+    </Link>
   )
 }
 

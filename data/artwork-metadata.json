@@ -1,0 +1,35 @@
+{
+  "abstract-palm-illustration": {
+    "displayTitle": "Shadow of the Sun-Drenched Fern",
+    "description": "This abstract illustration features a bold leaf silhouette against fluid, organic shapes. The contrast between rigid geometry and soft curves creates a modern, balanced composition.",
+    "palette": [
+      "Terracotta",
+      "Dusty Rose",
+      "Burnt Orange",
+      "Black"
+    ],
+    "mood": "Warm and Grounded"
+  },
+  "abstract-palm-tree": {
+    "displayTitle": "Abstract Botanical Whispers",
+    "description": "A minimalist digital painting featuring a jagged black leaf silhouette layered over soft, organic shapes. The warm earth tones on a white background evoke a sense of modern simplicity.",
+    "palette": [
+      "Terracotta",
+      "Burnt Orange",
+      "Black",
+      "White"
+    ],
+    "mood": "Warm and Modern"
+  },
+  "abstract-plant-design-3": {
+    "displayTitle": "Botanical Solace",
+    "description": "A minimalist digital illustration featuring a dark green leafy stem over curved abstract shapes. A white sun anchors the composition, creating a balanced and peaceful scene.",
+    "palette": [
+      "Forest Green",
+      "Dusty Rose",
+      "Ochre",
+      "White"
+    ],
+    "mood": "Calm and Peaceful"
+  }
+}

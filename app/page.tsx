@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Hero from '../components/Hero'
 import AboutArtist from '../components/AboutArtist'
 import Gallery from '../components/Gallery'
+import ShopByMood from '../components/ShopByMood'
 import Contact from '../components/Contact'
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
     <main className="min-h-screen bg-[#FDFBF7]">
       <Navigation />
       <Hero />
+      <ShopByMood />
       <Gallery />
       <AboutArtist />
       <Contact />
