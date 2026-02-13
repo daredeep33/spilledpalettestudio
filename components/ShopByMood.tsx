@@ -45,10 +45,10 @@ export default function ShopByMood() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="font-serif text-4xl sm:text-5xl text-charcoal mb-4">
+          <h2 className="font-serif text-4xl sm:text-5xl text-[#2C2C2C] mb-4">
             Shop by <span className="italic">Mood</span>
           </h2>
-          <p className="text-charcoal/60 text-lg max-w-xl mx-auto">
+          <p className="text-[#2C2C2C]/60 text-lg max-w-xl mx-auto">
             Find art that speaks to your space and state of mind
           </p>
         </motion.div>
@@ -61,7 +61,6 @@ export default function ShopByMood() {
                 const gallery = document.getElementById('gallery');
                 if (gallery) {
                   gallery.scrollIntoView({ behavior: 'smooth' });
-                  // We'll need to trigger the category filter in Gallery.tsx
                   window.dispatchEvent(new CustomEvent('filterCategory', { detail: mood.id }));
                 }
               }}
@@ -76,26 +75,27 @@ export default function ShopByMood() {
                 <div className={`absolute inset-0 rounded-full bg-gradient-to-br ${mood.color} opacity-60 group-hover:opacity-100 transition-opacity duration-500`} />
                 
                 {/* Image container */}
-                <div className="absolute inset-2 rounded-full overflow-hidden bg-whisper">
+                <div className="absolute inset-2 rounded-full overflow-hidden bg-[#FDFBF7]">
                   <Image
                     src={mood.image}
                     alt={mood.title}
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700"
+                    unoptimized
                   />
                 </div>
                 
                 {/* Hover ring */}
-                <div className="absolute inset-0 rounded-full border-2 border-transparent group-hover:border-terracotta transition-colors duration-300" />
+                <div className="absolute inset-0 rounded-full border-2 border-transparent group-hover:border-[#D4A574] transition-colors duration-300" />
               </div>
               
               <div className="text-center">
-                <h3 className="font-serif text-2xl text-charcoal group-hover:text-terracotta transition-colors">
+                <h3 className="font-serif text-2xl text-[#2C2C2C] group-hover:text-[#D4A574] transition-colors">
                   {mood.title}
                 </h3>
-                <p className="text-charcoal/50 text-sm mt-1">{mood.subtitle}</p>
+                <p className="text-[#2C2C2C]/50 text-sm mt-1">{mood.subtitle}</p>
               </div>
-            </motion.a>
+            </motion.button>
           ))}
         </div>
       </div>
