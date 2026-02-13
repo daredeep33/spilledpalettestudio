@@ -4,6 +4,12 @@ import Link from 'next/link';
 import { artworks } from '@/data/artworks';
 import metadata from '@/data/artwork-metadata.json';
 
+export async function generateStaticParams() {
+  return artworks.map((artwork) => ({
+    id: artwork.id,
+  }));
+}
+
 export default function ArtworkPage({ params }: { params: { id: string } }) {
   const artwork = artworks.find((a) => a.id === params.id);
   const artMeta = (metadata as any)[params.id];
