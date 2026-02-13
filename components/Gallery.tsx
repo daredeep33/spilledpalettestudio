@@ -61,7 +61,7 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
               src={artwork.insituUrl}
               alt={`${artwork.title} in room setting`}
               fill
-              className="object-cover"
+              className="object-contain"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               unoptimized
             />
@@ -80,7 +80,7 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
               src={artwork.thumb}
               alt={artwork.title}
               fill
-              className="object-cover"
+              className="object-contain"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               unoptimized
             />
