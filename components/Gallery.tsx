@@ -1,9 +1,10 @@
 'use client'
 
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
+import Masonry from 'react-masonry-css'
 import { artworks, categories, type Artwork } from '../data/artworks'
 
 interface GalleryProps {
@@ -32,7 +33,7 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="relative mb-4 break-inside-avoid group cursor-pointer"
+        className="relative mb-4 group cursor-pointer"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -172,6 +173,14 @@ export default function Gallery({ onInquire }: GalleryProps) {
 
   const artistPicksCount = artworks.filter(a => a.artistPick).length
 
+  // Masonry breakpoint columns
+  const breakpointColumnsObj = {
+    default: 3,
+    1100: 3,
+    700: 2,
+    500: 1
+  }
+
   return (
     <section id="gallery" className="py-20 px-4 sm:px-6 lg:px-8 bg-[#FDFBF7]">
       <div className="max-w-7xl mx-auto">
@@ -215,13 +224,17 @@ export default function Gallery({ onInquire }: GalleryProps) {
           ))}
         </motion.div>
 
-        <div className="columns-1 sm:columns-2 lg:columns-3 gap-4">
+        <Masonry
+          breakpointCols={breakpointColumnsObj}
+          className="flex -ml-4 w-auto"
+          columnClassName="pl-4 bg-[#FDFBF7]"
+        >
           <AnimatePresence mode="popLayout">
             {filteredArtworks.map((artwork) => (
               <ArtworkCard key={artwork.id} artwork={artwork} onInquire={onInquire} />
             ))}
           </AnimatePresence>
-        </div>
+        </Masonry>
 
         <div className="text-center mt-12">
           <p className="text-[#2C2C2C]/50 text-sm">
