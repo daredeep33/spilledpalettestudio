@@ -1136,18 +1136,5 @@
       "#E7954F"
     ],
     "mood": "Glowing"
-  },
-  "abstract-palm-tree": {
-    "displayTitle": "Abstract Palm Tree",
-    "description": "An abstract palm tree illustration with minimalist shapes.",
-    "palette": [
-      "#BC8565",
-      "#BB5126",
-      "#B75344",
-      "#7D3C2C",
-      "#E09890",
-      "#502820"
-    ],
-    "mood": "Tropical"
   }
 }
