@@ -152,11 +152,13 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
               
               {/* Sort by luminance (brightness) */}
               {(() => {
+                const getLuminance = (hex: string) => {
+                  const rgb = hex.replace('#', '').match(/.{2}/g)?.map(x => parseInt(x, 16)) || [0, 0, 0];
+                  // W3C Relative Luminance formula - human eye is more sensitive to green
+                  return 0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2];
+                };
+                
                 const sortedPalette = [...artMeta.palette].sort((a, b) => {
-                  const getLuminance = (hex: string) => {
-                    const rgb = hex.replace('#', '').match(/.{2}/g)?.map(x => parseInt(x, 16)) || [0, 0, 0];
-                    return 0.299 * rgb[0] + 0.587 * rgb[1] + 0.114 * rgb[2];
-                  };
                   return getLuminance(b) - getLuminance(a); // brightest first
                 });
                 
