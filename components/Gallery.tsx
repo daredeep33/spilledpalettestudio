@@ -88,12 +88,18 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
             />
           </motion.div>
 
-          {/* Hover Overlay */}
+          {/* Hover Overlay - White Frosted Glass */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: isHovered ? 1 : 0 }}
             transition={{ duration: 0.3 }}
-            className="absolute inset-0 bg-gradient-to-t from-[#2C2C2C] via-[#2C2C2C]/60 to-transparent"
+            className="absolute inset-x-0 bottom-0 h-24"
+            style={{
+              background: 'rgba(255, 255, 255, 0.85)',
+              backdropFilter: 'blur(12px)',
+              WebkitBackdropFilter: 'blur(12px)',
+              borderTop: '1px solid rgba(255, 255, 255, 0.9)',
+            }}
           />
 
           {/* Content */}
@@ -103,8 +109,8 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
             transition={{ duration: 0.3, delay: 0.2 }}
             className="absolute inset-x-4 bottom-4"
           >
-            <h3 className="text-[#FDFBF7] font-serif text-lg mb-1 drop-shadow-lg">{displayTitle}</h3>
-            <p className="text-[#FDFBF7]/80 text-sm capitalize drop-shadow">{artwork.category}</p>
+            <h3 className="text-[#2C2C2C] font-serif text-lg mb-1">{displayTitle}</h3>
+            <p className="text-[#2C2C2C]/70 text-sm capitalize">{artwork.category}</p>
           </motion.div>
 
           {/* Hover Hint */}
@@ -112,7 +118,7 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
             initial={{ opacity: 0 }}
             animate={{ opacity: isHovered ? 0 : 1 }}
             transition={{ duration: 0.3 }}
-            className="absolute top-3 right-3 bg-[#FDFBF7]/90 backdrop-blur-sm px-3 py-1.5 rounded-full"
+            className="absolute top-3 right-3 bg-white/80 backdrop-blur-sm px-3 py-1.5 rounded-full"
           >
             <span className="text-[#2C2C2C] text-xs font-medium">Hover to see artwork</span>
           </motion.div>
