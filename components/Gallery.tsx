@@ -88,15 +88,39 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
             />
           </motion.div>
 
-          {/* Content - No overlay, just text */}
+          {/* Content - Dual shadow system for all backgrounds */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.3, delay: 0.2 }}
             className="absolute inset-x-4 bottom-4"
+            style={{
+              filter: 'contrast(3)',
+            }}
           >
-            <h3 className="text-[#FDFBF7] font-serif text-lg mb-1 drop-shadow-md">{displayTitle}</h3>
-            <p className="text-[#FDFBF7]/80 text-sm capitalize drop-shadow-sm">{artwork.category}</p>
+            <h3 
+              className="text-white font-serif text-lg mb-1"
+              style={{
+                textShadow: `
+                  0 0 30px rgba(255,255,255,0.9),
+                  0 0 60px rgba(255,255,255,0.6),
+                  2px 2px 4px rgba(0,0,0,0.8),
+                  4px 4px 8px rgba(0,0,0,0.6),
+                  6px 6px 12px rgba(0,0,0,0.4)
+                `
+              }}
+            >{displayTitle}</h3>
+            <p 
+              className="text-white/90 text-sm capitalize"
+              style={{
+                textShadow: `
+                  0 0 20px rgba(255,255,255,0.8),
+                  0 0 40px rgba(255,255,255,0.5),
+                  1px 1px 2px rgba(0,0,0,0.8),
+                  2px 2px 4px rgba(0,0,0,0.6)
+                `
+              }}
+            >{artwork.category}</p>
           </motion.div>
 
           {/* Hover Hint */}
