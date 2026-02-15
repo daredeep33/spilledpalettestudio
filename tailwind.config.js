@@ -13,8 +13,8 @@ module.exports = {
         whisper: '#E8E4DF',
       },
       fontFamily: {
-        serif: ['Playfair Display', 'Georgia', 'serif'],
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        serif: ['Cormorant Garamond', 'Georgia', 'serif'],
+        sans: ['Open Sans', 'system-ui', 'sans-serif'],
       },
     },
   },
