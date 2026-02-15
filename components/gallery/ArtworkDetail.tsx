@@ -145,24 +145,45 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
             </p>
           </div>
 
-          {/* Polished Color Palette */}
+          {/* Polished Color Palette - Figma Design */}
           {artMeta?.palette && (
             <div className="mb-10">
-              <h3 className="text-xs uppercase tracking-[0.2em] text-[#2C2C2C]/40 mb-4 font-medium">Color Palette</h3>
-              <div className="flex flex-wrap gap-4">
-                {artMeta.palette.map((color: string, index: number) => (
-                  <div key={color} className="group relative flex flex-col items-center">
-                    <div 
-                      className="w-12 h-12 rounded-full border-2 border-white shadow-lg transition-all group-hover:scale-110 group-hover:shadow-xl" 
-                      style={{ backgroundColor: color.toLowerCase() }}
-                      title={color}
-                    />
-                    <span className="absolute -bottom-6 left-1/2 -translate-x-1/2 text-[9px] uppercase tracking-wider opacity-0 group-hover:opacity-100 transition-opacity bg-[#2C2C2C] text-white px-2 py-0.5 rounded whitespace-nowrap">
-                      {color}
-                    </span>
+              <h3 className="text-xs uppercase tracking-[0.2em] text-[#2C2C2C]/40 mb-6 font-medium">Color Palette</h3>
+              
+              {/* Sort by luminance (brightness) */}
+              {(() => {
+                const sortedPalette = [...artMeta.palette].sort((a, b) => {
+                  const getLuminance = (hex: string) => {
+                    const rgb = hex.replace('#', '').match(/.{2}/g)?.map(x => parseInt(x, 16)) || [0, 0, 0];
+                    return 0.299 * rgb[0] + 0.587 * rgb[1] + 0.114 * rgb[2];
+                  };
+                  return getLuminance(b) - getLuminance(a); // brightest first
+                });
+                
+                return (
+                  <div className="flex flex-wrap gap-3">
+                    {sortedPalette.map((color: string, index: number) => (
+                      <div 
+                        key={color} 
+                        className="group relative flex flex-col items-center"
+                        style={{ 
+                          marginLeft: index > 0 ? '-20px' : '0',
+                          zIndex: sortedPalette.length - index
+                        }}
+                      >
+                        <motion.div 
+                          whileHover={{ scale: 1.15, zIndex: 10 }}
+                          className="w-16 h-16 rounded-full border-3 border-white shadow-lg transition-all"
+                          style={{ backgroundColor: color.toLowerCase() }}
+                        />
+                        <span className="mt-3 text-[10px] uppercase tracking-wider text-[#2C2C2C]/60 font-medium">
+                          {color}
+                        </span>
+                      </div>
+                    ))}
                   </div>
-                ))}
-              </div>
+                );
+              })()}
             </div>
           )}
 
