@@ -93,7 +93,7 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
             initial={{ opacity: 0 }}
             animate={{ opacity: isHovered ? 1 : 0 }}
             transition={{ duration: 0.3 }}
-            className="absolute inset-0 bg-gradient-to-t from-[#2C2C2C]/90 via-[#2C2C2C]/20 to-transparent"
+            className="absolute inset-0 bg-gradient-to-t from-[#2C2C2C] via-[#2C2C2C]/60 to-transparent"
           />
 
           {/* Content */}
@@ -104,35 +104,7 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
             className="absolute inset-x-4 bottom-4"
           >
             <h3 className="text-[#FDFBF7] font-serif text-lg mb-1 drop-shadow-lg">{displayTitle}</h3>
-            <p className="text-[#FDFBF7]/80 text-sm mb-2 capitalize drop-shadow">{artwork.category}</p>
-            <p className="text-[#D4A574] font-medium mb-3">${artwork.price}</p>
-            
-            {/* Buy Button */}
-            <motion.button
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: isHovered ? 1 : 0, y: isHovered ? 0 : 10 }}
-              transition={{ duration: 0.3 }}
-              onClick={(e) => {
-                e.stopPropagation()
-                const buyUrl = artwork.buyUrl || `#contact`
-                window.open(buyUrl, '_blank')
-              }}
-              className="w-full bg-[#D4A574] text-white py-2 rounded-full text-sm font-medium hover:bg-[#2C2C2C] transition-colors shadow-lg"
-            >
-              Buy Physical Print — ${artwork.price}
-            </motion.button>
-          </motion.div>
-
-          {/* Physical Quality Badge */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: isHovered ? 1 : 0 }}
-            transition={{ duration: 0.3 }}
-            className="absolute top-3 left-3 z-30"
-          >
-            <div className="bg-[#2C2C2C]/80 backdrop-blur-md text-[#FDFBF7] px-2 py-1 rounded text-[10px] uppercase tracking-widest">
-              Museum Grade
-            </div>
+            <p className="text-[#FDFBF7]/80 text-sm capitalize drop-shadow">{artwork.category}</p>
           </motion.div>
 
           {/* Hover Hint */}
