@@ -9,12 +9,18 @@ import metadata from '../data/artwork-metadata.json'
 
 interface GalleryProps {
   onInquire?: (artwork: Artwork) => void;
+  limit?: number;
+  showAllLink?: boolean;
 }
 
-function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (artwork: Artwork) => void }) {
+function ArtworkCard({ artwork, onInquire, isMobile }: { artwork: Artwork; onInquire?: (artwork: Artwork) => void; isMobile?: boolean }) {
   const [isHovered, setIsHovered] = useState(false)
+  const [isTapped, setIsTapped] = useState(false)
   const artMeta = (metadata as any)[artwork.id]
   const displayTitle = artMeta?.displayTitle || artwork.title
+
+  // On mobile, show artwork by default; tap to toggle
+  const showArtwork = isMobile ? isTapped : isHovered
 
   const handleInquire = () => {
     if (onInquire) {
@@ -38,6 +44,7 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
         className="relative mb-6 break-inside-avoid group cursor-pointer"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
+        onClick={() => isMobile && setIsTapped(!isTapped)}
       >
         <div 
           className="relative w-full rounded-xl overflow-hidden bg-[#E8E4DF]"
@@ -52,7 +59,7 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
           {/* In-Situ Image - Default View */}
           <motion.div
             animate={{ 
-              opacity: isHovered ? 0 : 1
+              opacity: showArtwork ? 0 : 1
             }}
             transition={{ duration: 0.4 }}
             className="relative w-full"
@@ -68,11 +75,11 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
             />
           </motion.div>
 
-          {/* Artwork Image - Hover View */}
+          {/* Artwork Image - Hover/Tap View */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ 
-              opacity: isHovered ? 1 : 0
+              opacity: showArtwork ? 1 : 0
             }}
             transition={{ duration: 0.4 }}
             className="absolute inset-0 top-0 left-0 w-full"
@@ -126,11 +133,13 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
           {/* Hover Hint */}
           <motion.div
             initial={{ opacity: 0 }}
-            animate={{ opacity: isHovered ? 0 : 1 }}
+            animate={{ opacity: showArtwork ? 0 : 1 }}
             transition={{ duration: 0.3 }}
             className="absolute top-3 right-3 bg-[#FDFBF7]/90 backdrop-blur-sm px-3 py-1.5 rounded-full"
           >
-            <span className="text-[#2C2C2C] text-xs font-medium">Hover to see artwork</span>
+            <span className="text-[#2C2C2C] text-xs font-medium">
+              {isMobile ? 'Tap to see artwork' : 'Hover to see artwork'}
+            </span>
           </motion.div>
         </div>
       </motion.div>
@@ -138,8 +147,17 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
   )
 }
 
-export default function Gallery({ onInquire }: GalleryProps) {
+export default function Gallery({ onInquire, limit, showAllLink }: GalleryProps) {
   const [activeCategory, setActiveCategory] = useState('all')
+  const [isMobile, setIsMobile] = useState(false)
+
+  // Detect mobile
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth < 768)
+    checkMobile()
+    window.addEventListener('resize', checkMobile)
+    return () => window.removeEventListener('resize', checkMobile)
+  }, [])
 
   // Listen for mood filter events
   useMemo(() => {
@@ -158,9 +176,13 @@ export default function Gallery({ onInquire }: GalleryProps) {
   }, [])
 
   const filteredArtworks = useMemo(() => {
-    if (activeCategory === 'all') return sortedArtworks
-    return sortedArtworks.filter((a) => a.category === activeCategory)
-  }, [activeCategory, sortedArtworks])
+    let result = activeCategory === 'all' ? sortedArtworks : sortedArtworks.filter((a) => a.category === activeCategory)
+    // Apply limit if provided
+    if (limit && limit > 0) {
+      result = result.slice(0, limit)
+    }
+    return result
+  }, [activeCategory, sortedArtworks, limit])
 
   const artistPicksCount = artworks.filter(a => a.artistPick).length
 
@@ -210,10 +232,27 @@ export default function Gallery({ onInquire }: GalleryProps) {
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-6" style={{ columnFill: 'balance' }}>
           <AnimatePresence mode="popLayout">
             {filteredArtworks.map((artwork) => (
-              <ArtworkCard key={artwork.id} artwork={artwork} onInquire={onInquire} />
+              <ArtworkCard key={artwork.id} artwork={artwork} onInquire={onInquire} isMobile={isMobile} />
             ))}
           </AnimatePresence>
         </div>
+
+        {/* View All Link */}
+        {showAllLink && limit && artworks.length > limit && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            className="text-center mt-12"
+          >
+            <Link
+              href="/gallery"
+              className="inline-block bg-[#2C2C2C] text-[#FDFBF7] px-8 py-3 rounded-full text-sm font-medium hover:bg-[#D4A574] transition-colors duration-300"
+            >
+              View All {artworks.length} Artworks →
+            </Link>
+          </motion.div>
+        )}
 
         <div className="text-center mt-12">
           <p className="text-[#2C2C2C]/50 text-sm">

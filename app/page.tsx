@@ -9,7 +9,7 @@ export default function Home() {
     <main className="min-h-screen bg-[#FDFBF7]">
       <Navigation />
       <Hero />
-      <Gallery />
+      <Gallery limit={6} showAllLink={true} />
       <AboutArtist />
       <Contact />
       <Footer />
