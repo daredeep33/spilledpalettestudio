@@ -4,8 +4,8 @@ import { useState, useMemo, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
-import Masonry from 'react-masonry-css'
 import { artworks, categories, type Artwork } from '../data/artworks'
+import metadata from '../data/artwork-metadata.json'
 
 interface GalleryProps {
   onInquire?: (artwork: Artwork) => void;
@@ -13,6 +13,8 @@ interface GalleryProps {
 
 function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (artwork: Artwork) => void }) {
   const [isHovered, setIsHovered] = useState(false)
+  const artMeta = (metadata as any)[artwork.id]
+  const displayTitle = artMeta?.displayTitle || artwork.title
 
   const handleInquire = () => {
     if (onInquire) {
@@ -21,7 +23,7 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
       const contactSection = document.getElementById('contact')
       if (contactSection) {
         contactSection.scrollIntoView({ behavior: 'smooth' })
-        sessionStorage.setItem('inquiryArtwork', artwork.title)
+        sessionStorage.setItem('inquiryArtwork', displayTitle)
       }
     }
   }
@@ -33,13 +35,12 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="relative mb-4 group cursor-pointer"
+        className="relative mb-6 break-inside-avoid group cursor-pointer"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
         <div 
           className="relative w-full rounded-xl overflow-hidden bg-[#E8E4DF]"
-          style={{ aspectRatio: artwork.aspectRatio === 'landscape' ? '4/3' : '3/4' }}
         >
           {/* Artist's Pick Badge */}
           {artwork.artistPick && (
@@ -54,13 +55,14 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
               opacity: isHovered ? 0 : 1
             }}
             transition={{ duration: 0.4 }}
-            className="absolute inset-0"
+            className="relative w-full"
           >
             <Image
               src={artwork.insituUrl}
-              alt={`${artwork.title} in room setting`}
-              fill
-              className="object-contain"
+              alt={`${displayTitle} in room setting`}
+              width={400}
+              height={300}
+              className="w-full h-auto object-cover"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               unoptimized
             />
@@ -73,13 +75,14 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
               opacity: isHovered ? 1 : 0
             }}
             transition={{ duration: 0.4 }}
-            className="absolute inset-0"
+            className="absolute inset-0 top-0 left-0 w-full"
           >
             <Image
               src={artwork.thumb}
-              alt={artwork.title}
-              fill
-              className="object-contain"
+              alt={displayTitle}
+              width={400}
+              height={300}
+              className="w-full h-auto object-cover"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               unoptimized
             />
@@ -100,7 +103,7 @@ function ArtworkCard({ artwork, onInquire }: { artwork: Artwork; onInquire?: (ar
             transition={{ duration: 0.3, delay: 0.2 }}
             className="absolute inset-x-4 bottom-4"
           >
-            <h3 className="text-[#FDFBF7] font-serif text-lg mb-1 drop-shadow-lg">{artwork.title}</h3>
+            <h3 className="text-[#FDFBF7] font-serif text-lg mb-1 drop-shadow-lg">{displayTitle}</h3>
             <p className="text-[#FDFBF7]/80 text-sm mb-2 capitalize drop-shadow">{artwork.category}</p>
             <p className="text-[#D4A574] font-medium mb-3">${artwork.price}</p>
             
@@ -173,14 +176,6 @@ export default function Gallery({ onInquire }: GalleryProps) {
 
   const artistPicksCount = artworks.filter(a => a.artistPick).length
 
-  // Masonry breakpoint columns
-  const breakpointColumnsObj = {
-    default: 3,
-    1100: 3,
-    700: 2,
-    500: 1
-  }
-
   return (
     <section id="gallery" className="py-20 px-4 sm:px-6 lg:px-8 bg-[#FDFBF7]">
       <div className="max-w-7xl mx-auto">
@@ -224,17 +219,13 @@ export default function Gallery({ onInquire }: GalleryProps) {
           ))}
         </motion.div>
 
-        <Masonry
-          breakpointCols={breakpointColumnsObj}
-          className="flex -ml-4 w-auto"
-          columnClassName="pl-4 bg-[#FDFBF7]"
-        >
+        <div className="columns-1 sm:columns-2 lg:columns-3 gap-6" style={{ columnFill: 'balance' }}>
           <AnimatePresence mode="popLayout">
             {filteredArtworks.map((artwork) => (
               <ArtworkCard key={artwork.id} artwork={artwork} onInquire={onInquire} />
             ))}
           </AnimatePresence>
-        </Masonry>
+        </div>
 
         <div className="text-center mt-12">
           <p className="text-[#2C2C2C]/50 text-sm">

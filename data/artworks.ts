@@ -25,8 +25,6 @@ export const categories = [
   { id: 'modern', label: 'Modern Muse' },
   { id: 'dreamers', label: 'Little Dreamers' },
   { id: 'dopamine', label: 'Dopamine Decor' },
-  { id: 'ink', label: 'Ink & Word' },
-  { id: 'patterns', label: 'The Pattern Library' },
 ] as const
 
 export const artworks: Artwork[] = [
@@ -1195,7 +1193,7 @@ export const artworks: Artwork[] = [
     "title": "Abstract Floral Shapes 1",
     "category": "modern",
     "cloudinaryId": "v1770831287/spilledpalette/artwork/modern/abstract-floral-shapes-1.tiff",
-    "insituId": "v1770831290/spilledpalette/insitu/modern/modern-abstract-floral-shapes-1-in-situ.jpg",
+    "insituId": "v1770831304/spilledpalette/insitu/modern/modern-abstract-floral-shapes-1-in-situ.jpg",
     "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/v1770831287/spilledpalette/artwork/modern/abstract-floral-shapes-1.tiff",
     "insituUrl": "https://res.cloudinary.com/dzg9imnjl/image/upload/v1770831290/spilledpalette/insitu/modern/modern-abstract-floral-shapes-1-in-situ.jpg",
     "thumb": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_400,q_auto,f_auto/v1770831287/spilledpalette/artwork/modern/abstract-floral-shapes-1.tiff",
@@ -1225,7 +1223,7 @@ export const artworks: Artwork[] = [
     "title": "Abstract Floral Shapes",
     "category": "modern",
     "cloudinaryId": "v1770831300/spilledpalette/artwork/modern/abstract-floral-shapes.tiff",
-    "insituId": "v1770831304/spilledpalette/insitu/modern/modern-abstract-floral-shapes-in-situ.jpg",
+    "insituId": "v1770831290/spilledpalette/insitu/modern/modern-abstract-floral-shapes-in-situ.jpg",
     "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/v1770831300/spilledpalette/artwork/modern/abstract-floral-shapes.tiff",
     "insituUrl": "https://res.cloudinary.com/dzg9imnjl/image/upload/v1770831304/spilledpalette/insitu/modern/modern-abstract-floral-shapes-in-situ.jpg",
     "thumb": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_400,q_auto,f_auto/v1770831300/spilledpalette/artwork/modern/abstract-floral-shapes.tiff",
@@ -1313,7 +1311,7 @@ export const artworks: Artwork[] = [
   {
     "id": "botanical-circles-art",
     "title": "Botanical Circles Art",
-    "category": "pattern",
+    "category": "modern",
     "cloudinaryId": "v1770831345/spilledpalette/artwork/pattern/botanical-circles-art.tiff",
     "insituId": "v1770831348/spilledpalette/insitu/pattern/pattern-botanical-circles-art-in-situ.jpg",
     "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/v1770831345/spilledpalette/artwork/pattern/botanical-circles-art.tiff",
@@ -1328,7 +1326,7 @@ export const artworks: Artwork[] = [
   {
     "id": "botanical-circles-illustration",
     "title": "Botanical Circles Illustration",
-    "category": "pattern",
+    "category": "modern",
     "cloudinaryId": "v1770831352/spilledpalette/artwork/pattern/botanical-circles-illustration.tiff",
     "insituId": "v1770831355/spilledpalette/insitu/pattern/pattern-botanical-circles-illustration-in-situ.jpg",
     "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/v1770831352/spilledpalette/artwork/pattern/botanical-circles-illustration.tiff",
@@ -1343,7 +1341,7 @@ export const artworks: Artwork[] = [
   {
     "id": "botanical-dots-pattern",
     "title": "Botanical Dots Pattern",
-    "category": "pattern",
+    "category": "modern",
     "cloudinaryId": "v1770831358/spilledpalette/artwork/pattern/botanical-dots-pattern.tiff",
     "insituId": "v1770831361/spilledpalette/insitu/pattern/pattern-botanical-dots-pattern-in-situ.jpg",
     "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/v1770831358/spilledpalette/artwork/pattern/botanical-dots-pattern.tiff",
@@ -1358,7 +1356,7 @@ export const artworks: Artwork[] = [
   {
     "id": "leafy-dots-pattern",
     "title": "Leafy Dots Pattern",
-    "category": "pattern",
+    "category": "modern",
     "cloudinaryId": "v1770831364/spilledpalette/artwork/pattern/leafy-dots-pattern.tiff",
     "insituId": "v1770831368/spilledpalette/insitu/pattern/pattern-leafy-dots-pattern-in-situ.jpg",
     "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/v1770831364/spilledpalette/artwork/pattern/leafy-dots-pattern.tiff",
@@ -1373,7 +1371,7 @@ export const artworks: Artwork[] = [
   {
     "id": "leaves-dots-pattern",
     "title": "Leaves Dots Pattern",
-    "category": "pattern",
+    "category": "modern",
     "cloudinaryId": "v1770831371/spilledpalette/artwork/pattern/leaves-dots-pattern.tiff",
     "insituId": "v1770831375/spilledpalette/insitu/pattern/pattern-leaves-dots-pattern-in-situ.jpg",
     "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/v1770831371/spilledpalette/artwork/pattern/leaves-dots-pattern.tiff",

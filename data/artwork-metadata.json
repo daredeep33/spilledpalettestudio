@@ -3,33 +3,1197 @@
     "displayTitle": "Shadow of the Sun-Drenched Fern",
     "description": "This abstract illustration features a bold leaf silhouette against fluid, organic shapes. The contrast between rigid geometry and soft curves creates a modern, balanced composition.",
     "palette": [
-      "Terracotta",
-      "Dusty Rose",
-      "Burnt Orange",
-      "Black"
+      "#D65E51",
+      "#C03F26",
+      "#E5B3A9",
+      "#A6523A",
+      "#BF7963"
     ],
     "mood": "Warm and Grounded"
   },
-  "abstract-palm-tree": {
-    "displayTitle": "Abstract Botanical Whispers",
-    "description": "A minimalist digital painting featuring a jagged black leaf silhouette layered over soft, organic shapes. The warm earth tones on a white background evoke a sense of modern simplicity.",
-    "palette": [
-      "Terracotta",
-      "Burnt Orange",
-      "Black",
-      "White"
-    ],
-    "mood": "Warm and Modern"
-  },
   "abstract-plant-design-3": {
-    "displayTitle": "Botanical Solace",
+    "displayTitle": "Solace in Green",
     "description": "A minimalist digital illustration featuring a dark green leafy stem over curved abstract shapes. A white sun anchors the composition, creating a balanced and peaceful scene.",
     "palette": [
-      "Forest Green",
-      "Dusty Rose",
-      "Ochre",
-      "White"
+      "#F4E0D5",
+      "#EDC592",
+      "#BCA77A",
+      "#808059",
+      "#335135"
     ],
     "mood": "Calm and Peaceful"
+  },
+  "abstract-plant-drawing": {
+    "displayTitle": "Azure Dreams",
+    "description": "An abstract illustration featuring stylized blue leaves with black outlines and internal lines, a tan circle with a dotted outline, and a smaller white floral element against a beige background.",
+    "palette": [
+      "#D1A88C",
+      "#E6D9C6",
+      "#5499B7",
+      "#41748B",
+      "#305567"
+    ],
+    "mood": "Calm"
+  },
+  "abstract-plant-moons": {
+    "displayTitle": "Moonlit Garden",
+    "description": "An abstract botanical pattern featuring stylized black leaf silhouettes against a background of overlapping circles and crescent shapes in muted earth tones.",
+    "palette": [
+      "#B8817A",
+      "#CE964B",
+      "#9D9254",
+      "#ACAE89",
+      "#EFF4CC"
+    ],
+    "mood": "Serene"
+  },
+  "abstract-plants-1": {
+    "displayTitle": "Verdant Reverie",
+    "description": "An abstract illustration featuring botanical elements with a blend of organic shapes and line work in a muted, earthy color palette.",
+    "palette": [
+      "#A88F4C",
+      "#EADBB2",
+      "#B9B19B",
+      "#9AA86A",
+      "#709CA9"
+    ],
+    "mood": "Calm"
+  },
+  "abstract-plants-circle": {
+    "displayTitle": "Ceramics & Vines",
+    "description": "A calming abstract artwork with flowing shapes in shades of blue, brown, and beige, accented by simple botanical line drawings and a central white circle.",
+    "palette": [
+      "#AA8141",
+      "#E3B255",
+      "#2896B9",
+      "#7BB0C2",
+      "#6C8893"
+    ],
+    "mood": "Calm and Serene"
+  },
+  "abstract-plants-pastel": {
+    "displayTitle": "Soft Meridian",
+    "description": "An abstract composition featuring organic shapes in various pastel colors with white outlines, overlaid with stylized botanical illustrations.",
+    "palette": [
+      "#E1C5AF",
+      "#BDBC8E",
+      "#A1A8C4",
+      "#C4A2B3",
+      "#B68098"
+    ],
+    "mood": "Dreamy"
+  },
+  "berries-plant-illustration": {
+    "displayTitle": "Autumn Berries",
+    "description": "A digital illustration featuring a stylized plant with black outline and berries against a muted color blocked background of mauve, beige, and lavender. The background also contains an abstract scribble and a white leafy sprig.",
+    "palette": [
+      "#AF9692",
+      "#CFC1B6",
+      "#7F7B72",
+      "#EDEAD7",
+      "#C0BDE8"
+    ],
+    "mood": "Rustic"
+  },
+  "boho-plant-illustration": {
+    "displayTitle": "Desert Sanctuary",
+    "description": "An illustration featuring a minimalist, boho-inspired arrangement with a sun, plants, and a geometric arch. The color palette is muted and earthy, creating a serene and calming aesthetic.",
+    "palette": [
+      "#995E5A",
+      "#D1A6A0",
+      "#BFA864",
+      "#84A888",
+      "#506954"
+    ],
+    "mood": "Boho"
+  },
+  "boho-plants-arch": {
+    "displayTitle": "Boho Oasis",
+    "description": "An abstract art piece featuring botanical elements combined with geometric shapes in a warm, earthy color palette. The composition includes stylized plants in half-circle pots, an arch, and scattered dots, creating a balanced and serene aesthetic.",
+    "palette": [
+      "#CC926C",
+      "#96734B",
+      "#F2E8CF",
+      "#D1CDB2",
+      "#394D28"
+    ],
+    "mood": "Free-spirited"
+  },
+  "circle-branches-pattern": {
+    "displayTitle": "Fruit & Branch",
+    "description": "An abstract illustration featuring colorful circles in various shades and brown stems with small round shapes against a light pink background. The arrangement creates a playful and cheerful atmosphere.",
+    "palette": [
+      "#7ACBCA",
+      "#2E8A99",
+      "#8399C9",
+      "#CC7B8D",
+      "#FBDEDF"
+    ],
+    "mood": "Playful"
+  },
+  "colorful-leaf-branch": {
+    "displayTitle": "Carnival of Leaves",
+    "description": "A stylized depiction of a branch with colorful leaves, arranged on a muted background.",
+    "palette": [
+      "#A7855F",
+      "#787459",
+      "#B8B289",
+      "#D6CF9F",
+      "#3E5835"
+    ],
+    "mood": "Whimsical"
+  },
+  "green-circle-branch": {
+    "displayTitle": "Moonlit Circle",
+    "description": "A minimalist illustration featuring a partial olive green circle with a thick white border, adorned with a delicate white leaf branch design in the upper-left corner. The style is simplistic and modern, with a focus on natural elements and muted colors.",
+    "palette": [
+      "#A0B196",
+      "#607D4F",
+      "#B8C5B1",
+      "#809774",
+      "#D6DED2"
+    ],
+    "mood": "Minimal"
+  },
+  "leaf-branch-drawing": {
+    "displayTitle": "Forest Sketches",
+    "description": "A stylized illustration featuring green leaves and branches against a beige and light green background. The shapes are defined by thick black outlines, giving the artwork a bold and graphic quality.",
+    "palette": [
+      "#F1E4CD",
+      "#E4D2AE",
+      "#CBE8BA",
+      "#3C7227",
+      "#789C6B"
+    ],
+    "mood": "Natural"
+  },
+  "leafy-branch-pastel": {
+    "displayTitle": "Tropical Haze",
+    "description": "A stylized illustration featuring a green plant stem with leaves, overlaid on a background divided into three horizontal color blocks: light green, teal, and dusty rose. The illustration has a clean and simple aesthetic with a focus on color and shape.",
+    "palette": [
+      "#C4DEBB",
+      "#455D3D",
+      "#547A4D",
+      "#569894",
+      "#C29AA2"
+    ],
+    "mood": "Ethereal"
+  },
+  "leafy-circle-vases": {
+    "displayTitle": "Three Vases",
+    "description": "A stylized illustration featuring three abstract vases with botanical elements, set against a backdrop of pastel shapes.",
+    "palette": [
+      "#D29556",
+      "#EEE0A1",
+      "#ECEBCF",
+      "#728258",
+      "#D3D0ED"
+    ],
+    "mood": "Still"
+  },
+  "minimalist-branch-lines": {
+    "displayTitle": "Five Lines",
+    "description": "A minimalist digital illustration featuring a stylized blue plant sprig with simple leaf shapes. Five thin black lines run vertically along the left edge, adding against the organic form a subtle geometric contrast of the plant on a white background.",
+    "palette": [
+      "#E6EEF1",
+      "#CCDBE2",
+      "#A5C0CE",
+      "#77A1B7"
+    ],
+    "mood": "Minimal"
+  },
+  "palm-branch-shapes": {
+    "displayTitle": "Tropical Geometry",
+    "description": "A minimalist abstract artwork featuring a black palm leaf against a white background with curved shapes in light brown and pale peach.",
+    "palette": [
+      "#DEAA96",
+      "#EACABD",
+      "#FAF3EF"
+    ],
+    "mood": "Modern"
+  },
+  "palm-leaves-art": {
+    "displayTitle": "Palmistry",
+    "description": "A minimalist illustration featuring stylized leaf branches in brown, green, and blue against a beige background. The leaves are depicted with fine line details, creating a delicate and airy feel.",
+    "palette": [
+      "#8D7660",
+      "#A08D73",
+      "#B4A586",
+      "#D7D2A8",
+      "#607671"
+    ],
+    "mood": "Exotic"
+  },
+  "pastel-plant-illustration": {
+    "displayTitle": "Spring Confetti",
+    "description": "A minimalist digital illustration featuring a stylized branch with dark pink leaves outlined in white, set against a pastel-colored abstract background with overlapping curved shapes in light green, lavender, peach, baby blue, and pink.",
+    "palette": [
+      "#EEFFCB",
+      "#CDF3FF",
+      "#9AB0DF",
+      "#D4CDF9",
+      "#FFCDEA"
+    ],
+    "mood": "Joyful"
+  },
+  "vase-fern-silhouette": {
+    "displayTitle": "Fern in Amber",
+    "description": "A minimalist illustration of fern fronds in a vase against an orange background.",
+    "palette": [
+      "#7E543B",
+      "#D87834",
+      "#AF622B",
+      "#663A1A",
+      "#1A0F07"
+    ],
+    "mood": "Warm"
+  },
+  "vase-plants-illustration": {
+    "displayTitle": "Duo in Pottery",
+    "description": "Illustration of two vases with different types of plants, set against a neutral background with abstract shapes.",
+    "palette": [
+      "#B16A3C",
+      "#8A550F",
+      "#CBC6A9",
+      "#6A9F4F",
+      "#7E535D"
+    ],
+    "mood": "Calm"
+  },
+  "vases-with-plants-2": {
+    "displayTitle": "Sunrise Vases",
+    "description": "A minimalist illustration of three vases containing leafy branches against a warm orange background, with a circular shape suggesting a sun or moon.",
+    "palette": [
+      "#DAA776",
+      "#865C32",
+      "#DA944E",
+      "#DDC7AF",
+      "#F4F1CE"
+    ],
+    "mood": "Tranquil"
+  },
+  "floral-butterfly-artwork": {
+    "displayTitle": "Wings of Flora",
+    "description": "A butterfly with asymmetrical wings. The left wing is decorated with floral patterns shaded in grayscale, while the right wing is filled with intricate black and white leaf and vine patterns. The body is plain and simple, with thin antennae. The background is divided into white and beige, creating a clean contrast.",
+    "palette": [
+      "#ABA299",
+      "#C3B9AE",
+      "#948D85",
+      "#E9DDCF",
+      "#7D7872"
+    ],
+    "mood": "Elegant"
+  },
+  "floral-happiness-design": {
+    "displayTitle": "Joy Overflowing",
+    "description": "A vibrant floral arrangement with the word Happiness overlaid, featuring colorful flowers and leaves on a black background.",
+    "palette": [
+      "#C85346",
+      "#AF3523",
+      "#6D8264",
+      "#2D4828",
+      "#CF4780"
+    ],
+    "mood": "Cheerful"
+  },
+  "teal-rainbow-art": {
+    "displayTitle": "Whispers of Rain",
+    "description": "A simple, pastel-colored rainbow illustration against a light pink background.",
+    "palette": [
+      "#F3D7D3",
+      "#E5A291",
+      "#48B1C7",
+      "#E1F3F7",
+      "#27798E"
+    ],
+    "mood": "Soft"
+  },
+  "dandelion-pastel-circles": {
+    "displayTitle": "Make a Wish",
+    "description": "A delicate illustration featuring three dandelion seed heads with thin black lines, contrasted against pastel watercolor circles in pink, blue, and green. Several seeds drift away from the central flower.",
+    "palette": [
+      "#F7EAE4",
+      "#DDD0CA",
+      "#B7C4CA",
+      "#D5E2E8",
+      "#B7ABAF"
+    ],
+    "mood": "Delicate"
+  },
+  "pastel-circle-pattern": {
+    "displayTitle": "Orbs of Wonder",
+    "description": "An abstract pattern featuring colorful circles of varying sizes, each containing two semi-circular shapes of different colors.",
+    "palette": [
+      "#E0B4A7",
+      "#D4A780",
+      "#B2D66A",
+      "#A8E1CE",
+      "#81A0D6"
+    ],
+    "mood": "Playful"
+  },
+  "abstract-floral-art-1": {
+    "displayTitle": "Daisy Daydream",
+    "description": "An abstract botanical illustration featuring daisies and a large leaf against a backdrop of geometric shapes.",
+    "palette": [
+      "#C47C6E",
+      "#C7904D",
+      "#73B494",
+      "#7BA6B9",
+      "#9E536A"
+    ],
+    "mood": "Light"
+  },
+  "abstract-floral-art": {
+    "displayTitle": "Earthbound Blooms",
+    "description": "An abstract illustration featuring stylized flower petals and leaves in muted tones, creating a calming and organic composition.",
+    "palette": [
+      "#EBDDDC",
+      "#D0B5B3",
+      "#8F5A56",
+      "#ABB0A4",
+      "#2C5834"
+    ],
+    "mood": "Organic"
+  },
+  "abstract-floral-design-1": {
+    "displayTitle": "Terra Flora",
+    "description": "An abstract floral artwork featuring a stylized flower with black petals and thin lines, set against a backdrop of organic shapes in earthy tones of brown, tan, white, and terracotta. The composition is dynamic and visually engaging.",
+    "palette": [
+      "#BA5F5A",
+      "#5F4438",
+      "#976D5A",
+      "#D8975F",
+      "#B69768"
+    ],
+    "mood": "Earthy"
+  },
+  "abstract-floral-design-2": {
+    "displayTitle": "Petals at Dawn",
+    "description": "A stylized floral design featuring two plant stems with leaves against a geometric background of green and blue.",
+    "palette": [
+      "#9BB78F",
+      "#7EADBE",
+      "#CFD9E2",
+      "#8D8293",
+      "#A04456"
+    ],
+    "mood": "Fresh"
+  },
+  "abstract-floral-design-7": {
+    "displayTitle": "Green Whispers",
+    "description": "An abstract botanical artwork featuring black line-drawn plants against a backdrop of flowing shapes in muted colors.",
+    "palette": [
+      "#9D8680",
+      "#DED9C6",
+      "#618557",
+      "#5A6E87",
+      "#89586E"
+    ],
+    "mood": "Soft"
+  },
+  "abstract-floral-design-8": {
+    "displayTitle": "Bloom Canvas",
+    "description": "An abstract composition featuring flowing shapes, floral motifs, and a muted color palette.",
+    "palette": [
+      "#C37835",
+      "#E8DDB0",
+      "#8A9944",
+      "#2B5932",
+      "#6571A5"
+    ],
+    "mood": "Artistic"
+  },
+  "abstract-floral-design-9": {
+    "displayTitle": "Blue Reverie",
+    "description": "A modern abstract illustration featuring organic shapes in varying shades of blue, complemented by delicate botanical line art and a small butterfly. The composition evokes a sense of tranquility and natural elegance.",
+    "palette": [
+      "#A5B2BB",
+      "#7AA7C8",
+      "#7E919F",
+      "#4077A0",
+      "#2F526E"
+    ],
+    "mood": "Tranquil"
+  },
+  "abstract-floral-design": {
+    "displayTitle": "Spring's Embrace",
+    "description": "An abstract illustration featuring organic shapes, botanical elements, and a playful use of patterns and colors.",
+    "palette": [
+      "#DA8685",
+      "#AAE4AA",
+      "#AAE4DD",
+      "#E2DFF6",
+      "#DDA1A7"
+    ],
+    "mood": "Gentle"
+  },
+  "abstract-floral-pattern-1": {
+    "displayTitle": "Coral Fern",
+    "description": "An abstract botanical illustration featuring a central stylized fern branch in coral red, surrounded by curved coral shapes and pastel blobs in beige, light pink, pale lavender, and light blue on a white background. The artwork has a simple, modern, and minimalist aesthetic.",
+    "palette": [
+      "#DB716B",
+      "#F3D0CE",
+      "#E7B3B0",
+      "#FAEEED",
+      "#CFEEF3"
+    ],
+    "mood": "Delicate"
+  },
+  "abstract-floral-pattern-6": {
+    "displayTitle": "Nature's Brush",
+    "description": "A modern illustration featuring organic shapes in muted earth tones with delicate botanical line drawings in black. The design evokes a sense of nature and tranquility.",
+    "palette": [
+      "#B1A28D",
+      "#A08B6A",
+      "#7D9B8F",
+      "#627C72",
+      "#3B4743"
+    ],
+    "mood": "Earthy"
+  },
+  "abstract-floral-pattern": {
+    "displayTitle": "Wild Meadow",
+    "description": "An illustration featuring stylized flowers in muted earth tones set against a pastel background. The flowers are characterized by bold outlines and linear details within their petals, with the background consisting of soft, organic shapes in various colors.",
+    "palette": [
+      "#C69352",
+      "#E4E6D0",
+      "#AECAA4",
+      "#B8D6F0",
+      "#C9A5A7"
+    ],
+    "mood": "Free"
+  },
+  "abstract-flower-olive": {
+    "displayTitle": "Olive Grove",
+    "description": "An abstract artwork featuring organic shapes, wavy lines, and a stylized floral element, rendered in a limited palette of greens, creams, and purples.",
+    "palette": [
+      "#968D40",
+      "#F2EEC9",
+      "#5F5B2E",
+      "#B7B899",
+      "#9DAA5A"
+    ],
+    "mood": "Mediterranean"
+  },
+  "floral-abstract-art-1": {
+    "displayTitle": "Coastal Blooms",
+    "description": "An abstract art piece featuring a floral motif alongside botanical elements and geometric shapes in a muted color palette, creating a calm and modern aesthetic.",
+    "palette": [
+      "#EECDAC",
+      "#B4793D",
+      "#A0B2B1",
+      "#487C92",
+      "#E0E1F3"
+    ],
+    "mood": "Nautical"
+  },
+  "floral-abstract-bubbles": {
+    "displayTitle": "Bubbling Violet",
+    "description": "An illustration featuring stylized botanical elements with a calming color palette and a gentle, flowing composition.",
+    "palette": [
+      "#D2AEA2",
+      "#ECD5B3",
+      "#B2AC89",
+      "#697A58",
+      "#7C99BB"
+    ],
+    "mood": "Playful"
+  },
+  "floral-abstract-pattern": {
+    "displayTitle": "Floral Meditation",
+    "description": "An abstract image featuring a stylized flower-like shape in the center with smaller floral elements on either side, connected by curving lines, all against a light green background.",
+    "palette": [
+      "#817571",
+      "#A6B6A0",
+      "#879A80",
+      "#663A4F",
+      "#745861"
+    ],
+    "mood": "Serene"
+  },
+  "floral-circle-design": {
+    "displayTitle": "Terra Circle",
+    "description": "A minimalist illustration featuring a black and white botanical drawing with leaves and small flowers, juxtaposed against a solid, terracotta-colored circle. The overall composition is simple, modern, and visually appealing.",
+    "palette": [
+      "#D7A8A1",
+      "#653F39",
+      "#BF7569",
+      "#432B27",
+      "#8C574E"
+    ],
+    "mood": "Bold"
+  },
+  "floral-crescent-moon": {
+    "displayTitle": "Moonvine",
+    "description": "An illustration featuring a crescent moon embraced by stylized black vines with leaves against a peach-colored background.",
+    "palette": [
+      "#675041",
+      "#B68D72",
+      "#876955",
+      "#E2AF8D",
+      "#413329"
+    ],
+    "mood": "Mystical"
+  },
+  "floral-division-artwork": {
+    "displayTitle": "Chromatic Petals",
+    "description": "A minimalist graphic depicting stylized floral elements against a contrasting background of beige and black. The design features simple, curved shapes with added drop shadows to create depth, separated by a thin, meandering line.",
+    "palette": [
+      "#867C74",
+      "#5D5650",
+      "#B4A798",
+      "#E0D0BD",
+      "#46413B"
+    ],
+    "mood": "Contrast"
+  },
+  "floral-circle-pattern-1": {
+    "displayTitle": "Trio of Vases",
+    "description": "Three stylized arrangements of leafy branches in circular vases, each with a different color scheme on a neutral background.",
+    "palette": [
+      "#DAD4B4",
+      "#AEAF8D",
+      "#949A78",
+      "#7B6383",
+      "#974350"
+    ],
+    "mood": "Composed"
+  },
+  "floral-leaf-pattern": {
+    "displayTitle": "Vine Valley",
+    "description": "Abstract floral design with winding vines, stylized leaves, and simple flowers against a gradient green background.",
+    "palette": [
+      "#80AE75",
+      "#3C6732",
+      "#A6C0A0",
+      "#5F9353",
+      "#CBE2C6"
+    ],
+    "mood": "Lush"
+  },
+  "floral-line-art": {
+    "displayTitle": "Geometric Garden",
+    "description": "A stylized floral illustration with three outlined flowers in pink, blue, and green, interspersed with geometric blocks of muted colors like lavender, beige, brown, and light green. The flowers feature delicate line work, and the overall composition blends natural and abstract elements.",
+    "palette": [
+      "#C3AB9F",
+      "#A29585",
+      "#C6DDB1",
+      "#6CB9CB",
+      "#948EBE"
+    ],
+    "mood": "Modern"
+  },
+  "floral-pattern-art": {
+    "displayTitle": "Morning Blossoms",
+    "description": "A stylized floral arrangement featuring two branches with alternating striped leaves and two abstract tulip-like flowers on a tan background.",
+    "palette": [
+      "#BFAC98",
+      "#DFC39C",
+      "#7F80AF",
+      "#606084",
+      "#ACACE9"
+    ],
+    "mood": "Fresh"
+  },
+  "floral-watercolor-abstract": {
+    "displayTitle": "Watercolor Dreams",
+    "description": "A simple illustration featuring a delicate line drawing of a leafy branch overlaying a watercolor background with blended pastel colors.",
+    "palette": [
+      "#E6DFCC",
+      "#BDC9B1",
+      "#D2C9E4",
+      "#AAA1BC",
+      "#877E99"
+    ],
+    "mood": "Soft"
+  },
+  "flower-line-art-abstract": {
+    "displayTitle": "Line & Bloom",
+    "description": "A minimalist botanical illustration featuring a line drawing of a flower overlaid on abstract shapes in neutral and muted green tones.",
+    "palette": [
+      "#BCAB92",
+      "#E1DDAD",
+      "#EEECD1",
+      "#939877",
+      "#C3CD9E"
+    ],
+    "mood": "Minimal"
+  },
+  "pastel-floral-abstract": {
+    "displayTitle": "Cotton Candy Garden",
+    "description": "An abstract floral illustration featuring stylized leaves and organic shapes in pastel colors, creating a serene and contemporary aesthetic.",
+    "palette": [
+      "#BAC5A5",
+      "#4A676F",
+      "#B6A6CD",
+      "#D2BDC6",
+      "#CF9BB1"
+    ],
+    "mood": "Sweet"
+  },
+  "striped-flower-drawing": {
+    "displayTitle": "Teal Towers",
+    "description": "An abstract digital artwork featuring a stylized white floral design overlaid on a background of vertical stripes in shades of teal and brown, creating a textured and patterned effect.",
+    "palette": [
+      "#906846",
+      "#B9A18C",
+      "#C6D6DD",
+      "#A3BDC9",
+      "#759BAD"
+    ],
+    "mood": "Architectural"
+  },
+  "woman-floral-sketch": {
+    "displayTitle": "Lady in Blooms",
+    "description": "A minimalist line drawing of a woman with wavy hair and red lips, surrounded by colorful abstract shapes on a light pink background.",
+    "palette": [
+      "#C8AE97",
+      "#C0CAB9",
+      "#97BBC8",
+      "#F6E4F3",
+      "#E4C4DC"
+    ],
+    "mood": "Romantic"
+  },
+  "abstract-foliage-art": {
+    "displayTitle": "Sepia Garden",
+    "description": "A stylized illustration featuring abstract floral elements in a muted color palette. The composition includes branches with leaf-like shapes in gray, black, and white, set against a beige background with brown organic shapes.",
+    "palette": [
+      "#B2A995",
+      "#AF8D41",
+      "#AC9768",
+      "#D2BA84",
+      "#EDDBB1"
+    ],
+    "mood": "Vintage"
+  },
+  "abstract-foliage-pattern": {
+    "displayTitle": "Canopy",
+    "description": "A simple, stylized illustration featuring stacked, organic shapes in various muted colors and leafy branches, creating a peaceful and naturalistic aesthetic.",
+    "palette": [
+      "#B08785",
+      "#7E88A1",
+      "#AC9CA7",
+      "#D0ABB4",
+      "#DECDD1"
+    ],
+    "mood": "Dense"
+  },
+  "abstract-leaf-design-1": {
+    "displayTitle": "Vertical Garden",
+    "description": "An abstract illustration featuring a vertical plant stem with green leaves, overlaid on various soft-colored shapes (pink, light pink, light blue, and mauve) against a pale yellow background. The style is minimalist and modern.",
+    "palette": [
+      "#D69E9D",
+      "#E2E4B3",
+      "#215827",
+      "#C9E0F2",
+      "#F4C9E4"
+    ],
+    "mood": "Upward"
+  },
+  "abstract-leaf-design": {
+    "displayTitle": "Ribbon & Leaf",
+    "description": "An abstract composition featuring stylized leaves in various shades of green and teal, intertwined with a flowing orange ribbon. The leaves have patterns such as spots and stripes. The color palette is soft and harmonious.",
+    "palette": [
+      "#FFEAD7",
+      "#FFA136",
+      "#B0D971",
+      "#CADEAD",
+      "#48A88D"
+    ],
+    "mood": "Dynamic"
+  },
+  "abstract-leaf-pattern-1": {
+    "displayTitle": "Whimsy Trail",
+    "description": "A whimsical floral pattern featuring stylized leaves and vines against a pastel background with organic shapes.",
+    "palette": [
+      "#F0EED5",
+      "#C2E1BF",
+      "#D6F0EF",
+      "#A2BED3",
+      "#EFD5EE"
+    ],
+    "mood": "Playful"
+  },
+  "abstract-leaf-pattern": {
+    "displayTitle": "Autumn Fragment",
+    "description": "An abstract illustration featuring a stylized burgundy leaf with white outlines, overlaid on a background divided into four squares with alternating shades of brown and tan, and scattered leaf shapes.",
+    "palette": [
+      "#903534",
+      "#954E4C",
+      "#E49F5C",
+      "#A96D31",
+      "#C9A784"
+    ],
+    "mood": "Falling"
+  },
+  "abstract-leaves-artwork": {
+    "displayTitle": "Leaf Layering",
+    "description": "A modern illustration featuring stylized leaf shapes in various greens and earth tones. The abstract composition creates depth through overlapping forms.",
+    "palette": [
+      "#674D4B",
+      "#D78679",
+      "#EF9C64",
+      "#9D7A5F",
+      "#F1D6C1"
+    ],
+    "mood": "Textured"
+  },
+  "abstract-leaves-neutral": {
+    "displayTitle": "Sepia Silence",
+    "description": "Elegant leaf silhouettes in soft neutrals and warm grays. The minimal palette creates a sophisticated, contemporary botanical statement.",
+    "palette": [
+      "#E39C89",
+      "#CB8262",
+      "#AD8839",
+      "#CBB96C",
+      "#BEA94B"
+    ],
+    "mood": "Quiet"
+  },
+  "abstract-leaves-pastel-2": {
+    "displayTitle": "Dusty Sage",
+    "description": "Abstract leaf shapes rendered in soft muted pastels including dusty rose, sage green, and warm cream. The gentle composition evokes tranquility.",
+    "palette": [
+      "#E3AA96",
+      "#B8C37F",
+      "#91B087",
+      "#234761",
+      "#CA808D"
+    ],
+    "mood": "Muted"
+  },
+  "abstract-leaves-pastel": {
+    "displayTitle": "Cotton Leaves",
+    "description": "Delicate leaf forms in soft pastel shades of pink, lavender, and mint. The gentle colors create a dreamy, ethereal atmosphere.",
+    "palette": [
+      "#EAD8D6",
+      "#D2C1AD",
+      "#C5B68B",
+      "#87ADA0",
+      "#BADAE7"
+    ],
+    "mood": "Soft"
+  },
+  "abstract-leaves-pattern-1": {
+    "displayTitle": "Rhythm of Green",
+    "description": "A repeating pattern of stylized leaves in varying shades of green and warm ochre. The rhythmic design adds organic texture to any space.",
+    "palette": [
+      "#985A52",
+      "#FEF5DC",
+      "#528998",
+      "#78212A",
+      "#CB8084"
+    ],
+    "mood": "Flowing"
+  },
+  "abstract-leaf-sun": {
+    "displayTitle": "Sunlit Leaves",
+    "description": "An abstract artwork featuring stylized leaf shapes emanating from a circular sun motif in warm oranges and browns against a soft cream background.",
+    "palette": [
+      "#595844",
+      "#C5C397",
+      "#CFCA59",
+      "#E6E39A",
+      "#F2F0BA"
+    ],
+    "mood": "Golden"
+  },
+  "abstract-nature-scene": {
+    "displayTitle": "Nature's Dream",
+    "description": "An abstract interpretation of a natural landscape with flowing forms in earthy greens and warm browns. The composition evokes a sense of peaceful nature.",
+    "palette": [
+      "#EAD8D6",
+      "#AD675F",
+      "#DFB585",
+      "#8CBAB8",
+      "#ABBECE"
+    ],
+    "mood": "Peaceful"
+  },
+  "abstract-plants-shapes": {
+    "displayTitle": "Botanical Blocks",
+    "description": "Modern abstract composition featuring geometric plant forms in bold colors. The clean lines and saturated palette create visual impact.",
+    "palette": [
+      "#AC7975",
+      "#A3A784",
+      "#B9CDB9",
+      "#9FC3A1",
+      "#557D89"
+    ],
+    "mood": "Bold"
+  },
+  "abstract-shapes-plant": {
+    "displayTitle": "Geo Flora",
+    "description": "Abstract botanical elements combined with geometric shapes in a contemporary color scheme. The fusion of organic and structured forms creates visual interest.",
+    "palette": [
+      "#B4C5A7",
+      "#CFE3C0",
+      "#3D7B7B",
+      "#AF6063",
+      "#C08385"
+    ],
+    "mood": "Modern"
+  },
+  "abstract-sunburst-graphic": {
+    "displayTitle": "Solar Flare",
+    "description": "A dynamic sunburst design with radiating lines in warm golden tones against a soft background. The geometric pattern creates energy and movement.",
+    "palette": [
+      "#F8E0D8",
+      "#EDD1B6",
+      "#F8BD82",
+      "#D8B06E",
+      "#ECA504"
+    ],
+    "mood": "Radiant"
+  },
+  "botanical-art-abstract": {
+    "displayTitle": "Modern Foliage",
+    "description": "Contemporary botanical illustration featuring abstract plant forms in a sophisticated muted palette. The clean design creates a modern statement piece.",
+    "palette": [
+      "#9C6968",
+      "#FFDBCB",
+      "#E0B781",
+      "#D2CDB9",
+      "#B8B8D2"
+    ],
+    "mood": "Contemporary"
+  },
+  "botanical-art-sunburst": {
+    "displayTitle": "Sun Flora",
+    "description": "An artistic piece combining botanical elements with a radiating sunburst pattern. Warm earth tones and green create a natural, inviting atmosphere.",
+    "palette": [
+      "#EFA875",
+      "#A39081",
+      "#C9A384",
+      "#F3BF94",
+      "#B8B0A9"
+    ],
+    "mood": "Warm"
+  },
+  "botanical-circles-art": {
+    "displayTitle": "Orb Garden",
+    "description": "Artistic composition featuring circular botanical elements in varying sizes. The pattern creates visual rhythm with organic and geometric harmony.",
+    "palette": [
+      "#7CB1D3",
+      "#5688AB",
+      "#E9C8CF",
+      "#D48696",
+      "#C76679"
+    ],
+    "mood": "Round"
+  },
+  "botanical-circles-illustration": {
+    "displayTitle": "Round Flora",
+    "description": "An illustration featuring botanical elements enclosed in circular forms. The design combines natural shapes with geometric containers.",
+    "palette": [
+      "#F5E9E8",
+      "#E3E5BD",
+      "#C9E2E9",
+      "#B89ABB",
+      "#EEC3DF"
+    ],
+    "mood": "Geometric"
+  },
+  "botanical-dots-pattern": {
+    "displayTitle": "Polka Fern",
+    "description": "A dotted pattern featuring small botanical icons scattered across the surface. The delicate design adds subtle texture and visual interest.",
+    "palette": [
+      "#393A66",
+      "#D7A8B0",
+      "#6F2B36",
+      "#B39A9E",
+      "#795C60"
+    ],
+    "mood": "Dotted"
+  },
+  "botanical-sun-abstract": {
+    "displayTitle": "Solar Growth",
+    "description": "Abstract representation of a sun surrounded by botanical elements. The warm palette evokes feelings of growth and vitality.",
+    "palette": [
+      "#D8B9B8",
+      "#E9DBCE",
+      "#3B5437",
+      "#588B50",
+      "#A07E99"
+    ],
+    "mood": "Vital"
+  },
+  "botanical-sun-print": {
+    "displayTitle": "Helio Print",
+    "description": "A print-style botanical design featuring sun motifs with plant illustrations. The vintage-inspired design has a nostalgic, artistic quality.",
+    "palette": [
+      "#A58D8A",
+      "#ACC0B2",
+      "#5B8367",
+      "#306440",
+      "#CED9D2"
+    ],
+    "mood": "Vintage"
+  },
+  "brown-hills-sunset": {
+    "displayTitle": "Hills at Dusk",
+    "description": "Rolling hills rendered in warm browns and oranges beneath a gradient sky. The landscape captures the peaceful moment of sunset.",
+    "palette": [
+      "#944A29",
+      "#BC5E34",
+      "#CC7F5C",
+      "#E19775",
+      "#EFCDBD"
+    ],
+    "mood": "Golden Hour"
+  },
+  "brown-leaf-abstract": {
+    "displayTitle": "Burnt Autumn",
+    "description": "An abstract illustration featuring a delicate white line drawing of a plant stem with leaves, set against two overlapping brown shapes on a white background. The shapes are rounded and organic, creating a modern and minimalist composition.",
+    "palette": [
+      "#E9E0DC",
+      "#9F7968",
+      "#7A452D",
+      "#906450",
+      "#B99E91"
+    ],
+    "mood": "Fading"
+  },
+  "brown-leaves-illustration": {
+    "displayTitle": "Chocolate Leaves",
+    "description": "An abstract illustration of stylized leaves or petals in varying shades of brown, arranged in a visually overlapping and somewhat chaotic but balanced composition, set against a neutral beige background.",
+    "palette": [
+      "#F3E2D0",
+      "#B4854F",
+      "#8C612E",
+      "#DDC4A5",
+      "#C9A87F"
+    ],
+    "mood": "Rich"
+  },
+  "green-foliage-illustration": {
+    "displayTitle": "Emerald Canopy",
+    "description": "A minimalist illustration featuring a slender botanical stem with leaves and small flower buds against a background of alternating white and muted green organic shapes. The design is clean, simple, and calming.",
+    "palette": [
+      "#667E5E",
+      "#48633F",
+      "#93A38E",
+      "#A8B4A5",
+      "#26491F"
+    ],
+    "mood": "Lush"
+  },
+  "leaf-berry-pattern": {
+    "displayTitle": "Berry & Leaf",
+    "description": "An abstract botanical illustration featuring stylized leaves, branches, and berries in a limited color palette on a light green background.",
+    "palette": [
+      "#9A6A44",
+      "#DBCFA1",
+      "#E4F0C2",
+      "#45899C",
+      "#9CCEDC"
+    ],
+    "mood": "Festive"
+  },
+  "pink-foliage-design": {
+    "displayTitle": "Blush Canopy",
+    "description": "A minimalist illustration featuring a stylized branch with leaves against a backdrop of white and contrasting pink tones, creating a simple yet elegant design.",
+    "palette": [
+      "#DAC9CB",
+      "#D2939A",
+      "#9B6E73",
+      "#6F2F36",
+      "#824A50"
+    ],
+    "mood": "Delicate"
+  },
+  "pink-leaf-illustration": {
+    "displayTitle": "Rose Leaves",
+    "description": "A stylized botanical illustration featuring a branch with leaves in varying shades of pink and mauve against a beige background. The leaves are outlined in white and have a textured effect with parallel lines. The artwork has a simple, elegant aesthetic.",
+    "palette": [
+      "#F1D9C1",
+      "#F1DEE5",
+      "#C897A8",
+      "#E1B5C4",
+      "#B57389"
+    ],
+    "mood": "Romantic"
+  },
+  "striped-leaves-illustration": {
+    "displayTitle": "Zebra Fern",
+    "description": "Illustration featuring leaves with distinctive stripe patterns. The detailed rendering adds visual texture and artistic interest.",
+    "palette": [
+      "#ECD0BB",
+      "#A8825C",
+      "#E1AEC1",
+      "#DB8BA8",
+      "#A54165"
+    ],
+    "mood": "Striped"
+  },
+  "stylized-eye-graphic": {
+    "displayTitle": "The Watcher",
+    "description": "A graphic design featuring a stylized eye motif with bold colors. The mysterious design adds a bold artistic statement to any collection.",
+    "palette": [
+      "#C5B09B",
+      "#AB8F73",
+      "#C78848",
+      "#EDCFB0",
+      "#D29F6A"
+    ],
+    "mood": "Mysterious"
+  },
+  "stylized-plumeria-leaves": {
+    "displayTitle": "Tropical Grace",
+    "description": "A digital illustration featuring a stylized flower with layered petals in shades of red and pink, accompanied by abstract green leaves with contrasting white outlines, set against a light beige background.",
+    "palette": [
+      "#711716",
+      "#D98988",
+      "#C6605E",
+      "#F1DCCB",
+      "#235726"
+    ],
+    "mood": "Exotic"
+  },
+  "underwater-scene-art": {
+    "displayTitle": "Abyssal Dream",
+    "description": "An abstract underwater scene featuring flowing forms in ocean blues and teals. The serene composition evokes the peaceful atmosphere of the sea.",
+    "palette": [
+      "#BD7F4C",
+      "#EFCBA9",
+      "#2E5C6C",
+      "#ACDFF2",
+      "#8CBDD0"
+    ],
+    "mood": "Deep"
+  },
+  "wavy-foliage-pattern": {
+    "displayTitle": "Ocean Leaves",
+    "description": "An abstract pattern featuring organic shapes in pastel colors adorned with stylized green leaf branches.",
+    "palette": [
+      "#ECDEC1",
+      "#C9BE91",
+      "#92C5A4",
+      "#A2BCCD",
+      "#A78AB8"
+    ],
+    "mood": "Flowing"
+  },
+  "willow-tree-landscape": {
+    "displayTitle": "Weeping Willow",
+    "description": "A graceful willow tree landscape with flowing branches in soft greens. The peaceful scene evokes tranquility and natural elegance.",
+    "palette": [
+      "#155E0D",
+      "#75A799",
+      "#2D7AA8",
+      "#A8CEE5",
+      "#123E59"
+    ],
+    "mood": "Graceful"
+  },
+  "abstract-grass-landscape": {
+    "displayTitle": "Prairie Winds",
+    "description": "An abstract interpretation of rolling grass fields with flowing vertical lines in varying greens. The minimal composition evokes a sense of calm natural beauty.",
+    "palette": [
+      "#BD9D7F",
+      "#715223",
+      "#996F2E",
+      "#A7C199",
+      "#C199A4"
+    ],
+    "mood": "Open"
+  },
+  "abstract-botanical-rainbow": {
+    "displayTitle": "Rainbow Botanica",
+    "description": "A minimalist illustration featuring plant elements and a rainbow against a brown background with a white circle.",
+    "palette": [
+      "#6D4731",
+      "#E07C3E",
+      "#D06521",
+      "#A36944",
+      "#FBC5A1"
+    ],
+    "mood": "Vibrant"
+  },
+  "abstract-floral-shapes": {
+    "displayTitle": "Coral Geometry",
+    "description": "A bold abstract composition featuring geometric shapes in warm coral and teal tones. Circular forms intersect with angular elements, creating dynamic visual tension against a deep navy backdrop. The interplay of saturated colors and clean lines evokes contemporary sophistication.",
+    "palette": [
+      "#F3E5DC",
+      "#4A6A83",
+      "#B5CCEC",
+      "#DFBECF",
+      "#B15C6F"
+    ],
+    "mood": "Bold"
+  },
+  "abstract-floral-shapes-1": {
+    "displayTitle": "Terra Bloom",
+    "description": "An organic abstract design featuring flowing shapes in earthy terracotta and sage tones. Soft curved forms create a gentle, meditative composition with warm cream accents that evoke natural elegance and calm.",
+    "palette": [
+      "#DDA7A7",
+      "#A86F61",
+      "#7B7BA7",
+      "#474062",
+      "#A86187"
+    ],
+    "mood": "Serene"
+  },
+  "abstract-floral-shapes-2": {
+    "displayTitle": "Ochre & Sky",
+    "description": "An artistic composition featuring abstract botanical shapes in warm ochre and dusty blue. The organic curves balance with geometric elements for a unique modern look.",
+    "palette": [
+      "#DD8C4D",
+      "#835836",
+      "#BDC185",
+      "#81C9D9",
+      "#C18597"
+    ],
+    "mood": "Warm"
+  },
+  "leafy-dots-pattern": {
+    "displayTitle": "Polka Shadow",
+    "description": "A playful pattern combining dotted elements with leafy shapes. The whimsical design adds charm and character to any space.",
+    "palette": [
+      "#E9F3C8",
+      "#D1DAB4",
+      "#A2BEB5",
+      "#6F98A7",
+      "#3B7197"
+    ],
+    "mood": "Dotted"
+  },
+  "leaves-dots-pattern": {
+    "displayTitle": "Dot & Leaf",
+    "description": "Pattern featuring leaf silhouettes accompanied by scattered dots. The design creates visual rhythm with natural and geometric elements.",
+    "palette": [
+      "#E6D8DA",
+      "#DAC0C3",
+      "#C4989D",
+      "#B2777D",
+      "#95585E"
+    ],
+    "mood": "Patterned"
+  },
+  "orange-sun-branch": {
+    "displayTitle": "Solar Branch",
+    "description": "A glowing orange sun with botanical branches extending across the composition. The warm colors create an inviting, cheerful atmosphere.",
+    "palette": [
+      "#714119",
+      "#E2AF84",
+      "#A77A54",
+      "#E67D21",
+      "#B1631E"
+    ],
+    "mood": "Glowing"
+  },
+  "abstract-palm-tree": {
+    "displayTitle": "Abstract Palm Tree",
+    "description": "An abstract palm tree illustration with minimalist shapes.",
+    "palette": [
+      "#823831",
+      "#D65E51",
+      "#C03F26",
+      "#A6523A",
+      "#BF7963"
+    ],
+    "mood": "Tropical"
   }
 }
