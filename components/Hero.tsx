@@ -49,7 +49,7 @@ export default function Hero() {
         >
           Aswathi
           <br />
-          <span className="italic text-[#D4A574]">Bindhu</span>
+          Bindhu
           <br />
           Jawahar
         </motion.h1>
