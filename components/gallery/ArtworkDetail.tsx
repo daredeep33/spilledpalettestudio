@@ -90,14 +90,11 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
               unoptimized 
               draggable={false}
             />
-            {viewMode === 'room' && (
-              <div className="absolute bottom-4 left-4 bg-[#2C2C2C]/80 backdrop-blur-sm px-4 py-2 rounded-full">
-                <span className="text-[#FDFBF7] text-sm">Room View</span>
-              </div>
-            )}
-            {/* Click hint */}
-            <div className="absolute top-4 right-4 bg-[#2C2C2C]/60 backdrop-blur-sm px-3 py-1.5 rounded-full">
-              <span className="text-[#FDFBF7] text-xs">Click to expand</span>
+            {/* Expand icon - subtle */}
+            <div className="absolute top-4 right-4 bg-[#2C2C2C]/40 backdrop-blur-sm p-2 rounded-full">
+              <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+              </svg>
             </div>
           </div>
 
@@ -208,10 +205,10 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
           </div>
 
           <button className="w-full bg-[#D4A574] text-white py-4 rounded-full text-base font-medium hover:bg-[#2C2C2C] transition-all shadow-lg active:scale-[0.98]">
-            Buy Physical Print — ${artwork.price}
+            Buy Physical Print (16×20″) — ${artwork.price}
           </button>
           <p className="text-center mt-3 text-xs text-[#2C2C2C]/40 uppercase tracking-widest">
-            Ships Worldwide • Printify Fulfillment
+            Ships Worldwide • Museum-Quality Printing
           </p>
         </div>
       </div>
@@ -262,7 +259,7 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
               onClick={(e) => e.stopPropagation()}
             >
               {/* Image */}
-              <div className="relative flex items-center justify-center w-full flex-1 mb-6">
+              <div className="relative flex items-center justify-center w-full flex-1">
                 <Image 
                   src={viewMode === 'artwork' ? artwork.full : artwork.insituFull} 
                   alt={viewMode === 'artwork' ? artwork.title : 'In room setting'} 
@@ -274,17 +271,6 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
                   onClick={() => setIsLightboxOpen(false)}
                 />
               </div>
-
-              {/* Title */}
-              <motion.h2
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 0.6, y: 0 }}
-                exit={{ opacity: 0, y: 10 }}
-                transition={{ duration: 0.3, delay: 0.15 }}
-                className="text-white text-xl tracking-wide"
-              >
-                {artMeta?.displayTitle || artwork.title}
-              </motion.h2>
             </motion.div>
           </motion.div>
         )}
