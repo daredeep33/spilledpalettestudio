@@ -39,7 +39,7 @@ export default function AboutArtist() {
             </p>
             
             <h2 className="font-serif text-4xl sm:text-5xl mb-6">
-              Aswathi <span className="italic text-[#D4A574]">Bindhu</span> Jawahar
+              Aswathi <span className="italic" style={{ color: '#C49660' }}>Bindhu</span> Jawahar
             </h2>
 
             <div className="space-y-4 text-[#FDFBF7]/80 leading-relaxed">

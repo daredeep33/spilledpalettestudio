@@ -281,7 +281,7 @@ export default function Contact() {
                     fontFamily: "'Lora', serif"
                   }}
                 >
-                  {submitting ? 'Sending...' : 'Send Message'}
+                  {submitting ? 'Sending...' : 'Inquire About Artwork'}
                 </button>
               </form>
             )}
