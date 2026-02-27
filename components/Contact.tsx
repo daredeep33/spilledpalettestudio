@@ -114,13 +114,13 @@ export default function Contact() {
                   style={{ color: '#5C5C5C' }}
                 >
                   <div 
-                    className="w-10 h-10 rounded-full flex items-center justify-center transition-colors"
+                    className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 transition-colors"
                     style={{ backgroundColor: '#F5EFE7' }}
                   >
                     <Mail className="w-5 h-5 group-hover:opacity-70 transition-opacity" style={{ color: '#D4A574' }} />
                   </div>
                   <span 
-                    className="group-hover:opacity-70 transition-opacity"
+                    className="group-hover:opacity-70 transition-opacity leading-none"
                     style={{ fontFamily: "'Lora', serif" }}
                   >
                     hello@spilledpalettestudio.com
@@ -135,13 +135,13 @@ export default function Contact() {
                   style={{ color: '#5C5C5C' }}
                 >
                   <div 
-                    className="w-10 h-10 rounded-full flex items-center justify-center transition-colors"
+                    className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 transition-colors"
                     style={{ backgroundColor: '#F5EFE7' }}
                   >
                     <Instagram className="w-5 h-5 group-hover:opacity-70 transition-opacity" style={{ color: '#D4A574' }} />
                   </div>
                   <span 
-                    className="group-hover:opacity-70 transition-opacity"
+                    className="group-hover:opacity-70 transition-opacity leading-none"
                     style={{ fontFamily: "'Lora', serif" }}
                   >
                     @thespilledpalettestudio

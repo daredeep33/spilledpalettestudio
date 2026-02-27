@@ -47,11 +47,13 @@ function Footer() {
           {/* Support */}
           <div>
             <h4 className="font-medium text-sm uppercase tracking-wider mb-4">Support</h4>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-[#FDFBF7]/60 hover:text-[#D4A574] text-sm">FAQ</a></li>
-              <li><a href="#" className="text-[#FDFBF7]/60 hover:text-[#D4A574] text-sm">Shipping Info</a></li>
-              <li><a href="#" className="text-[#FDFBF7]/60 hover:text-[#D4A574] text-sm">Returns Policy</a></li>
-            </ul>
+            <div className="flex flex-wrap items-center gap-2 text-sm">
+              <a href="#" className="text-[#FDFBF7]/60 hover:text-[#D4A574]">FAQ</a>
+              <span className="text-[#FDFBF7]/30">•</span>
+              <a href="#" className="text-[#FDFBF7]/60 hover:text-[#D4A574]">Shipping</a>
+              <span className="text-[#FDFBF7]/30">•</span>
+              <a href="#" className="text-[#FDFBF7]/60 hover:text-[#D4A574]">Returns</a>
+            </div>
           </div>
         </div>
 
