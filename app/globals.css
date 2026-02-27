@@ -34,3 +34,11 @@ body {
   background-color: #FDFBF7;
   color: #2C2C2C;
 }
+
+/* Mobile body text - minimum 16px */
+@media (max-width: 640px) {
+  body, p, li, input, textarea, select {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}

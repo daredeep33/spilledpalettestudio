@@ -207,7 +207,7 @@ export default function Contact() {
                     className="w-full px-4 py-3 rounded-lg border transition-all outline-none focus:ring-2"
                     style={{ 
                       backgroundColor: '#FFFFFF',
-                      borderColor: '#E8E4DF',
+                      border: '1px solid #CCCCCC',
                       fontFamily: "'Lora', serif",
                       color: '#2C2C2C'
                     }}
@@ -225,7 +225,7 @@ export default function Contact() {
                     className="w-full px-4 py-3 rounded-lg border transition-all outline-none focus:ring-2"
                     style={{ 
                       backgroundColor: '#FFFFFF',
-                      borderColor: '#E8E4DF',
+                      border: '1px solid #CCCCCC',
                       fontFamily: "'Lora', serif",
                       color: '#2C2C2C'
                     }}
@@ -240,7 +240,7 @@ export default function Contact() {
                     className="w-full px-4 py-3 rounded-lg border transition-all outline-none focus:ring-2"
                     style={{ 
                       backgroundColor: '#FFFFFF',
-                      borderColor: '#E8E4DF',
+                      border: '1px solid #CCCCCC',
                       fontFamily: "'Lora', serif",
                       color: '#2C2C2C'
                     }}
@@ -264,7 +264,7 @@ export default function Contact() {
                     className="w-full px-4 py-3 rounded-lg border transition-all outline-none focus:ring-2 resize-none"
                     style={{ 
                       backgroundColor: '#FFFFFF',
-                      borderColor: '#E8E4DF',
+                      border: '1px solid #CCCCCC',
                       fontFamily: "'Lora', serif",
                       color: '#2C2C2C'
                     }}
@@ -276,7 +276,7 @@ export default function Contact() {
                   disabled={submitting}
                   className="w-full py-3 px-6 rounded-full font-medium transition-all hover:opacity-90 disabled:opacity-50"
                   style={{ 
-                    backgroundColor: '#D4A574',
+                    backgroundColor: '#2C2C2C',
                     color: '#FFFFFF',
                     fontFamily: "'Lora', serif"
                   }}

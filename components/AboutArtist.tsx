@@ -2,8 +2,11 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import { useState } from 'react'
 
 export default function AboutArtist() {
+  const [expanded, setExpanded] = useState(false)
+
   return (
     <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-[#2C2C2C] text-[#FDFBF7]">
       <div className="max-w-6xl mx-auto">
@@ -46,31 +49,43 @@ export default function AboutArtist() {
                 a sanctuary of color, calm, and creative energy.
               </p>
               
-              <p>
-                Each piece in my collection is thoughtfully crafted to bring warmth and 
-                personality to your home. From serene botanical studies to vibrant abstract 
-                compositions, my work celebrates the beauty of imperfection and the joy of 
-                artistic expression.
-              </p>
+              {/* Expanded content */}
+              <div className={`space-y-4 ${expanded ? 'block' : 'hidden'}`}>
+                <p>
+                  Each piece in my collection is thoughtfully crafted to bring warmth and 
+                  personality to your home. From serene botanical studies to vibrant abstract 
+                  compositions, my work celebrates the beauty of imperfection and the joy of 
+                  artistic expression.
+                </p>
 
-              <p>
-                Whether you are an art collector, interior designer, or simply someone 
-                who appreciates beauty, I invite you to explore my collection and find 
-                the perfect piece for your space.
-              </p>
+                <p>
+                  Whether you are an art collector, interior designer, or simply someone 
+                  who appreciates beauty, I invite you to explore my collection and find 
+                  the perfect piece for your space.
+                </p>
+              </div>
+
+              {/* Read more button */}
+              <button 
+                onClick={() => setExpanded(!expanded)}
+                className="text-[#D4A574] underline underline-offset-4 text-sm hover:text-[#FDFBF7] transition-colors"
+              >
+                {expanded ? 'Show less' : 'Read my full story'}
+              </button>
             </div>
 
-            <div className="mt-8 flex flex-wrap gap-6">
-              <div className="text-center">
-                <p className="text-3xl font-serif text-[#D4A574]">100+</p>
+            {/* Stats - stacked vertically on mobile, horizontal on desktop */}
+            <div className="mt-10 flex flex-col sm:flex-row gap-6 sm:gap-12">
+              <div className="text-center sm:text-left">
+                <p className="text-4xl sm:text-5xl font-serif text-[#D4A574]">100+</p>
                 <p className="text-sm text-[#FDFBF7]/60">Original Artworks</p>
               </div>
-              <div className="text-center">
-                <p className="text-3xl font-serif text-[#D4A574]">9</p>
+              <div className="text-center sm:text-left">
+                <p className="text-4xl sm:text-5xl font-serif text-[#D4A574]">9</p>
                 <p className="text-sm text-[#FDFBF7]/60">Collections</p>
               </div>
-              <div className="text-center">
-                <p className="text-3xl font-serif text-[#D4A574]">Worldwide</p>
+              <div className="text-center sm:text-left">
+                <p className="text-4xl sm:text-5xl font-serif text-[#D4A574]">Worldwide</p>
                 <p className="text-sm text-[#FDFBF7]/60">Shipping</p>
               </div>
             </div>

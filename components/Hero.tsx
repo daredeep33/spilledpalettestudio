@@ -23,8 +23,8 @@ export default function Hero() {
           <Image
             src="/logo.png"
             alt="Spilled Palette Studio"
-            width={120}
-            height={120}
+            width={150}
+            height={150}
             className="mx-auto"
             priority
           />
@@ -82,21 +82,6 @@ export default function Hero() {
             className="inline-flex items-center justify-center border-2 border-[#2C2C2C] text-[#2C2C2C] px-8 py-4 rounded-full text-sm font-medium hover:bg-[#2C2C2C] hover:text-[#FDFBF7] transition-all duration-300"
           >
             Meet the Artist
-          </a>
-        </motion.div>
-
-        {/* Scroll Indicator */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1, duration: 0.5 }}
-          className="mt-16"
-        >
-          <a href="#gallery" className="flex flex-col items-center text-[#2C2C2C]/50 hover:text-[#D4A574] transition-colors">
-            <span className="text-xs uppercase tracking-wider mb-2">Explore</span>
-            <svg className="w-5 h-5 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
           </a>
         </motion.div>
       </div>

@@ -130,17 +130,7 @@ function ArtworkCard({ artwork, onInquire, isMobile }: { artwork: Artwork; onInq
             >{artwork.category}</p>
           </motion.div>
 
-          {/* Hover Hint */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: showArtwork ? 0 : 1 }}
-            transition={{ duration: 0.3 }}
-            className="absolute top-3 right-3 bg-[#FDFBF7]/90 backdrop-blur-sm px-3 py-1.5 rounded-full"
-          >
-            <span className="text-[#2C2C2C] text-xs font-medium">
-              {isMobile ? 'Tap to see artwork' : 'Hover to see artwork'}
-            </span>
-          </motion.div>
+          {/* Removed hover hint - tapping is innate behavior */}
         </div>
       </motion.div>
     </Link>
@@ -208,17 +198,18 @@ export default function Gallery({ onInquire, limit, showAllLink }: GalleryProps)
           )}
         </motion.div>
 
+        {/* Horizontal scrolling filter strip */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="flex flex-wrap justify-center gap-2 mb-12"
+          className="flex overflow-x-auto gap-2 mb-12 pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 sm:flex-wrap sm:justify-center scrollbar-hide"
         >
           {categories.map((cat) => (
             <button
               key={cat.id}
               onClick={() => setActiveCategory(cat.id)}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+              className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
                 activeCategory === cat.id
                   ? 'bg-[#2C2C2C] text-[#FDFBF7]'
                   : 'bg-[#E8E4DF] text-[#2C2C2C] hover:bg-[#D4A574] hover:text-white'
