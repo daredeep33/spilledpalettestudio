@@ -35,6 +35,13 @@ body {
   color: #2C2C2C;
 }
 
+/* Prevent image selection/dragging */
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+
 /* Mobile body text - minimum 16px */
 @media (max-width: 640px) {
   body, p, li, input, textarea, select {

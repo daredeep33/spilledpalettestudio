@@ -47,7 +47,9 @@ function ArtworkCard({ artwork, onInquire, isMobile }: { artwork: Artwork; onInq
         onClick={() => isMobile && setIsTapped(!isTapped)}
       >
         <div 
-          className="relative w-full rounded-xl overflow-hidden bg-[#E8E4DF]"
+          className="relative w-full rounded-xl overflow-hidden bg-[#E8E4DF] select-none"
+          onContextMenu={(e) => e.preventDefault()}
+          onDragStart={(e) => e.preventDefault()}
         >
           {/* Artist's Pick Badge */}
           {artwork.artistPick && (
