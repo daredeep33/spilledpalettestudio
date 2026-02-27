@@ -245,9 +245,8 @@ export default function Contact() {
                       color: '#2C2C2C'
                     }}
                   >
-                    <option value="">Select an artwork (optional)</option>
+                    <option value="">What is this about?</option>
                     <option value="General Inquiry">General Inquiry</option>
-                    <option value="Custom Artwork">Custom Artwork</option>
                     <option value="Print Purchase">Print Purchase</option>
                     <option value="Collaboration">Collaboration</option>
                   </select>
