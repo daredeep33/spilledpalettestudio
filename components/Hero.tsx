@@ -79,7 +79,7 @@ export default function Hero() {
           </a>
           <a
             href="#about"
-            className="inline-flex items-center justify-center border-2 border-[#2C2C2C] text-[#2C2C2C] px-8 py-4 rounded-full text-sm font-medium hover:bg-[#2C2C2C] hover:text-[#FDFBF7] transition-all duration-300"
+            className="inline-flex items-center justify-center border border-[#2C2C2C] text-[#2C2C2C] px-8 py-4 rounded-full text-sm font-medium hover:bg-[#2C2C2C] hover:text-[#FDFBF7] transition-all duration-300"
           >
             Meet the Artist
           </a>
