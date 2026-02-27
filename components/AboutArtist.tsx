@@ -38,7 +38,7 @@ export default function AboutArtist() {
               About the Artist
             </p>
             
-            <h2 className="font-serif text-4xl sm:text-5xl mb-6">
+            <h2 className="font-serif text-4xl sm:text-5xl mb-6 text-[#D4A574]">
               Aswathi Bindhu Jawahar
             </h2>
 
