@@ -24,16 +24,7 @@ function Footer() {
   return (
     <footer className="bg-[#2C2C2C] text-[#FDFBF7] py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
-          {/* Brand */}
-          <div className="sm:col-span-2 lg:col-span-2">
-            <h3 className="font-serif text-2xl mb-2">Spilled Palette Studio</h3>
-            <p className="text-[#B0B0B0] text-sm mb-4">Original artwork by Aswathi Bindhu Jawahar</p>
-            <p className="text-[#999999] text-sm max-w-md">
-              Handcrafted digital paintings that transform your space into a sanctuary of color, calm, and creative energy.
-            </p>
-          </div>
-        </div>
+        
 
         {/* Social & Copyright */}
         <div className="pt-8 border-t border-[#FDFBF7]/10 flex flex-col sm:flex-row justify-between items-center gap-4">
