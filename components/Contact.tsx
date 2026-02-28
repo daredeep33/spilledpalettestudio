@@ -17,7 +17,8 @@ export default function Contact() {
   
   useEffect(() => {
     // Check for artwork inquiry from URL params
-    const artworkFromUrl = searchParams.get('piece')
+    const params = new URLSearchParams(window.location.search)
+    const artworkFromUrl = params.get('piece')
     if (artworkFromUrl) {
       setFormData(prev => ({
         ...prev,
