@@ -881,19 +881,6 @@
     ],
     "mood": "Peaceful"
   },
-  "abstract-plants-shapes": {
-    "displayTitle": "Botanical Blocks",
-    "description": "Modern abstract composition featuring geometric plant forms in bold colors. The clean lines and saturated palette create visual impact.",
-    "palette": [
-      "#557C8C",
-      "#A78C78",
-      "#A5C4A6",
-      "#E3DCE3",
-      "#C4979F",
-      "#DAC0C3"
-    ],
-    "mood": "Bold"
-  },
   "abstract-shapes-plant": {
     "displayTitle": "Geo Flora",
     "description": "Abstract botanical elements combined with geometric shapes in a contemporary color scheme. The fusion of organic and structured forms creates visual interest.",
