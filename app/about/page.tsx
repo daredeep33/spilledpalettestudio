@@ -32,7 +32,7 @@ export default function AboutPage() {
           <div className="flex-1 space-y-8 text-[#4a4a4a]">
             <section>
               <h2 className="font-serif text-2xl text-[#2c3e50] mb-4">
-                When did you start painting?
+                How It Began
               </h2>
               <p className="text-lg leading-relaxed">
                 I have loved painting since childhood. I started with pencil drawings — I was never competitive, outstanding, or trying to be the best. I simply found happiness in creating. Later, I began digital painting on my husband's iPad and discovered a whole new world of art through digital tools and online artists. Gradually, I started exploring other mediums like acrylics and oil pastels. Although this journey has lasted several years, it hasn't been continuous. There were short and long breaks along the way. Recently, I chose to step back into this magical world more intentionally. I don't paint to compete — I paint because it relaxes me, heals me, and brings me joy.
