@@ -3,11 +3,13 @@
     "displayTitle": "Shadow of the Sun-Drenched Fern",
     "description": "This abstract illustration features a bold leaf silhouette against fluid, organic shapes. The contrast between rigid geometry and soft curves creates a modern, balanced composition.",
     "palette": [
-      "#C03F26",
       "#010101",
       "#E5B3A9",
+      "#C03F26",
       "#D65E51",
       "#BF7963",
+      "#C05926",
+      "#C44845",
       "#A6523A"
     ],
     "mood": "Warm and Grounded"
@@ -20,10 +22,7 @@
       "#EDC592",
       "#335135",
       "#EDAE92",
-      "#FFFFFF",
-      "#EBD7CD",
-      "#E3BD8C",
-      "#727955"
+      "#FFFFFF"
     ],
     "mood": "Calm and Peaceful"
   },
@@ -35,10 +34,7 @@
       "#5195B3",
       "#D1A88B",
       "#000000",
-      "#FFFFFF",
-      "#4C8CA8",
-      "#3F738A",
-      "#1B313B"
+      "#FFFFFF"
     ],
     "mood": "Calm"
   },
@@ -49,11 +45,11 @@
       "#EFF4CD",
       "#000000",
       "#B8827A",
-      "#9D9253",
       "#CE964B",
-      "#A97F37",
+      "#9D9253",
       "#D09167",
-      "#96624A"
+      "#AE8D89",
+      "#A5966F"
     ],
     "mood": "Serene"
   },
@@ -64,8 +60,8 @@
       "#EBDBB2",
       "#AF7055",
       "#A98F4C",
-      "#808080",
       "#9AA96A",
+      "#808080",
       "#709CA9",
       "#4E744E",
       "#A8876F"
@@ -78,11 +74,11 @@
     "palette": [
       "#7AB0C1",
       "#AA8140",
-      "#809EC6",
       "#E2B255",
-      "#FFFFFF",
+      "#809EC6",
       "#2896B8",
       "#416EAA",
+      "#FFFFFF",
       "#6C8993"
     ],
     "mood": "Calm and Serene"
@@ -91,14 +87,14 @@
     "displayTitle": "Soft Meridian",
     "description": "An abstract composition featuring organic shapes in various pastel colors with white outlines, overlaid with stylized botanical illustrations.",
     "palette": [
-      "#C4A1B3",
       "#E2C5AE",
       "#BCBC8F",
-      "#B68198",
+      "#C4A1B3",
       "#DBC1EB",
       "#E7F7CE",
-      "#8085AC",
-      "#B86D6B"
+      "#93BAC8",
+      "#A1A8C4",
+      "#B68198"
     ],
     "mood": "Dreamy"
   },
@@ -109,11 +105,7 @@
       "#AF9692",
       "#C0BEE9",
       "#EEEAD8",
-      "#EAE4D3",
-      "#E0D7C8",
-      "#060505",
-      "#DACFC2",
-      "#352D2C"
+      "#E6DFCF"
     ],
     "mood": "Rustic"
   },
@@ -123,12 +115,11 @@
     "palette": [
       "#EEECE8",
       "#BEA864",
-      "#D0A49F",
       "#4F6955",
-      "#985E59",
       "#81A786",
-      "#BE8064",
-      "#3D7645"
+      "#D0A49F",
+      "#3D7645",
+      "#BE8064"
     ],
     "mood": "Boho"
   },
@@ -142,8 +133,8 @@
       "#96734A",
       "#CAA771",
       "#867257",
-      "#B38F74",
-      "#AE581F"
+      "#AE581F",
+      "#B38F74"
     ],
     "mood": "Free-spirited"
   },
@@ -167,13 +158,13 @@
     "description": "A stylized depiction of a branch with colorful leaves, arranged on a muted background.",
     "palette": [
       "#D6CF9F",
-      "#000000",
       "#3F5936",
-      "#A88761",
       "#A86161",
+      "#000000",
       "#5D91A8",
+      "#A88761",
       "#B389A1",
-      "#C5B263"
+      "#A95137"
     ],
     "mood": "Whimsical"
   },
@@ -181,10 +172,8 @@
     "displayTitle": "Moonlit Circle",
     "description": "A minimalist illustration featuring a partial olive green circle with a thick white border, adorned with a delicate white leaf branch design in the upper-left corner. The style is simplistic and modern, with a focus on natural elements and muted colors.",
     "palette": [
-      "#5F7D4F",
       "#FFFFFF",
-      "#FCFDFC",
-      "#F3F5F2"
+      "#5F7D4F"
     ],
     "mood": "Minimal"
   },
@@ -196,10 +185,8 @@
       "#CBE8BA",
       "#3C7227",
       "#FFFFFF",
-      "#1F3823",
-      "#CCBD9C",
-      "#838383",
-      "#4A4B4A"
+      "#010201",
+      "#080A1F"
     ],
     "mood": "Natural"
   },
@@ -212,9 +199,7 @@
       "#569994",
       "#455D3C",
       "#A9EFEA",
-      "#78C97A",
-      "#5F846A",
-      "#6FB56E"
+      "#78C97A"
     ],
     "mood": "Ethereal"
   },
@@ -240,9 +225,7 @@
       "#FFFFFF",
       "#77A1B6",
       "#B5CCD7",
-      "#F4F4F4",
-      "#D3D3D3",
-      "#AAAAAA"
+      "#000000"
     ],
     "mood": "Minimal"
   },
@@ -252,7 +235,7 @@
     "palette": [
       "#FFFFFF",
       "#DEAA96",
-      "#E1E1E1"
+      "#010101"
     ],
     "mood": "Modern"
   },
@@ -262,12 +245,9 @@
     "palette": [
       "#D7D2A8",
       "#623D36",
-      "#36634D",
       "#365762",
-      "#D1CCA3",
-      "#C4BB97",
-      "#32433B",
-      "#9EA88D"
+      "#36634D",
+      "#32433B"
     ],
     "mood": "Exotic"
   },
@@ -278,8 +258,8 @@
       "#FFCCEA",
       "#CCF3FF",
       "#EEFFCC",
-      "#D4CDF9",
       "#F9D1CD",
+      "#D4CDF9",
       "#9AB1E0",
       "#FFE1CC",
       "#AB6485"
@@ -292,8 +272,7 @@
     "palette": [
       "#D87834",
       "#7E543B",
-      "#010101",
-      "#CA7834"
+      "#010101"
     ],
     "mood": "Warm"
   },
@@ -305,10 +284,10 @@
       "#B06A3B",
       "#7F535E",
       "#6B9F50",
-      "#345732",
       "#8A550F",
+      "#345732",
       "#2F551C",
-      "#56803B"
+      "#865F6A"
     ],
     "mood": "Calm"
   },
@@ -329,14 +308,10 @@
     "displayTitle": "Wings of Flora",
     "description": "A butterfly with asymmetrical wings. The left wing is decorated with floral patterns shaded in grayscale, while the right wing is filled with intricate black and white leaf and vine patterns. The body is plain and simple, with thin antennae. The background is divided into white and beige, creating a clean contrast.",
     "palette": [
-      "#FFFFFF",
       "#E8DDCF",
-      "#D5D5D5",
-      "#808080",
-      "#D9CEC0",
-      "#CDC2B4",
-      "#A0A0A0",
-      "#4F4F4F"
+      "#FFFFFF",
+      "#010101",
+      "#D5D5D5"
     ],
     "mood": "Elegant"
   },
@@ -348,10 +323,10 @@
       "#6D8264",
       "#2D4828",
       "#AF3523",
-      "#CF4881",
       "#C85346",
       "#FFFFFF",
-      "#CC722E"
+      "#455FC9",
+      "#863C04"
     ],
     "mood": "Cheerful"
   },
@@ -360,13 +335,13 @@
     "description": "A simple, pastel-colored rainbow illustration against a light pink background.",
     "palette": [
       "#F1CEC6",
-      "#48B1C7",
       "#E3A191",
-      "#DFF2F6",
+      "#FFFFFF",
       "#257B8D",
-      "#2F97AC",
       "#1F5E6B",
-      "#91D1DE"
+      "#48B1C7",
+      "#CAEBF1",
+      "#2F97AC"
     ],
     "mood": "Soft"
   },
@@ -376,12 +351,8 @@
     "palette": [
       "#FFFFFF",
       "#F7EAE5",
-      "#EBF2E6",
       "#D5E3E9",
-      "#BCBCBC",
-      "#999999",
-      "#8A8A8A",
-      "#717171"
+      "#EDF7E5"
     ],
     "mood": "Delicate"
   },
@@ -411,7 +382,7 @@
       "#73B593",
       "#C47C6E",
       "#C67187",
-      "#7E2640"
+      "#FFFFFF"
     ],
     "mood": "Light"
   },
@@ -422,11 +393,7 @@
       "#8F5A56",
       "#EADDDC",
       "#2C5834",
-      "#FFFFFF",
-      "#DDD5D0",
-      "#BA7773",
-      "#567258",
-      "#C2C0B7"
+      "#FFFFFF"
     ],
     "mood": "Organic"
   },
@@ -434,14 +401,12 @@
     "displayTitle": "Terra Flora",
     "description": "An abstract floral artwork featuring a stylized flower with black petals and thin lines, set against a backdrop of organic shapes in earthy tones of brown, tan, white, and terracotta. The composition is dynamic and visually engaging.",
     "palette": [
-      "#B68168",
       "#0B0B0B",
       "#D8975F",
       "#FFFFFF",
-      "#BA5F5A",
-      "#313131",
-      "#717171",
-      "#46342B"
+      "#B68168",
+      "#B69868",
+      "#BA5F5A"
     ],
     "mood": "Earthy"
   },
@@ -453,10 +418,7 @@
       "#CFD9E2",
       "#9BB78F",
       "#A04456",
-      "#415936",
-      "#9C5668",
-      "#849CB0",
-      "#9A7A85"
+      "#415936"
     ],
     "mood": "Fresh"
   },
@@ -467,11 +429,9 @@
       "#DDD9C6",
       "#628557",
       "#9D8680",
-      "#010101",
       "#89586F",
-      "#5A6F87",
-      "#C2BEAE",
-      "#526F49"
+      "#010101",
+      "#5A6F87"
     ],
     "mood": "Soft"
   },
@@ -480,13 +440,13 @@
     "description": "An abstract composition featuring flowing shapes, floral motifs, and a muted color palette.",
     "palette": [
       "#E7DDB1",
-      "#2B5A32",
       "#8A9A42",
+      "#2B5A32",
       "#C47836",
       "#6571A4",
       "#7D2540",
       "#6E6E6E",
-      "#C7C79B"
+      "#00470B"
     ],
     "mood": "Artistic"
   },
@@ -496,12 +456,12 @@
     "palette": [
       "#A5B2BB",
       "#2F536E",
-      "#7D919F",
       "#5985A6",
+      "#A6BAC9",
       "#4077A0",
+      "#7D919F",
       "#7AA6C7",
-      "#040404",
-      "#747D83"
+      "#335C7A"
     ],
     "mood": "Tranquil"
   },
@@ -514,8 +474,7 @@
       "#AAE4DD",
       "#AAE4AA",
       "#826827",
-      "#44354F",
-      "#E2D1E4"
+      "#44354F"
     ],
     "mood": "Gentle"
   },
@@ -526,11 +485,10 @@
       "#FFFFFF",
       "#F3D0CE",
       "#CEEEF3",
+      "#F3E7CE",
       "#DA7069",
       "#F3CEEF",
-      "#BC423B",
-      "#FFF5F5",
-      "#EFB8B6"
+      "#BC423B"
     ],
     "mood": "Delicate"
   },
@@ -543,9 +501,9 @@
       "#B0A28D",
       "#8C88A0",
       "#9B9F88",
-      "#526B61",
-      "#848484",
-      "#997F56"
+      "#010101",
+      "#88979F",
+      "#526B61"
     ],
     "mood": "Earthy"
   },
@@ -556,11 +514,11 @@
       "#E4E6D0",
       "#CAA5A7",
       "#C79353",
-      "#AECAA5",
       "#B8D6EF",
-      "#000000",
+      "#AECAA5",
       "#EFCFB8",
-      "#AA7D81"
+      "#000000",
+      "#AE9550"
     ],
     "mood": "Free"
   },
@@ -572,9 +530,8 @@
       "#F2EECA",
       "#605B2F",
       "#B6B899",
-      "#B7B072",
-      "#8D82AB",
-      "#EAE5BD"
+      "#9CAA5A",
+      "#8D82AB"
     ],
     "mood": "Mediterranean"
   },
@@ -587,9 +544,7 @@
       "#E1E1F4",
       "#B4793C",
       "#000000",
-      "#316340",
-      "#D3A779",
-      "#28231D"
+      "#316340"
     ],
     "mood": "Nautical"
   },
@@ -600,10 +555,7 @@
       "#ECD5B2",
       "#7C99BB",
       "#687A57",
-      "#A47082",
-      "#DEC8A7",
-      "#D1BEA0",
-      "#748FAE"
+      "#A47082"
     ],
     "mood": "Playful"
   },
@@ -614,8 +566,7 @@
       "#A6B6A0",
       "#817571",
       "#612E48",
-      "#314E27",
-      "#98A892"
+      "#314E27"
     ],
     "mood": "Serene"
   },
@@ -625,7 +576,7 @@
     "palette": [
       "#FFFFFF",
       "#BF7569",
-      "#F0F0F0"
+      "#000000"
     ],
     "mood": "Bold"
   },
@@ -635,7 +586,7 @@
     "palette": [
       "#E2AF8D",
       "#FFFFFF",
-      "#D4A180"
+      "#010101"
     ],
     "mood": "Mystical"
   },
@@ -655,13 +606,12 @@
     "description": "Three stylized arrangements of leafy branches in circular vases, each with a different color scheme on a neutral background.",
     "palette": [
       "#DAD4B5",
-      "#3A5A3B",
       "#7A6383",
-      "#CFCDAC",
       "#984350",
+      "#3A5A3B",
+      "#4F623C",
       "#3C718C",
-      "#697852",
-      "#B8BB97"
+      "#5A3B3A"
     ],
     "mood": "Composed"
   },
@@ -673,10 +623,10 @@
       "#3C6732",
       "#5F9353",
       "#518844",
+      "#B9D6B3",
       "#80AE75",
-      "#E18D70",
-      "#FFFFFF",
-      "#CBE2C6"
+      "#CBE2C6",
+      "#FFFFFF"
     ],
     "mood": "Lush"
   },
@@ -685,13 +635,13 @@
     "description": "A stylized floral illustration with three outlined flowers in pink, blue, and green, interspersed with geometric blocks of muted colors like lavender, beige, brown, and light green. The flowers feature delicate line work, and the overall composition blends natural and abstract elements.",
     "palette": [
       "#FFFFFF",
-      "#CDDBA3",
+      "#000000",
       "#C3AC9F",
       "#D5C89A",
-      "#A39585",
       "#938EBE",
       "#6CB9CB",
-      "#DBA3CC"
+      "#CDDBA3",
+      "#C5DDB0"
     ],
     "mood": "Modern"
   },
@@ -701,11 +651,11 @@
     "palette": [
       "#DEC39D",
       "#606085",
-      "#A9A9E5",
       "#507695",
-      "#89ABC8",
+      "#A9A9E5",
       "#94416C",
       "#C2709A",
+      "#89ABC8",
       "#AF5246"
     ],
     "mood": "Fresh"
@@ -714,14 +664,14 @@
     "displayTitle": "Watercolor Dreams",
     "description": "A simple illustration featuring a delicate line drawing of a leafy branch overlaying a watercolor background with blended pastel colors.",
     "palette": [
-      "#CBCDE5",
       "#E0CBE5",
+      "#CBCDE5",
       "#FFFFFF",
       "#E5DFCB",
       "#D1F2CF",
-      "#CEA5C7",
+      "#18031D",
       "#BDCAB1",
-      "#170F2A"
+      "#000000"
     ],
     "mood": "Soft"
   },
@@ -730,9 +680,9 @@
     "description": "A minimalist botanical illustration featuring a line drawing of a flower overlaid on abstract shapes in neutral and muted green tones.",
     "palette": [
       "#FFFFFF",
-      "#E1CBAD",
       "#E1DDAD",
-      "#D5E1AD"
+      "#E1CBAD",
+      "#000000"
     ],
     "mood": "Minimal"
   },
@@ -740,14 +690,14 @@
     "displayTitle": "Cotton Candy Garden",
     "description": "An abstract floral illustration featuring stylized leaves and organic shapes in pastel colors, creating a serene and contemporary aesthetic.",
     "palette": [
-      "#B9C5A5",
       "#CF9BB0",
+      "#CECBA6",
+      "#B9C5A5",
+      "#D2BCC5",
       "#CFC8DA",
-      "#4A676F",
       "#B6A6CE",
-      "#DAD9C8",
-      "#FFFFFF",
-      "#818181"
+      "#4A676F",
+      "#DAD9C8"
     ],
     "mood": "Sweet"
   },
@@ -755,14 +705,7 @@
     "displayTitle": "Teal Towers",
     "description": "An abstract digital artwork featuring a stylized white floral design overlaid on a background of vertical stripes in shades of teal and brown, creating a textured and patterned effect.",
     "palette": [
-      "#D7E2E7",
-      "#BFD1D9",
-      "#B2967E",
-      "#B0C6D0",
-      "#7FA3B3",
-      "#A68569",
-      "#7098AA",
-      "#58879C"
+      "#FFFFFF"
     ],
     "mood": "Architectural"
   },
@@ -775,8 +718,8 @@
       "#E2ADAB",
       "#BCBA8A",
       "#97BBC8",
-      "#E4C4DC",
       "#E9D3A5",
+      "#E4C4DC",
       "#C0CAB9"
     ],
     "mood": "Romantic"
@@ -801,12 +744,12 @@
     "palette": [
       "#DBDBDB",
       "#B18786",
-      "#7E88A0",
       "#AB9CA8",
-      "#B4A2A7",
+      "#7E88A0",
+      "#C2939F",
       "#B2A585",
       "#A1B4A4",
-      "#815A67"
+      "#FFFFFF"
     ],
     "mood": "Dense"
   },
@@ -820,8 +763,7 @@
       "#C9E0F3",
       "#255B2B",
       "#D69F9E",
-      "#010101",
-      "#8D8D79"
+      "#010101"
     ],
     "mood": "Upward"
   },
@@ -831,12 +773,12 @@
     "palette": [
       "#FFFFFF",
       "#FFEAD7",
-      "#B1D971",
       "#48A88E",
-      "#FFA23A",
+      "#ACC18A",
       "#CADDAC",
+      "#62A767",
       "#78B596",
-      "#FF941C"
+      "#A4D77F"
     ],
     "mood": "Dynamic"
   },
@@ -863,10 +805,7 @@
       "#A96D32",
       "#914846",
       "#8C2E2B",
-      "#FFFFFF",
-      "#D2B5B4",
-      "#C6A09F",
-      "#B58583"
+      "#FFFFFF"
     ],
     "mood": "Falling"
   },
@@ -875,13 +814,13 @@
     "description": "A modern illustration featuring stylized leaf shapes in various greens and earth tones. The abstract composition creates depth through overlapping forms.",
     "palette": [
       "#F1D6C1",
-      "#9D7A5F",
       "#EF9C64",
       "#D78679",
+      "#9D7A5F",
       "#E09963",
+      "#BA836F",
       "#926B6A",
-      "#010101",
-      "#433C36"
+      "#010101"
     ],
     "mood": "Textured"
   },
@@ -891,12 +830,12 @@
     "palette": [
       "#FFFFFF",
       "#CB8262",
-      "#BEA94B",
       "#AD8839",
-      "#A89126",
+      "#010101",
+      "#BEA94B",
       "#DD7D64",
-      "#CB6762",
-      "#F4E4DD"
+      "#A89126",
+      "#CB6762"
     ],
     "mood": "Quiet"
   },
@@ -907,10 +846,10 @@
       "#B8C47E",
       "#90B087",
       "#E3AB96",
-      "#234760",
       "#CB808D",
-      "#B8A3B7",
+      "#234760",
       "#C4857E",
+      "#B8A3B7",
       "#928052"
     ],
     "mood": "Muted"
@@ -924,9 +863,9 @@
       "#AEE0CF",
       "#BADAE8",
       "#C4C4C4",
-      "#CDD4BF",
-      "#50737C",
-      "#000000"
+      "#D1C1AD",
+      "#ADCAD1",
+      "#C8D1AD"
     ],
     "mood": "Soft"
   },
@@ -935,10 +874,10 @@
     "description": "A repeating pattern of stylized leaves in varying shades of green and warm ochre. The rhythmic design adds organic texture to any space.",
     "palette": [
       "#78212A",
-      "#FEF5DC",
       "#528998",
-      "#985A52",
+      "#FEF5DC",
       "#CB8084",
+      "#985A52",
       "#6C9441",
       "#E99558",
       "#8FBC85"
@@ -951,8 +890,7 @@
     "palette": [
       "#F2F0BA",
       "#CFCA59",
-      "#010101",
-      "#E4E2AC"
+      "#010101"
     ],
     "mood": "Golden"
   },
@@ -980,9 +918,8 @@
       "#3D7B7B",
       "#FFFFFF",
       "#9D6B53",
-      "#539D9D",
-      "#BFD0B0",
-      "#F5E7E7"
+      "#010101",
+      "#539D9D"
     ],
     "mood": "Modern"
   },
@@ -996,8 +933,7 @@
       "#EDD1B6",
       "#FDBFAA",
       "#D8B06E",
-      "#C19781",
-      "#F8D2B5"
+      "#C19781"
     ],
     "mood": "Radiant"
   },
@@ -1023,10 +959,8 @@
       "#F3BF94",
       "#FFFFFF",
       "#E77C3A",
-      "#D87422",
-      "#EEEEEE",
-      "#292929",
-      "#EE9F69"
+      "#000000",
+      "#D87422"
     ],
     "mood": "Warm"
   },
@@ -1035,11 +969,11 @@
     "description": "Artistic composition featuring circular botanical elements in varying sizes. The pattern creates visual rhythm with organic and geometric harmony.",
     "palette": [
       "#D7D7D7",
+      "#010101",
       "#5588AA",
       "#D58696",
-      "#010101",
       "#C76679",
-      "#7DB1D4",
+      "#639ABF",
       "#FFFFFF",
       "#E9C8CF"
     ],
@@ -1050,12 +984,12 @@
     "description": "An illustration featuring botanical elements enclosed in circular forms. The design combines natural shapes with geometric containers.",
     "palette": [
       "#FFFFFF",
+      "#EEC3DF",
       "#E3E5BD",
       "#E9CBC9",
-      "#EEC3DF",
       "#C7EFC2",
+      "#000000",
       "#CEC9E9",
-      "#E2BDE5",
       "#CCCCCC"
     ],
     "mood": "Geometric"
@@ -1066,11 +1000,11 @@
     "palette": [
       "#D7A8B0",
       "#6F2C37",
-      "#818181",
       "#3B3B68",
+      "#818181",
+      "#7979B4",
       "#A14554",
       "#576331",
-      "#7979B4",
       "#939E70"
     ],
     "mood": "Dotted"
@@ -1084,7 +1018,6 @@
       "#A07E99",
       "#578B50",
       "#B89889",
-      "#E2CFC9",
       "#B6728B"
     ],
     "mood": "Vital"
@@ -1095,12 +1028,7 @@
     "palette": [
       "#FFFFFF",
       "#30633F",
-      "#633530",
-      "#F6F8F6",
-      "#E1E8E3",
-      "#658B70",
-      "#A9BEAF",
-      "#C6D4CA"
+      "#633530"
     ],
     "mood": "Vintage"
   },
@@ -1123,8 +1051,7 @@
     "description": "An abstract illustration featuring a delicate white line drawing of a plant stem with leaves, set against two overlapping brown shapes on a white background. The shapes are rounded and organic, creating a modern and minimalist composition.",
     "palette": [
       "#7A452D",
-      "#FFFFFF",
-      "#FCFBFA"
+      "#FFFFFF"
     ],
     "mood": "Fading"
   },
@@ -1135,11 +1062,7 @@
       "#F2E2CF",
       "#8D612D",
       "#B4854E",
-      "#CAA87F",
-      "#EFDBC5",
-      "#E0CCB1",
-      "#D7BFA2",
-      "#9F784A"
+      "#CAA87F"
     ],
     "mood": "Rich"
   },
@@ -1149,10 +1072,7 @@
     "palette": [
       "#667E5D",
       "#FFFFFF",
-      "#093200",
-      "#274620",
-      "#5F7756",
-      "#4C6445"
+      "#093200"
     ],
     "mood": "Lush"
   },
@@ -1162,12 +1082,10 @@
     "palette": [
       "#E4EFC2",
       "#448A9C",
-      "#FFFFFF",
       "#986943",
+      "#FFFFFF",
       "#9ECFDC",
-      "#CF9C72",
-      "#D8E6EA",
-      "#C9E1BE"
+      "#CF9C72"
     ],
     "mood": "Festive"
   },
@@ -1187,12 +1105,9 @@
     "description": "A stylized botanical illustration featuring a branch with leaves in varying shades of pink and mauve against a beige background. The leaves are outlined in white and have a textured effect with parallel lines. The artwork has a simple, elegant aesthetic.",
     "palette": [
       "#F1D8C1",
-      "#DEABBC",
       "#B7768C",
-      "#FFFFFF",
-      "#FDFAFB",
-      "#F9EFF2",
-      "#C795A6"
+      "#DEABBC",
+      "#FFFFFF"
     ],
     "mood": "Romantic"
   },
@@ -1201,13 +1116,13 @@
     "description": "Illustration featuring leaves with distinctive stripe patterns. The detailed rendering adds visual texture and artistic interest.",
     "palette": [
       "#ECD0BC",
+      "#E0AEC0",
       "#AB6A63",
+      "#698C7C",
+      "#CEA746",
       "#CAAAB7",
-      "#9DD590",
-      "#225615",
-      "#478439",
       "#753E52",
-      "#CEA746"
+      "#AB8763"
     ],
     "mood": "Striped"
   },
@@ -1215,14 +1130,14 @@
     "displayTitle": "The Watcher",
     "description": "A graphic design featuring a stylized eye motif with bold colors. The mysterious design adds a bold artistic statement to any collection.",
     "palette": [
-      "#B49C83",
       "#FFFFFF",
-      "#E0B385",
+      "#C5B09B",
       "#D29F6A",
+      "#E0B385",
       "#C78848",
-      "#D0C2B3",
-      "#307BA6",
-      "#4795C2"
+      "#B49C83",
+      "#AB8F73",
+      "#E5C29E"
     ],
     "mood": "Mysterious"
   },
@@ -1232,12 +1147,12 @@
     "palette": [
       "#F1DBCB",
       "#235725",
-      "#711816",
       "#FFFFFF",
-      "#D88988",
+      "#711816",
       "#A73C39",
+      "#8C2926",
       "#C5605E",
-      "#EEC0BF"
+      "#D88988"
     ],
     "mood": "Exotic"
   },
@@ -1251,8 +1166,7 @@
       "#2F5C6C",
       "#355819",
       "#6C4524",
-      "#FFFFFF",
-      "#9BCFE1"
+      "#FFFFFF"
     ],
     "mood": "Deep"
   },
@@ -1267,7 +1181,7 @@
       "#C8BE92",
       "#91C5A3",
       "#BFC072",
-      "#FFFFFF"
+      "#D6988F"
     ],
     "mood": "Flowing"
   },
@@ -1282,7 +1196,7 @@
       "#52A1D1",
       "#255D7E",
       "#77BBE4",
-      "#31722F"
+      "#DBEBF5"
     ],
     "mood": "Graceful"
   },
@@ -1310,8 +1224,8 @@
       "#CF6520",
       "#E07D3E",
       "#FBC5A2",
-      "#B78666",
-      "#906144"
+      "#010101",
+      "#B78666"
     ],
     "mood": "Vibrant"
   },
@@ -1321,10 +1235,10 @@
     "palette": [
       "#FFFFFF",
       "#F3E5DC",
-      "#F3E2CE",
       "#EBF3DC",
-      "#4A6982",
       "#B25C6F",
+      "#4A6982",
+      "#010101",
       "#B6CCEC",
       "#DFBED0"
     ],
@@ -1339,9 +1253,9 @@
       "#7B7BA7",
       "#474062",
       "#A86187",
-      "#A86F61",
       "#DDA7A7",
-      "#62405C"
+      "#62405C",
+      "#A86F61"
     ],
     "mood": "Serene"
   },
@@ -1355,8 +1269,7 @@
       "#C18597",
       "#BDC185",
       "#DD8C4D",
-      "#ECCBB1",
-      "#FFF9F9"
+      "#ECCBB1"
     ],
     "mood": "Warm"
   },
@@ -1367,11 +1280,7 @@
       "#E9F3C8",
       "#3B7197",
       "#3C908A",
-      "#000000",
-      "#5A88A9",
-      "#DBE4BF",
-      "#33342F",
-      "#AEB39B"
+      "#000000"
     ],
     "mood": "Dotted"
   },
@@ -1381,12 +1290,7 @@
     "palette": [
       "#FFFFFF",
       "#B1777D",
-      "#935359",
-      "#FFF8F8",
-      "#FBF1F1",
-      "#F0E5E6",
-      "#E2CDCF",
-      "#D8BCBF"
+      "#935359"
     ],
     "mood": "Patterned"
   },
@@ -1396,22 +1300,19 @@
     "palette": [
       "#E1AF83",
       "#E77D21",
-      "#623C1B",
-      "#6E411A",
-      "#D7A580"
+      "#623C1B"
     ],
     "mood": "Glowing"
   },
   "abstract-plants-shapes": {
     "palette": [
       "#E1DDE0",
-      "#A0C4A2",
       "#547C89",
+      "#A0C4A2",
       "#AC7974",
       "#A3A783",
       "#96805C",
-      "#DADCD9",
-      "#C4D4C4"
+      "#C4878E"
     ]
   }
 }
