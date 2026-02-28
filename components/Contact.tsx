@@ -245,7 +245,7 @@ export default function Contact() {
                       color: '#2C2C2C'
                     }}
                   >
-                    <option value="">What is this about?</option>
+                    <option value="General Inquiry">General Inquiry</option>
                     <option value="General Inquiry">General Inquiry</option>
                     <option value="Print Purchase">Print Purchase</option>
                     <option value="Collaboration">Collaboration</option>
