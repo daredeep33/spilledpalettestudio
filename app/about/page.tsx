@@ -2,51 +2,63 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'About | Spilled Palette Studio',
-  description: 'Meet Aswathi Bindhu Jawahar, digital artist.',
+  description: 'The story behind Spilled Palette Studio — where art meets healing.',
 }
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen bg-alabaster">
+    <main className="min-h-screen bg-[#FDFBF7]">
       <div className="max-w-3xl mx-auto px-4 py-20">
-        <h1 className="font-serif text-4xl sm:text-5xl text-charcoal mb-8">
-          About the Artist
+        <h1 className="font-serif text-4xl sm:text-5xl text-[#2c3e50] mb-8">
+          Our Story
         </h1>
         
-        <div className="prose prose-lg text-charcoal/80">
-          <p className="text-xl leading-relaxed mb-6">
-            Aswathi Bindhu Jawahar is a digital artist whose work explores the 
-            intersection of color, emotion, and space. Each piece is crafted to 
-            breathe life into the environments they inhabit.
-          </p>
+        <div className="space-y-8 text-[#4a4a4a]">
+          <section>
+            <h2 className="font-serif text-2xl text-[#2c3e50] mb-4">
+              When did you start painting?
+            </h2>
+            <p className="text-lg leading-relaxed">
+              I've loved painting since childhood. It started with pencil drawings — not to be competitive or outstanding, just found happiness in creating. Later, I discovered digital painting on my husband's iPad and a whole new world of art through online artists. I gradually explored acrylics and oil pastels.
+            </p>
+            <p className="text-lg leading-relaxed mt-4">
+              There were breaks along the way — short and long. Recently, I chose to return more intentionally. I don't paint to compete. I paint because it relaxes me, heals me, and brings me joy.
+            </p>
+          </section>
           
-          <p className="mb-6">
-            With over 100 original digital paintings spanning landscapes, 
-            patterns, and expressive portraits, Aswathi&apos;s work has found homes 
-            in nurseries, living rooms, and creative spaces around the world.
-          </p>
+          <section>
+            <h2 className="font-serif text-2xl text-[#2c3e50] mb-4">
+              What inspires me?
+            </h2>
+            <p className="text-lg leading-relaxed">
+              Every artist has a unique signature in their work. Watching others encouraged me to search for my own. One of the most beautiful lessons I've learned: "mistakes" don't truly exist in art. Sometimes the most mesmerizing creations come from imperfection and asymmetry. That beauty in imperfection continues to inspire me.
+            </p>
+          </section>
           
-          <blockquote className="border-l-4 border-terracotta pl-6 italic text-charcoal/70 my-8">
-            &ldquo;Art should not just be seen—it should be felt. Every painting 
-            I create carries a piece of joy, serenity, or wonder that I hope 
-            resonates with its new home.&rdquo;
-          </blockquote>
-          
-          <p>
-            The name &ldquo;Spilled Palette Studio&rdquo; reflects the spontaneous, 
-            colorful nature of the creative process—where moments of inspiration 
-            flow freely onto the digital canvas.
-          </p>
+          <section>
+            <h2 className="font-serif text-2xl text-[#2c3e50] mb-4">
+              My story
+            </h2>
+            <p className="text-lg leading-relaxed">
+              For years, painting and drawing were quiet hobbies — always there, yet unexplored. When social media connected artists worldwide, I began following them and slowly taught myself to nurture my creative side.
+            </p>
+            <p className="text-lg leading-relaxed mt-4">
+              I realized something important: creating art makes me genuinely happy. The therapeutic nature of painting made me fall in love with this universe of colors and patterns.
+            </p>
+            <p className="text-lg leading-relaxed mt-4">
+              That's when I decided to take it to the next level and build something of my own. That's how Spilled Palette Studio was born — sharing that healing joy with others through my work.
+            </p>
+          </section>
         </div>
         
-        <div className="mt-12 pt-8 border-t border-whisper">
-          <h2 className="font-serif text-2xl text-charcoal mb-4">Get in Touch</h2>
-          <p className="text-charcoal/70 mb-4">
+        <div className="mt-16 pt-8 border-t border-[#e8e4dc]">
+          <h2 className="font-serif text-2xl text-[#2c3e50] mb-4">Get in Touch</h2>
+          <p className="text-[#4a4a4a] mb-4">
             Interested in a piece or commissioning custom work?
           </p>
           <a 
             href="mailto:hello@spilledpalettestudio.com"
-            className="text-terracotta hover:underline"
+            className="text-[#c0392b] hover:underline"
           >
             hello@spilledpalettestudio.com
           </a>
