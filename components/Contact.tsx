@@ -246,7 +246,6 @@ export default function Contact() {
                     }}
                   >
                     <option value="General Inquiry">General Inquiry</option>
-                    <option value="General Inquiry">General Inquiry</option>
                     <option value="Print Purchase">Print Purchase</option>
                     <option value="Collaboration">Collaboration</option>
                   </select>
