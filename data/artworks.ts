@@ -1219,21 +1219,6 @@ export const artworks: Artwork[] = [
     "price": 45
   },
   {
-    "id": "abstract-plants-shapes",
-    "title": "Abstract Plants Shapes",
-    "category": "modern",
-    "cloudinaryId": "v1770831307/spilledpalette/artwork/modern/abstract-plants-shapes.tiff",
-    "insituId": "v1770831311/spilledpalette/insitu/modern/modern-abstract-plants-shapes-in-situ.jpg",
-    "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/v1770831307/spilledpalette/artwork/modern/abstract-plants-shapes.tiff",
-    "insituUrl": "https://res.cloudinary.com/dzg9imnjl/image/upload/v1770831311/spilledpalette/insitu/modern/modern-abstract-plants-shapes-in-situ.jpg",
-    "thumb": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_400,q_auto,f_auto/v1770831307/spilledpalette/artwork/modern/abstract-plants-shapes.tiff",
-    "preview": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_800,q_auto,f_auto/v1770831307/spilledpalette/artwork/modern/abstract-plants-shapes.tiff",
-    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831307/spilledpalette/artwork/modern/abstract-plants-shapes.tiff",
-    "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831311/spilledpalette/insitu/modern/modern-abstract-plants-shapes-in-situ.jpg",
-    "aspectRatio": "portrait",
-    "price": 45
-  },
-  {
     "id": "abstract-shapes-plant",
     "title": "Abstract Shapes Plant",
     "category": "modern",
