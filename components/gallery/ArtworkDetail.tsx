@@ -188,7 +188,7 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
 
           {/* Inquire Button */}
           <a
-            href={`/#contact?piece=${artwork?.title || ''}`}
+            href={`/?piece=${encodeURIComponent(artwork?.title || '')}#contact`}
             className="block w-full bg-[#2C2C2C] text-white py-4 rounded-full text-base font-medium hover:bg-[#D4A574] transition-all text-center"
           >
             Inquire About This Piece
