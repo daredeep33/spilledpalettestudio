@@ -3,16 +3,25 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { motion, AnimatePresence } from 'framer-motion'
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
+  const pathname = usePathname()
+  const isHome = pathname === '/'
 
-  const navLinks = [
-    { href: '/', label: 'Gallery' },
-    { href: '/about', label: 'About' },
-    { href: '#contact', label: 'Inquire' },
-  ]
+  const navLinks = isHome
+    ? [
+        { href: '#gallery', label: 'Gallery' },
+        { href: '#about', label: 'About' },
+        { href: '#contact', label: 'Inquire' },
+      ]
+    : [
+        { href: '/#gallery', label: 'Gallery' },
+        { href: '/about', label: 'About' },
+        { href: '/#contact', label: 'Inquire' },
+      ]
 
   return (
     <>

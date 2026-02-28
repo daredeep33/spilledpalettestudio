@@ -13,7 +13,7 @@ export default function AboutPage() {
       <Navigation />
       <div className="max-w-4xl mx-auto px-4 py-20">
         <h1 className="font-serif text-4xl sm:text-5xl text-[#2c3e50] mb-12 text-center">
-          Our Story
+          My Journey
         </h1>
         
         <div className="flex flex-col md:flex-row gap-12 items-start mb-16">
