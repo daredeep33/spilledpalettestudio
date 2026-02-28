@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useSearchParams } from 'react'
 import { Instagram, Mail, Send } from 'lucide-react'
 
 export default function Contact() {
@@ -14,8 +14,20 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false)
   const [submitting, setSubmitting] = useState(false)
 
+  const [searchParams] = useSearchParams()
+  
   useEffect(() => {
-    // Check for artwork inquiry from session storage
+    // Check for artwork inquiry from URL params
+    const artworkFromUrl = searchParams.get('piece')
+    if (artworkFromUrl) {
+      setFormData(prev => ({
+        ...prev,
+        artworkInquiry: 'Print Purchase',
+        message: `I'm interested in "${artworkFromUrl}". `
+      }))
+    }
+    
+    // Also check session storage
     const artwork = sessionStorage.getItem('inquiryArtwork')
     if (artwork) {
       setFormData(prev => ({
@@ -25,7 +37,7 @@ export default function Contact() {
       }))
       sessionStorage.removeItem('inquiryArtwork')
     }
-  }, [])
+  })
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
