@@ -68,7 +68,7 @@ export default function AboutPage() {
           </p>
           <a 
             href="mailto:hello@spilledpalettestudio.com"
-            className="text-[#c0392b] hover:underline"
+            className="text-[#8B2510] hover:underline"
           >
             hello@spilledpalettestudio.com
           </a>
