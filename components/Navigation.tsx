@@ -9,19 +9,12 @@ import { motion, AnimatePresence } from 'framer-motion'
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
   const pathname = usePathname()
-  const isHome = pathname === '/'
 
-  const navLinks = isHome
-    ? [
-        { href: '#gallery', label: 'Gallery' },
-        { href: '#about', label: 'About' },
-        { href: '#contact', label: 'Inquire' },
-      ]
-    : [
-        { href: '/#gallery', label: 'Gallery' },
-        { href: '/about', label: 'About' },
-        { href: '/#contact', label: 'Inquire' },
-      ]
+  const navLinks = [
+    { href: '/', label: 'Home' },
+    { href: '/about', label: 'About' },
+    { href: '/#contact', label: 'Inquire' },
+  ]
 
   return (
     <>
@@ -46,13 +39,13 @@ export default function Navigation() {
             {/* Desktop Nav */}
             <div className="hidden md:flex space-x-8">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.href}
                   href={link.href}
                   className="text-[#2C2C2C]/70 hover:text-[#D4A574] transition-colors text-sm font-medium"
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
             </div>
 
@@ -82,14 +75,14 @@ export default function Navigation() {
             >
               <div className="px-4 py-4 space-y-3">
                 {navLinks.map((link) => (
-                  <a
+                  <Link
                     key={link.href}
                     href={link.href}
                     onClick={() => setIsOpen(false)}
                     className="block py-2 text-[#2C2C2C] text-lg font-medium"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 ))}
               </div>
             </motion.div>
