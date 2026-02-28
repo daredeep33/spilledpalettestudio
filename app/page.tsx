@@ -43,6 +43,7 @@ function Footer() {
               <li><a href="#contact" className="text-[#FDFBF7]/60 hover:text-[#E8C9A0] text-sm">Inquire</a></li>
             </ul>
           </div>
+        </div>
 
         {/* Social & Copyright */}
         <div className="pt-8 border-t border-[#FDFBF7]/10 flex flex-col sm:flex-row justify-between items-center gap-4">
