@@ -185,6 +185,18 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
               })()}
             </div>
           )}
+
+          {/* Inquire Button */}
+          <a
+            href={`/#contact?piece=${artwork?.title || ''}`}
+            className="block w-full bg-[#2C2C2C] text-white py-4 rounded-full text-base font-medium hover:bg-[#D4A574] transition-all text-center"
+          >
+            Inquire About This Piece
+          </a>
+
+          <p className="text-center mt-3 text-xs text-[#2C2C2C]/50 italic">
+            No commitment required. We aim to respond within 24 hours.
+          </p>
         </div>
       </div>
 

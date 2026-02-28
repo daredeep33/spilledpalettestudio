@@ -280,8 +280,11 @@ export default function Contact() {
                     fontFamily: "'Lora', serif"
                   }}
                 >
-                  {submitting ? 'Sending...' : 'Inquire About Artwork'}
+                  {submitting ? 'Sending...' : 'Request Pricing'}
                 </button>
+                <p className="text-center mt-3 text-xs text-[#2C2C2C]/50 italic">
+                  No commitment required. We aim to respond within 24 hours.
+                </p>
               </form>
             )}
           </motion.div>
