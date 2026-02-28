@@ -33,10 +33,7 @@ export default function AboutPage() {
                 When did you start painting?
               </h2>
               <p className="text-lg leading-relaxed">
-                I've loved painting since childhood. It started with pencil drawings — not to be competitive or outstanding, just found happiness in creating. Later, I discovered digital painting on my husband's iPad and a whole new world of art through online artists. I gradually explored acrylics and oil pastels.
-              </p>
-              <p className="text-lg leading-relaxed mt-4">
-                There were breaks along the way — short and long. Recently, I chose to return more intentionally. I don't paint to compete. I paint because it relaxes me, heals me, and brings me joy.
+                I have loved painting since childhood. I started with pencil drawings — I was never competitive, outstanding, or trying to be the best. I simply found happiness in creating. Later, I began digital painting on my husband's iPad and discovered a whole new world of art through digital tools and online artists. Gradually, I started exploring other mediums like acrylics and oil pastels. Although this journey has lasted several years, it hasn't been continuous. There were short and long breaks along the way. Recently, I chose to step back into this magical world more intentionally. I don't paint to compete — I paint because it relaxes me, heals me, and brings me joy.
               </p>
             </section>
           </div>
@@ -48,7 +45,7 @@ export default function AboutPage() {
               What inspires me?
             </h2>
             <p className="text-lg leading-relaxed">
-              Every artist has a unique signature in their work. Watching others encouraged me to search for my own. One of the most beautiful lessons I've learned: "mistakes" don't truly exist in art. Sometimes the most mesmerizing creations come from imperfection and asymmetry. That beauty in imperfection continues to inspire me.
+              I have been inspired by many artists, both online and offline. What fascinates me most is that every artist has a unique signature in their work. Watching them encouraged me to search for my own artistic identity. One of the most beautiful lessons I learned from this journey is that "mistakes" don't truly exist in art. Sometimes, the most mesmerizing creations come from imperfection and asymmetry. That beauty in imperfection continues to inspire my work.
             </p>
           </section>
           
@@ -57,13 +54,7 @@ export default function AboutPage() {
               My story
             </h2>
             <p className="text-lg leading-relaxed">
-              For years, painting and drawing were quiet hobbies — always there, yet unexplored. When social media connected artists worldwide, I began following them and slowly taught myself to nurture my creative side.
-            </p>
-            <p className="text-lg leading-relaxed mt-4">
-              I realized something important: creating art makes me genuinely happy. The therapeutic nature of painting made me fall in love with this universe of colors and patterns.
-            </p>
-            <p className="text-lg leading-relaxed mt-4">
-              That's when I decided to take it to the next level and build something of my own. That's how Spilled Palette Studio was born — sharing that healing joy with others through my work.
+              For many years, painting and drawing were hobbies that quietly stayed with me, yet remained unexplored. When social media opened doors for artists around the world, I began following them and slowly taught myself how to nurture my creative side. During this process, I realized something important — creating art made me genuinely happy. The therapeutic and healing nature of painting made me fall in love with this universe of colors and patterns. That's when I decided to take it to the next level and build something of my own. And that is how Spilled Palette Studio was born.
             </p>
           </section>
         </div>
