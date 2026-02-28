@@ -194,9 +194,7 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
             Inquire About This Piece
           </a>
 
-          <p className="text-center mt-3 text-xs text-[#2C2C2C]/50 italic">
-            No commitment required. We aim to respond within 24 hours.
-          </p>
+          
         </div>
       </div>
 
