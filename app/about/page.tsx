@@ -35,7 +35,7 @@ export default function AboutPage() {
                 How It Began
               </h2>
               <p className="text-lg leading-relaxed">
-                I have loved painting since childhood. I started with pencil drawings — I was never competitive, outstanding, or trying to be the best. I simply found happiness in creating. Later, I began digital painting on my husband's iPad and discovered a whole new world of art through digital tools and online artists. Gradually, I started exploring other mediums like acrylics and oil pastels. Although this journey has lasted several years, it hasn't been continuous. There were short and long breaks along the way. Recently, I chose to step back into this magical world more intentionally. I don't paint to compete — I paint because it relaxes me, heals me, and brings me joy.
+                I have loved drawing since childhood. Starting with simple pencil sketches, I was never trying to be competitive or the best — I simply found happiness in creating. My artistic world completely opened up when I borrowed my husband's iPad and discovered digital painting. I slowly taught myself new techniques by following artists online, and eventually began exploring physical mediums like acrylics and oil pastels alongside my digital work.
               </p>
             </section>
           </div>
@@ -44,19 +44,19 @@ export default function AboutPage() {
         <div className="space-y-8 text-[#4a4a4a]">
           <section>
             <h2 className="font-serif text-2xl text-[#2c3e50] mb-4">
-              What inspires me?
+              What Inspires Me
             </h2>
             <p className="text-lg leading-relaxed">
-              I have been inspired by many artists, both online and offline. What fascinates me most is that every artist has a unique signature in their work. Watching them encouraged me to search for my own artistic identity. One of the most beautiful lessons I learned from this journey is that "mistakes" don't truly exist in art. Sometimes, the most mesmerizing creations come from imperfection and asymmetry. That beauty in imperfection continues to inspire my work.
+              I am endlessly fascinated by how every artist develops a unique signature. Watching others encouraged me to search for my own artistic identity. One of the most beautiful lessons I've learned on this journey is that "mistakes" don't truly exist in art. Sometimes, the most mesmerizing creations come from asymmetry and the unexpected. That beauty in imperfection is what continues to inspire my work today.
             </p>
           </section>
           
           <section>
             <h2 className="font-serif text-2xl text-[#2c3e50] mb-4">
-              My story
+              The Studio
             </h2>
             <p className="text-lg leading-relaxed">
-              For many years, painting and drawing were hobbies that quietly stayed with me, yet remained unexplored. When social media opened doors for artists around the world, I began following them and slowly taught myself how to nurture my creative side. During this process, I realized something important — creating art made me genuinely happy. The therapeutic and healing nature of painting made me fall in love with this universe of colors and patterns. That's when I decided to take it to the next level and build something of my own. And that is how Spilled Palette Studio was born.
+              For many years, painting remained a quiet hobby — something I picked up and put down as life got busy. But recently, I chose to step back into this colorful universe more intentionally. I realized that the therapeutic, healing nature of painting is what makes me genuinely happy. I decided to take that joy to the next level and build something of my own. That is how Spilled Palette Studio was born.
             </p>
           </section>
         </div>
