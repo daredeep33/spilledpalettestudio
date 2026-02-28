@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import Navigation from '../../components/Navigation'
 
 export const metadata: Metadata = {
   title: 'About | Spilled Palette Studio',
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-[#FDFBF7]">
+      <Navigation />
       <div className="max-w-4xl mx-auto px-4 py-20">
         <h1 className="font-serif text-4xl sm:text-5xl text-[#2c3e50] mb-12 text-center">
           Our Story
