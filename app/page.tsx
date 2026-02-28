@@ -38,26 +38,17 @@ function Footer() {
           <div>
             <h4 className="font-medium text-sm uppercase tracking-wider mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><a href="#gallery" className="text-[#FDFBF7]/60 hover:text-[#D4A574] text-sm">Gallery</a></li>
-              <li><a href="#about" className="text-[#FDFBF7]/60 hover:text-[#D4A574] text-sm">About Artist</a></li>
-              <li><a href="#contact" className="text-[#FDFBF7]/60 hover:text-[#D4A574] text-sm">Inquire</a></li>
+              <li><a href="#gallery" className="text-[#FDFBF7]/60 hover:text-[#E8C9A0] text-sm">Gallery</a></li>
+              <li><a href="#about" className="text-[#FDFBF7]/60 hover:text-[#E8C9A0] text-sm">About Artist</a></li>
+              <li><a href="#contact" className="text-[#FDFBF7]/60 hover:text-[#E8C9A0] text-sm">Inquire</a></li>
             </ul>
           </div>
-
-          {/* Support */}
-          <div>
-            <h4 className="font-medium text-sm uppercase tracking-wider mb-4">Support</h4>
-            <div className="flex flex-wrap items-center gap-2 text-sm">
-              <a href="#" className="text-[#FDFBF7]/60 hover:text-[#D4A574]">FAQ</a>
-            </div>
-          </div>
-        </div>
 
         {/* Social & Copyright */}
         <div className="pt-8 border-t border-[#FDFBF7]/10 flex flex-col sm:flex-row justify-between items-center gap-4">
           <div className="flex space-x-6">
-            <a href="https://www.instagram.com/thespilledpalettestudio" target="_blank" rel="noopener noreferrer" className="text-[#FDFBF7]/60 hover:text-[#D4A574] text-sm">Instagram</a>
-            <a href="mailto:hello@spilledpalettestudio.com" className="text-[#FDFBF7]/60 hover:text-[#D4A574] text-sm">Email</a>
+            <a href="https://www.instagram.com/thespilledpalettestudio" target="_blank" rel="noopener noreferrer" className="text-[#FDFBF7]/60 hover:text-[#E8C9A0] text-sm">Instagram</a>
+            <a href="mailto:hello@spilledpalettestudio.com" className="text-[#FDFBF7]/60 hover:text-[#E8C9A0] text-sm">Email</a>
           </div>
           <p className="text-[#FDFBF7]/40 text-sm">© 2026 Spilled Palette Studio. All rights reserved.</p>
         </div>
