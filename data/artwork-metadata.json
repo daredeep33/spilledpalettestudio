@@ -349,10 +349,14 @@
     "displayTitle": "Make a Wish",
     "description": "A delicate illustration featuring three dandelion seed heads with thin black lines, contrasted against pastel watercolor circles in pink, blue, and green. Several seeds drift away from the central flower.",
     "palette": [
+      "#000000",
       "#FFFFFF",
       "#F7EAE5",
       "#D5E3E9",
-      "#EDF7E5"
+      "#EDF7E5",
+      "#EBF2E6",
+      "#F2E6EA",
+      "#D6E3E9"
     ],
     "mood": "Delicate"
   },
@@ -625,7 +629,7 @@
       "#518844",
       "#B9D6B3",
       "#80AE75",
-      "#CBE2C6",
+      "#E18D70",
       "#FFFFFF"
     ],
     "mood": "Lush"
@@ -705,7 +709,14 @@
     "displayTitle": "Teal Towers",
     "description": "An abstract digital artwork featuring a stylized white floral design overlaid on a background of vertical stripes in shades of teal and brown, creating a textured and patterned effect.",
     "palette": [
-      "#FFFFFF"
+      "#FFFFFF",
+      "#D7E2E7",
+      "#BFD1D9",
+      "#B2967E",
+      "#B0C6D0",
+      "#7FA3B3",
+      "#A68569",
+      "#7098AA"
     ],
     "mood": "Architectural"
   },
@@ -774,7 +785,7 @@
       "#FFFFFF",
       "#FFEAD7",
       "#48A88E",
-      "#ACC18A",
+      "#B1D971",
       "#CADDAC",
       "#62A767",
       "#78B596",
@@ -1133,11 +1144,11 @@
       "#FFFFFF",
       "#C5B09B",
       "#D29F6A",
+      "#080808",
       "#E0B385",
       "#C78848",
       "#B49C83",
-      "#AB8F73",
-      "#E5C29E"
+      "#AB8F73"
     ],
     "mood": "Mysterious"
   },
