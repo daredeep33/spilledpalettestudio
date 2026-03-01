@@ -140,7 +140,7 @@ export default function Contact() {
                 </a>
 
                 <a 
-                  href="https://instagram.com/thespilledpalettestudio"
+                  href="https://www.instagram.com/spilledpalettestudio"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 group transition-all"

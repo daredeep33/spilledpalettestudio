@@ -55,7 +55,7 @@ export default function RootLayout({
       "email": "hello@spilledpalettestudio.com"
     },
     "sameAs": [
-      "https://instagram.com/thespilledpalettestudio"
+      "https://www.instagram.com/spilledpalettestudio"
     ],
     "priceRange": "$$"
   }
