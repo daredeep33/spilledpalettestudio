@@ -156,8 +156,7 @@
       "insitu": {
         "filename": "botanical-circle-branches-pattern-in-situ.png",
         "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830778/spilledpalette/insitu/botanical/botanical-circle-branches-pattern-in-situ.png"
-      },
-      "artistPick": true
+      }
     },
     {
       "id": "13",
@@ -235,7 +234,8 @@
       "insitu": {
         "filename": "botanical-minimalist-branch-lines-in-situ.png",
         "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830825/spilledpalette/insitu/botanical/botanical-minimalist-branch-lines-in-situ.png"
-      }
+      },
+      "artistPick": true
     },
     {
       "id": "19",
@@ -326,8 +326,7 @@
       "insitu": {
         "filename": "dopamine-floral-butterfly-artwork-in-situ.png",
         "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830888/spilledpalette/insitu/dopamine/dopamine-floral-butterfly-artwork-in-situ.png"
-      },
-      "artistPick": true
+      }
     },
     {
       "id": "27",
@@ -340,7 +339,8 @@
       "insitu": {
         "filename": "dopamine-floral-happiness-design-in-situ.png",
         "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830898/spilledpalette/insitu/dopamine/dopamine-floral-happiness-design-in-situ.png"
-      }
+      },
+      "artistPick": true
     },
     {
       "id": "28",
@@ -366,8 +366,7 @@
       "insitu": {
         "filename": "dreamers-dandelion-pastel-circles-in-situ.png",
         "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830915/spilledpalette/insitu/dreamers/dreamers-dandelion-pastel-circles-in-situ.png"
-      },
-      "artistPick": true
+      }
     },
     {
       "id": "30",
@@ -445,8 +444,7 @@
       "insitu": {
         "filename": "floral-abstract-floral-design-7-in-situ.jpeg",
         "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770830957/spilledpalette/insitu/floral/floral-abstract-floral-design-7-in-situ.jpg"
-      },
-      "artistPick": true
+      }
     },
     {
       "id": "36",
@@ -667,7 +665,8 @@
       "insitu": {
         "filename": "floral-floral-pattern-art-in-situ.jpeg",
         "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831087/spilledpalette/insitu/floral/floral-floral-pattern-art-in-situ.jpg"
-      }
+      },
+      "artistPick": true
     },
     {
       "id": "53",
@@ -824,7 +823,8 @@
       "insitu": {
         "filename": "leaf-abstract-leaves-artwork-in-situ.jpeg",
         "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831177/spilledpalette/insitu/leaf/leaf-abstract-leaves-artwork-in-situ.jpg"
-      }
+      },
+      "artistPick": true
     },
     {
       "id": "65",
@@ -902,7 +902,8 @@
       "insitu": {
         "filename": "leaf-brown-leaves-illustration-in-situ.jpeg",
         "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831221/spilledpalette/insitu/leaf/leaf-brown-leaves-illustration-in-situ.jpg"
-      }
+      },
+      "artistPick": true
     },
     {
       "id": "71",
@@ -1046,6 +1047,20 @@
         "filename": "modern-abstract-floral-shapes-in-situ.jpeg",
         "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831304/spilledpalette/insitu/modern/modern-abstract-floral-shapes-in-situ.jpg"
       }
+    },
+    {
+      "id": "82",
+      "category": "modern",
+      "title": "abstract-plants-shapes",
+      "artwork": {
+        "filename": "abstract-plants-shapes.tiff",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831307/spilledpalette/artwork/modern/abstract-plants-shapes.tiff"
+      },
+      "insitu": {
+        "filename": "modern-abstract-plants-shapes-in-situ.jpeg",
+        "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831311/spilledpalette/insitu/modern/modern-abstract-plants-shapes-in-situ.jpg"
+      }
+    },
     {
       "id": "83",
       "category": "modern",
@@ -1292,8 +1307,7 @@
       "insitu": {
         "filename": "sanctuary-willow-tree-landscape-in-situ.jpeg",
         "url": "http://res.cloudinary.com/dzg9imnjl/image/upload/v1770831446/spilledpalette/insitu/sanctuary/sanctuary-willow-tree-landscape-in-situ.jpg"
-      },
-      "artistPick": true
+      }
     }
   ],
   "stats": {
