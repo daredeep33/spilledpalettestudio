@@ -127,7 +127,8 @@
     "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/spilledpalette/abstract-foliage-art",
     "thumb": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_400,q_auto,f_auto/spilledpalette/abstract-foliage-art",
     "preview": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_800,q_auto,f_auto/spilledpalette/abstract-foliage-art",
-    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/spilledpalette/abstract-foliage-art"
+    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/spilledpalette/abstract-foliage-art",
+    "artistPick": true
   },
   {
     "id": "abstract-leaf-artwork",
@@ -177,7 +178,8 @@
     "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/spilledpalette/abstract-leaves-artwork",
     "thumb": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_400,q_auto,f_auto/spilledpalette/abstract-leaves-artwork",
     "preview": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_800,q_auto,f_auto/spilledpalette/abstract-leaves-artwork",
-    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/spilledpalette/abstract-leaves-artwork"
+    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/spilledpalette/abstract-leaves-artwork",
+    "artistPick": true
   },
   {
     "id": "abstract-leaves-neutral",
@@ -427,7 +429,8 @@
     "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/spilledpalette/brown-leaves-illustration",
     "thumb": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_400,q_auto,f_auto/spilledpalette/brown-leaves-illustration",
     "preview": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_800,q_auto,f_auto/spilledpalette/brown-leaves-illustration",
-    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/spilledpalette/brown-leaves-illustration"
+    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/spilledpalette/brown-leaves-illustration",
+    "artistPick": true
   },
   {
     "id": "dandelion-flower-design",
@@ -717,7 +720,8 @@
     "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/spilledpalette/floral-happiness-design",
     "thumb": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_400,q_auto,f_auto/spilledpalette/floral-happiness-design",
     "preview": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_800,q_auto,f_auto/spilledpalette/floral-happiness-design",
-    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/spilledpalette/floral-happiness-design"
+    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/spilledpalette/floral-happiness-design",
+    "artistPick": true
   },
   {
     "id": "abstract-botanical-rainbow",
@@ -937,7 +941,8 @@
     "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/spilledpalette/minimalist-branch-lines",
     "thumb": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_400,q_auto,f_auto/spilledpalette/minimalist-branch-lines",
     "preview": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_800,q_auto,f_auto/spilledpalette/minimalist-branch-lines",
-    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/spilledpalette/minimalist-branch-lines"
+    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/spilledpalette/minimalist-branch-lines",
+    "artistPick": true
   },
   {
     "id": "minimalist-flower-art",
@@ -1077,7 +1082,8 @@
     "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/spilledpalette/botanical-art-sunburst",
     "thumb": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_400,q_auto,f_auto/spilledpalette/botanical-art-sunburst",
     "preview": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_800,q_auto,f_auto/spilledpalette/botanical-art-sunburst",
-    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/spilledpalette/botanical-art-sunburst"
+    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/spilledpalette/botanical-art-sunburst",
+    "artistPick": true
   },
   {
     "id": "geometric-floral-design",
@@ -1277,7 +1283,8 @@
     "url": "https://res.cloudinary.com/dzg9imnjl/image/upload/spilledpalette/floral-pattern-art",
     "thumb": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_400,q_auto,f_auto/spilledpalette/floral-pattern-art",
     "preview": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_800,q_auto,f_auto/spilledpalette/floral-pattern-art",
-    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/spilledpalette/floral-pattern-art"
+    "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/spilledpalette/floral-pattern-art",
+    "artistPick": true
   },
   {
     "id": "floral-vine-pattern-1",
