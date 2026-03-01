@@ -283,7 +283,6 @@ export const artworks: Artwork[] = [
     "aspectRatio": "portrait",
     "price": 45,
     "artistPick": true,
-    artistPick: true,
   },
   {
     "id": "palm-branch-shapes",
@@ -405,7 +404,6 @@ export const artworks: Artwork[] = [
     "aspectRatio": "portrait",
     "price": 45,
     "artistPick": true,
-    artistPick: true,
   },
   {
     "id": "teal-rainbow-art",
@@ -782,7 +780,6 @@ export const artworks: Artwork[] = [
     "aspectRatio": "portrait",
     "price": 45,
     "artistPick": true,
-    artistPick: true,
   },
   {
     "id": "floral-watercolor-abstract",
@@ -874,7 +871,6 @@ export const artworks: Artwork[] = [
     "aspectRatio": "portrait",
     "price": 45,
     "artistPick": true,
-    artistPick: true,
   },
   {
     "id": "abstract-foliage-pattern",
@@ -966,7 +962,6 @@ export const artworks: Artwork[] = [
     "aspectRatio": "portrait",
     "price": 45,
     "artistPick": true,
-    artistPick: true,
   },
   {
     "id": "abstract-leaves-neutral",
@@ -1058,7 +1053,6 @@ export const artworks: Artwork[] = [
     "aspectRatio": "portrait",
     "price": 45,
     "artistPick": true,
-    artistPick: true,
   },
   {
     "id": "green-foliage-illustration",
@@ -1420,7 +1414,6 @@ export const artworks: Artwork[] = [
     "aspectRatio": "portrait",
     "price": 45,
     "artistPick": true,
-    artistPick: true,
   },
   {
     "id": "botanical-sun-abstract",
