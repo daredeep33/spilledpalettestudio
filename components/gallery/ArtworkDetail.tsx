@@ -186,30 +186,15 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
             </div>
           )}
 
-          <div className="bg-[#E8E4DF]/30 p-6 rounded-2xl mb-8 border border-[#E8E4DF]">
-            <h3 className="font-serif text-lg mb-4 text-[#2C2C2C]">Collector's Quality</h3>
-            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-[#2C2C2C]/70">
-              <li className="flex items-center gap-2">
-                <span className="text-[#D4A574]">✓</span> Museum-grade Archival Canvas
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-[#D4A574]">✓</span> Fade-resistant Giclée Print
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-[#D4A574]">✓</span> Handcrafted Digital Details
-              </li>
-              <li className="flex items-center gap-2">
-                <span className="text-[#D4A574]">✓</span> Ready for Framing
-              </li>
-            </ul>
-          </div>
+          {/* Inquire Button */}
+          <a
+            href={`/?piece=${encodeURIComponent(artwork?.title || '')}#contact`}
+            className="block w-full bg-[#2C2C2C] text-white py-4 rounded-full text-base font-medium hover:bg-[#D4A574] transition-all text-center"
+          >
+            Inquire About This Piece
+          </a>
 
-          <button className="w-full bg-[#D4A574] text-white py-4 rounded-full text-base font-medium hover:bg-[#2C2C2C] transition-all shadow-lg active:scale-[0.98]">
-            Buy Physical Print (16×20″) — ${artwork.price}
-          </button>
-          <p className="text-center mt-3 text-xs text-[#2C2C2C]/40 uppercase tracking-widest">
-            Ships Worldwide • Museum-Quality Printing
-          </p>
+          
         </div>
       </div>
 

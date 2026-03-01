@@ -190,7 +190,7 @@ export default function Gallery({ onInquire, limit, showAllLink }: GalleryProps)
           <h2 className="font-serif text-4xl sm:text-5xl text-[#2C2C2C] mb-4">
             The <span className="italic">Collection</span>
           </h2>
-          <p className="text-[#2C2C2C]/60 text-lg max-w-xl mx-auto">
+          <p className="text-[#555555] text-lg max-w-xl mx-auto">
             {artworks.length} original artworks, each with its own story
           </p>
           {artistPicksCount > 0 && (
@@ -248,10 +248,10 @@ export default function Gallery({ onInquire, limit, showAllLink }: GalleryProps)
         )}
 
         <div className="text-center mt-12">
-          <p className="text-[#2C2C2C]/50 text-sm">
+          <p className="text-[#666666] text-sm">
             Showing {filteredArtworks.length} of {artworks.length} artworks
           </p>
-          <p className="text-[#2C2C2C]/40 text-xs mt-2">
+          <p className="text-[#777777] text-xs mt-2">
             Click any piece to see its story
           </p>
         </div>

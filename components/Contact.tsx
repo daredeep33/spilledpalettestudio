@@ -14,8 +14,20 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false)
   const [submitting, setSubmitting] = useState(false)
 
+  
   useEffect(() => {
-    // Check for artwork inquiry from session storage
+    // Check for artwork inquiry from URL params
+    const params = new URLSearchParams(window.location.search)
+    const artworkFromUrl = params.get('piece')
+    if (artworkFromUrl) {
+      setFormData(prev => ({
+        ...prev,
+        artworkInquiry: 'Print Purchase',
+        message: `I'm interested in "${artworkFromUrl}". `
+      }))
+    }
+    
+    // Also check session storage
     const artwork = sessionStorage.getItem('inquiryArtwork')
     if (artwork) {
       setFormData(prev => ({
@@ -25,7 +37,7 @@ export default function Contact() {
       }))
       sessionStorage.removeItem('inquiryArtwork')
     }
-  }, [])
+  })
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -245,7 +257,6 @@ export default function Contact() {
                       color: '#2C2C2C'
                     }}
                   >
-                    <option value="">What is this about?</option>
                     <option value="General Inquiry">General Inquiry</option>
                     <option value="Print Purchase">Print Purchase</option>
                     <option value="Collaboration">Collaboration</option>
@@ -280,8 +291,9 @@ export default function Contact() {
                     fontFamily: "'Lora', serif"
                   }}
                 >
-                  {submitting ? 'Sending...' : 'Inquire About Artwork'}
+                  {submitting ? 'Sending...' : 'Submit'}
                 </button>
+                
               </form>
             )}
           </motion.div>
