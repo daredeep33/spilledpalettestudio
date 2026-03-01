@@ -281,7 +281,8 @@ export const artworks: Artwork[] = [
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830820/spilledpalette/artwork/botanical/minimalist-branch-lines.tiff",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830825/spilledpalette/insitu/botanical/botanical-minimalist-branch-lines-in-situ.png",
     "aspectRatio": "portrait",
-    "price": 45
+    "price": 45,
+    "artistPick": true,
     artistPick: true,
   },
   {
@@ -402,7 +403,8 @@ export const artworks: Artwork[] = [
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830892/spilledpalette/artwork/dopamine/floral-happiness-design.tiff",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830898/spilledpalette/insitu/dopamine/dopamine-floral-happiness-design-in-situ.png",
     "aspectRatio": "portrait",
-    "price": 45
+    "price": 45,
+    "artistPick": true,
     artistPick: true,
   },
   {
@@ -778,7 +780,8 @@ export const artworks: Artwork[] = [
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831084/spilledpalette/artwork/floral/floral-pattern-art.tiff",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831087/spilledpalette/insitu/floral/floral-floral-pattern-art-in-situ.jpg",
     "aspectRatio": "portrait",
-    "price": 45
+    "price": 45,
+    "artistPick": true,
     artistPick: true,
   },
   {
@@ -869,7 +872,8 @@ export const artworks: Artwork[] = [
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831126/spilledpalette/artwork/leaf/abstract-foliage-art.tiff",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831130/spilledpalette/insitu/leaf/leaf-abstract-foliage-art-in-situ.jpg",
     "aspectRatio": "portrait",
-    "price": 45
+    "price": 45,
+    "artistPick": true,
     artistPick: true,
   },
   {
@@ -960,7 +964,8 @@ export const artworks: Artwork[] = [
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831174/spilledpalette/artwork/leaf/abstract-leaves-artwork.tiff",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831177/spilledpalette/insitu/leaf/leaf-abstract-leaves-artwork-in-situ.jpg",
     "aspectRatio": "portrait",
-    "price": 45
+    "price": 45,
+    "artistPick": true,
     artistPick: true,
   },
   {
@@ -1051,7 +1056,8 @@ export const artworks: Artwork[] = [
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831217/spilledpalette/artwork/leaf/brown-leaves-illustration.tiff",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831221/spilledpalette/insitu/leaf/leaf-brown-leaves-illustration-in-situ.jpg",
     "aspectRatio": "portrait",
-    "price": 45
+    "price": 45,
+    "artistPick": true,
     artistPick: true,
   },
   {
@@ -1412,7 +1418,8 @@ export const artworks: Artwork[] = [
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831398/spilledpalette/artwork/sanctuary/botanical-art-sunburst.tiff",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831402/spilledpalette/insitu/sanctuary/sanctuary-botanical-art-sunburst-in-situ.jpg",
     "aspectRatio": "portrait",
-    "price": 45
+    "price": 45,
+    "artistPick": true,
     artistPick: true,
   },
   {
