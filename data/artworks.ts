@@ -191,8 +191,7 @@ export const artworks: Artwork[] = [
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830774/spilledpalette/artwork/botanical/circle-branches-pattern.tiff",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830778/spilledpalette/insitu/botanical/botanical-circle-branches-pattern-in-situ.png",
     "aspectRatio": "portrait",
-    "price": 45,
-    "artistPick": true
+    "price": 45
   },
   {
     "id": "colorful-leaf-branch",
@@ -283,6 +282,7 @@ export const artworks: Artwork[] = [
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830825/spilledpalette/insitu/botanical/botanical-minimalist-branch-lines-in-situ.png",
     "aspectRatio": "portrait",
     "price": 45
+    artistPick: true,
   },
   {
     "id": "palm-branch-shapes",
@@ -387,8 +387,7 @@ export const artworks: Artwork[] = [
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830885/spilledpalette/artwork/dopamine/floral-butterfly-artwork.tiff",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830888/spilledpalette/insitu/dopamine/dopamine-floral-butterfly-artwork-in-situ.png",
     "aspectRatio": "portrait",
-    "price": 45,
-    "artistPick": true
+    "price": 45
   },
   {
     "id": "floral-happiness-design",
@@ -404,6 +403,7 @@ export const artworks: Artwork[] = [
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830898/spilledpalette/insitu/dopamine/dopamine-floral-happiness-design-in-situ.png",
     "aspectRatio": "portrait",
     "price": 45
+    artistPick: true,
   },
   {
     "id": "teal-rainbow-art",
@@ -433,8 +433,7 @@ export const artworks: Artwork[] = [
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830911/spilledpalette/artwork/dreamers/dandelion-pastel-circles.tiff",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830915/spilledpalette/insitu/dreamers/dreamers-dandelion-pastel-circles-in-situ.png",
     "aspectRatio": "portrait",
-    "price": 45,
-    "artistPick": true
+    "price": 45
   },
   {
     "id": "pastel-circle-pattern",
@@ -524,8 +523,7 @@ export const artworks: Artwork[] = [
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830952/spilledpalette/artwork/floral/abstract-floral-design-7.tiff",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770830957/spilledpalette/insitu/floral/floral-abstract-floral-design-7-in-situ.jpg",
     "aspectRatio": "portrait",
-    "price": 45,
-    "artistPick": true
+    "price": 45
   },
   {
     "id": "abstract-floral-design-8",
@@ -781,6 +779,7 @@ export const artworks: Artwork[] = [
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831087/spilledpalette/insitu/floral/floral-floral-pattern-art-in-situ.jpg",
     "aspectRatio": "portrait",
     "price": 45
+    artistPick: true,
   },
   {
     "id": "floral-watercolor-abstract",
@@ -870,8 +869,8 @@ export const artworks: Artwork[] = [
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831126/spilledpalette/artwork/leaf/abstract-foliage-art.tiff",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831130/spilledpalette/insitu/leaf/leaf-abstract-foliage-art-in-situ.jpg",
     "aspectRatio": "portrait",
-    "price": 45,
-    "artistPick": true
+    "price": 45
+    artistPick: true,
   },
   {
     "id": "abstract-foliage-pattern",
@@ -962,6 +961,7 @@ export const artworks: Artwork[] = [
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831177/spilledpalette/insitu/leaf/leaf-abstract-leaves-artwork-in-situ.jpg",
     "aspectRatio": "portrait",
     "price": 45
+    artistPick: true,
   },
   {
     "id": "abstract-leaves-neutral",
@@ -1052,6 +1052,7 @@ export const artworks: Artwork[] = [
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831221/spilledpalette/insitu/leaf/leaf-brown-leaves-illustration-in-situ.jpg",
     "aspectRatio": "portrait",
     "price": 45
+    artistPick: true,
   },
   {
     "id": "green-foliage-illustration",
@@ -1411,8 +1412,8 @@ export const artworks: Artwork[] = [
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831398/spilledpalette/artwork/sanctuary/botanical-art-sunburst.tiff",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831402/spilledpalette/insitu/sanctuary/sanctuary-botanical-art-sunburst-in-situ.jpg",
     "aspectRatio": "portrait",
-    "price": 45,
-    "artistPick": true
+    "price": 45
+    artistPick: true,
   },
   {
     "id": "botanical-sun-abstract",
@@ -1502,7 +1503,6 @@ export const artworks: Artwork[] = [
     "full": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831443/spilledpalette/artwork/sanctuary/willow-tree-landscape.tiff",
     "insituFull": "https://res.cloudinary.com/dzg9imnjl/image/upload/w_1600,q_auto,f_auto/v1770831446/spilledpalette/insitu/sanctuary/sanctuary-willow-tree-landscape-in-situ.jpg",
     "aspectRatio": "portrait",
-    "price": 45,
-    "artistPick": true
+    "price": 45
   }
 ]
