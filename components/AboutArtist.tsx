@@ -2,11 +2,9 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import { useState } from 'react'
+import Link from 'next/link'
 
 export default function AboutArtist() {
-  const [expanded, setExpanded] = useState(false)
-
   return (
     <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-[#2C2C2C] text-[#FDFBF7]">
       <div className="max-w-6xl mx-auto">
@@ -37,41 +35,25 @@ export default function AboutArtist() {
             <p className="text-[#D4A574] text-sm uppercase tracking-[0.2em] mb-4">
               About the Artist
             </p>
-            
+
             <h2 className="font-serif text-4xl sm:text-5xl mb-6 text-[#D4A574]">
               Aswathi Bindhu Jawahar
             </h2>
 
             <div className="space-y-4 text-[#FDFBF7]/80 leading-relaxed">
               <p>
-                Welcome to Spilled Palette Studio, where digital art meets timeless elegance. 
-                I create handcrafted digital paintings designed to transform your space into 
+                Welcome to Spilled Palette Studio, where digital art meets timeless elegance.
+                I create handcrafted digital paintings designed to transform your space into
                 a sanctuary of color, calm, and creative energy.
               </p>
-              
-              {/* Expanded content */}
-              <div className={`space-y-4 ${expanded ? 'block' : 'hidden'}`}>
-                <p>
-                  Each piece in my collection is thoughtfully crafted to bring warmth and 
-                  personality to your home. From serene botanical studies to vibrant abstract 
-                  compositions, my work celebrates the beauty of imperfection and the joy of 
-                  artistic expression.
-                </p>
 
-                <p>
-                  Whether you are an art collector, interior designer, or simply someone 
-                  who appreciates beauty, I invite you to explore my collection and find 
-                  the perfect piece for your space.
-                </p>
-              </div>
-
-              {/* Read more button */}
-              <button 
-                onClick={() => setExpanded(!expanded)}
-                className="text-[#D4A574] underline underline-offset-4 text-sm hover:text-[#FDFBF7] transition-colors"
+              {/* Read more link */}
+              <Link
+                href="/about"
+                className="inline-block mt-4 text-[#D4A574] border-b border-[#D4A574] pb-1 text-sm hover:text-[#FDFBF7] hover:border-[#FDFBF7] transition-all"
               >
-                {expanded ? 'Show less' : 'Read my full story'}
-              </button>
+                Read my full story &rarr;
+              </Link>
             </div>
 
             {/* Stats - stacked vertically on mobile, horizontal on desktop */}
@@ -83,10 +65,6 @@ export default function AboutArtist() {
               <div className="text-center sm:text-left">
                 <p className="text-4xl sm:text-5xl font-serif text-[#D4A574]">9</p>
                 <p className="text-sm text-[#FDFBF7]/60">Collections</p>
-              </div>
-              <div className="text-center sm:text-left">
-                <p className="text-4xl sm:text-5xl font-serif text-[#D4A574]">Worldwide</p>
-                <p className="text-sm text-[#FDFBF7]/60">Shipping</p>
               </div>
             </div>
           </motion.div>

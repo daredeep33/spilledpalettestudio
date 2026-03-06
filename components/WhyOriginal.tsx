@@ -19,8 +19,8 @@ export default function WhyOriginal() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       ),
-      title: "Investment Value",
-      description: "Original art appreciates over time. Limited pieces from emerging artists can become valuable collectibles."
+      title: "Tactile Process",
+      description: "My digital paintings are hand-drawn strokes carefully crafted on a tablet, capturing true emotion."
     },
     {
       icon: (
@@ -37,8 +37,8 @@ export default function WhyOriginal() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
         </svg>
       ),
-      title: "Support Artists",
-      description: "Buying original directly supports creative work and helps artists continue their craft."
+      title: "Healing Power",
+      description: "Art serves as therapy. These elements bring a deep sense of peace to an otherwise chaotic world."
     }
   ]
 
@@ -55,7 +55,7 @@ export default function WhyOriginal() {
             Why Original Art?
           </p>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl text-[#2C2C2C] mb-4 sm:mb-6">
-            Own a <span className="italic text-[#D4A574]">Masterpiece</span>
+            Beyond the <span className="italic text-[#D4A574]">Canvas</span>
           </h2>
           <p className="text-[#2C2C2C]/60 text-base sm:text-lg max-w-2xl mx-auto hidden sm:block">
             In a world of mass-produced decor, original art brings authenticity and meaning to your space.

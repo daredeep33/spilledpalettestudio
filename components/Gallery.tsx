@@ -19,8 +19,8 @@ function ArtworkCard({ artwork, onInquire, isMobile }: { artwork: Artwork; onInq
   const artMeta = (metadata as any)[artwork.id]
   const displayTitle = artMeta?.displayTitle || artwork.title
 
-  // On mobile, show artwork by default; tap to toggle
-  const showArtwork = isMobile ? isTapped : isHovered
+  // On mobile, show artwork by default; tap to toggle 'in room' view
+  const showArtwork = isMobile ? !isTapped : isHovered
 
   const handleInquire = () => {
     if (onInquire) {
@@ -46,7 +46,7 @@ function ArtworkCard({ artwork, onInquire, isMobile }: { artwork: Artwork; onInq
         onMouseLeave={() => setIsHovered(false)}
         onClick={() => isMobile && setIsTapped(!isTapped)}
       >
-        <div 
+        <div
           className="relative w-full rounded-xl overflow-hidden bg-[#E8E4DF] select-none"
           onContextMenu={(e) => e.preventDefault()}
           onDragStart={(e) => e.preventDefault()}
@@ -60,7 +60,7 @@ function ArtworkCard({ artwork, onInquire, isMobile }: { artwork: Artwork; onInq
 
           {/* In-Situ Image - Default View */}
           <motion.div
-            animate={{ 
+            animate={{
               opacity: showArtwork ? 0 : 1
             }}
             transition={{ duration: 0.4 }}
@@ -80,7 +80,7 @@ function ArtworkCard({ artwork, onInquire, isMobile }: { artwork: Artwork; onInq
           {/* Artwork Image - Hover/Tap View */}
           <motion.div
             initial={{ opacity: 0 }}
-            animate={{ 
+            animate={{
               opacity: showArtwork ? 1 : 0
             }}
             transition={{ duration: 0.4 }}
@@ -107,7 +107,7 @@ function ArtworkCard({ artwork, onInquire, isMobile }: { artwork: Artwork; onInq
               filter: 'contrast(3)',
             }}
           >
-            <h3 
+            <h3
               className="text-white font-serif text-lg mb-1"
               style={{
                 textShadow: `
@@ -119,23 +119,28 @@ function ArtworkCard({ artwork, onInquire, isMobile }: { artwork: Artwork; onInq
                 `
               }}
             >{displayTitle}</h3>
-            <p 
+            <p
               className="text-white/90 text-sm capitalize"
               style={{
                 textShadow: `
                   0 0 20px rgba(255,255,255,0.8),
                   0 0 40px rgba(255,255,255,0.5),
                   1px 1px 2px rgba(0,0,0,0.8),
-                  2px 2px 4px rgba(0,0,0,0.6)
                 `
               }}
             >{artwork.category}</p>
+            {isMobile && (
+              <p className="text-white/90 text-xs mt-2 italic tracking-wide font-medium"
+                style={{ textShadow: `1px 1px 2px rgba(0,0,0,0.8)` }}>
+                ⤢ Tap to view {isTapped ? 'artwork' : 'in room'}
+              </p>
+            )}
           </motion.div>
 
           {/* Removed hover hint - tapping is innate behavior */}
         </div>
       </motion.div>
-    </Link>
+    </Link >
   )
 }
 
@@ -160,11 +165,9 @@ export default function Gallery({ onInquire, limit, showAllLink }: GalleryProps)
     }
   }, []);
 
-  // Sort: Artist's Picks first, then all others
+  // Use natural order so Artist's Picks are dispersed naturally throughout the gallery
   const sortedArtworks = useMemo(() => {
-    const picks = artworks.filter(a => a.artistPick)
-    const others = artworks.filter(a => !a.artistPick)
-    return [...picks, ...others]
+    return artworks
   }, [])
 
   const filteredArtworks = useMemo(() => {
@@ -211,11 +214,10 @@ export default function Gallery({ onInquire, limit, showAllLink }: GalleryProps)
             <button
               key={cat.id}
               onClick={() => setActiveCategory(cat.id)}
-              className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                activeCategory === cat.id
-                  ? 'bg-[#2C2C2C] text-[#FDFBF7]'
-                  : 'bg-[#E8E4DF] text-[#2C2C2C] hover:bg-[#D4A574] hover:text-white'
-              }`}
+              className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${activeCategory === cat.id
+                ? 'bg-[#2C2C2C] text-[#FDFBF7]'
+                : 'bg-[#E8E4DF] text-[#2C2C2C] hover:bg-[#D4A574] hover:text-white'
+                }`}
             >
               {cat.label}
             </button>

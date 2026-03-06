@@ -14,7 +14,7 @@ export default function Contact() {
   const [submitted, setSubmitted] = useState(false)
   const [submitting, setSubmitting] = useState(false)
 
-  
+
   useEffect(() => {
     // Check for artwork inquiry from URL params
     const params = new URLSearchParams(window.location.search)
@@ -26,7 +26,7 @@ export default function Contact() {
         message: `I'm interested in "${artworkFromUrl}". `
       }))
     }
-    
+
     // Also check session storage
     const artwork = sessionStorage.getItem('inquiryArtwork')
     if (artwork) {
@@ -37,15 +37,15 @@ export default function Contact() {
       }))
       sessionStorage.removeItem('inquiryArtwork')
     }
-  })
+  }, [])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setSubmitting(true)
-    
+
     const form = e.target as HTMLFormElement
     const formData = new FormData(form)
-    
+
     try {
       const response = await fetch('https://formspree.io/f/xnqelnjr', {
         method: 'POST',
@@ -54,7 +54,7 @@ export default function Contact() {
           'Accept': 'application/json'
         }
       })
-      
+
       if (response.ok) {
         setSubmitted(true)
         setFormData({ name: '', email: '', artworkInquiry: '', message: '' })
@@ -83,9 +83,9 @@ export default function Contact() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 
+          <h2
             className="mb-3"
-            style={{ 
+            style={{
               fontFamily: "'Cormorant Garamond', serif",
               fontSize: '3rem',
               fontWeight: 300,
@@ -107,9 +107,9 @@ export default function Contact() {
             className="space-y-8"
           >
             <div>
-              <h3 
+              <h3
                 className="mb-6"
-                style={{ 
+                style={{
                   fontFamily: "'Lora', serif",
                   fontSize: '1.25rem',
                   fontWeight: 500,
@@ -118,20 +118,20 @@ export default function Contact() {
               >
                 Contact Information
               </h3>
-              
+
               <div className="space-y-4">
-                <a 
+                <a
                   href="mailto:hello@spilledpalettestudio.com"
                   className="flex items-center gap-3 group transition-all"
                   style={{ color: '#5C5C5C' }}
                 >
-                  <div 
+                  <div
                     className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 transition-colors"
                     style={{ backgroundColor: '#F5EFE7' }}
                   >
                     <Mail className="w-5 h-5 group-hover:opacity-70 transition-opacity" style={{ color: '#D4A574' }} />
                   </div>
-                  <span 
+                  <span
                     className="group-hover:opacity-70 transition-opacity leading-none"
                     style={{ fontFamily: "'Lora', serif" }}
                   >
@@ -139,33 +139,33 @@ export default function Contact() {
                   </span>
                 </a>
 
-                <a 
+                <a
                   href="https://www.instagram.com/spilledpalettestudio"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 group transition-all"
                   style={{ color: '#5C5C5C' }}
                 >
-                  <div 
+                  <div
                     className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 transition-colors"
                     style={{ backgroundColor: '#F5EFE7' }}
                   >
                     <Instagram className="w-5 h-5 group-hover:opacity-70 transition-opacity" style={{ color: '#D4A574' }} />
                   </div>
-                  <span 
+                  <span
                     className="group-hover:opacity-70 transition-opacity leading-none"
                     style={{ fontFamily: "'Lora', serif" }}
                   >
-                    @thespilledpalettestudio
+                    @spilledpalettestudio
                   </span>
                 </a>
               </div>
             </div>
 
             <div className="pt-8">
-              <p 
+              <p
                 className="leading-relaxed"
-                style={{ 
+                style={{
                   fontFamily: "'Lora', serif",
                   color: '#5C5C5C',
                   fontSize: '0.95rem'
@@ -217,7 +217,7 @@ export default function Contact() {
                     value={formData.name}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg border transition-all outline-none focus:ring-2"
-                    style={{ 
+                    style={{
                       backgroundColor: '#FFFFFF',
                       border: '1px solid #CCCCCC',
                       fontFamily: "'Lora', serif",
@@ -235,7 +235,7 @@ export default function Contact() {
                     value={formData.email}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg border transition-all outline-none focus:ring-2"
-                    style={{ 
+                    style={{
                       backgroundColor: '#FFFFFF',
                       border: '1px solid #CCCCCC',
                       fontFamily: "'Lora', serif",
@@ -250,7 +250,7 @@ export default function Contact() {
                     value={formData.artworkInquiry}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg border transition-all outline-none focus:ring-2"
-                    style={{ 
+                    style={{
                       backgroundColor: '#FFFFFF',
                       border: '1px solid #CCCCCC',
                       fontFamily: "'Lora', serif",
@@ -258,7 +258,6 @@ export default function Contact() {
                     }}
                   >
                     <option value="General Inquiry">General Inquiry</option>
-                    <option value="Print Purchase">Print Purchase</option>
                     <option value="Collaboration">Collaboration</option>
                   </select>
                 </div>
@@ -272,7 +271,7 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     className="w-full px-4 py-3 rounded-lg border transition-all outline-none focus:ring-2 resize-none"
-                    style={{ 
+                    style={{
                       backgroundColor: '#FFFFFF',
                       border: '1px solid #CCCCCC',
                       fontFamily: "'Lora', serif",
@@ -285,7 +284,7 @@ export default function Contact() {
                   type="submit"
                   disabled={submitting}
                   className="w-full py-3 px-6 rounded-full font-medium transition-all hover:opacity-90 disabled:opacity-50"
-                  style={{ 
+                  style={{
                     backgroundColor: '#2C2C2C',
                     color: '#FFFFFF',
                     fontFamily: "'Lora', serif"
@@ -293,7 +292,7 @@ export default function Contact() {
                 >
                   {submitting ? 'Sending...' : 'Submit'}
                 </button>
-                
+
               </form>
             )}
           </motion.div>

@@ -12,7 +12,7 @@ export default function Navigation() {
 
   const navLinks = [
     { href: '/', label: 'Home' },
-    { href: '/#gallery', label: 'Collection' },
+    { href: '/gallery', label: 'Collection' },
     { href: '/about', label: 'About' },
     { href: '/#contact', label: 'Inquire' },
   ]

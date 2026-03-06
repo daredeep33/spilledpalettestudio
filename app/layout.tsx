@@ -29,6 +29,9 @@ export const metadata: Metadata = {
   },
 }
 
+import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
+
 export default function RootLayout({
   children,
 }: {
@@ -71,8 +74,12 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
       </head>
-      <body className="font-sans antialiased text-[#4a4a4a] leading-relaxed">
-        {children}
+      <body className="font-sans antialiased text-[#4a4a4a] leading-relaxed flex flex-col min-h-screen">
+        <Navigation />
+        <div className="flex-grow">
+          {children}
+        </div>
+        <Footer />
       </body>
     </html>
   )
