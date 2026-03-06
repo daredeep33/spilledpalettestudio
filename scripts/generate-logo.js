@@ -1,7 +1,7 @@
 const https = require('https');
 const fs = require('fs');
 
-const API_KEY = 'AIzaSyAOhavZn3Hne0Yt2-0qsfUDhrI8GzETSuA';
+const API_KEY = process.env.GEMINI_API_KEY || '';
 
 // Generate Logo
 const logoPrompt = `Design an elegant logo for "Spilled Palette Studio" - an art gallery website. 
@@ -48,7 +48,7 @@ function generateImage(prompt, filename) {
       res.on('end', () => {
         try {
           const response = JSON.parse(body);
-          
+
           if (response.candidates && response.candidates[0].content.parts) {
             const parts = response.candidates[0].content.parts;
             parts.forEach((part) => {
@@ -75,10 +75,10 @@ function generateImage(prompt, filename) {
 async function main() {
   console.log('Generating logo...');
   await generateImage(logoPrompt, '/Users/deepakdinesh/Projects/spilledpalette/public/logo.png');
-  
+
   console.log('Generating favicon...');
   await generateImage(faviconPrompt, '/Users/deepakdinesh/Projects/spilledpalette/public/favicon.png');
-  
+
   console.log('\nDone!');
 }
 

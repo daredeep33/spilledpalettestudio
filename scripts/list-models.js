@@ -1,6 +1,6 @@
 const https = require('https');
 
-const API_KEY = 'AIzaSyAOhavZn3Hne0Yt2-0qsfUDhrI8GzETSuA';
+const API_KEY = process.env.GEMINI_API_KEY || '';
 
 const options = {
   hostname: 'generativelanguage.googleapis.com',

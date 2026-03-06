@@ -1,6 +1,6 @@
 const https = require('https');
 
-const API_KEY = 'AIzaSyAOhavZn3Hne0Yt2-0qsfUDhrI8GzETSuA';
+const API_KEY = process.env.GEMINI_API_KEY || '';
 
 const data = JSON.stringify({
   contents: [{
@@ -31,7 +31,7 @@ const req = https.request(options, (res) => {
     try {
       const response = JSON.parse(body);
       console.log('Response:', JSON.stringify(response, null, 2));
-      
+
       // Check if image was generated
       if (response.candidates && response.candidates[0].content.parts) {
         const parts = response.candidates[0].content.parts;
@@ -40,7 +40,7 @@ const req = https.request(options, (res) => {
             console.log(`\n✅ IMAGE GENERATED (part ${i})`);
             console.log(`MIME Type: ${part.inlineData.mimeType}`);
             console.log(`Data length: ${part.inlineData.data.length} chars`);
-            
+
             // Save image
             const fs = require('fs');
             const buffer = Buffer.from(part.inlineData.data, 'base64');
