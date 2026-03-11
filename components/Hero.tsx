@@ -12,7 +12,7 @@ export default function Hero() {
         <div className="absolute inset-0 opacity-[0.06] flex gap-4 md:gap-8 justify-center items-center -rotate-[4deg] scale-[1.15]">
           {[0, 1, 2, 3].map((colIndex) => (
             <div key={colIndex} className={`flex flex-col gap-4 md:gap-8 ${colIndex % 2 === 0 ? '-mt-20' : 'mt-20'}`}>
-              {artworks.slice(colIndex * 3, (colIndex + 1) * 3).map((artwork) => (
+              {artworks.slice(colIndex * 3, (colIndex + 1) * 3).map((artwork, idx) => (
                 <div key={artwork.id} className="relative w-40 h-56 sm:w-64 sm:h-80 rounded-xl overflow-hidden shadow-2xl shrink-0 bg-[#E8E4DF]">
                   <Image
                     src={artwork.full}
@@ -20,6 +20,7 @@ export default function Hero() {
                     fill
                     className="object-cover"
                     unoptimized
+                    priority={colIndex < 2 && idx < 2}
                   />
                 </div>
               ))}

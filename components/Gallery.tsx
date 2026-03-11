@@ -13,9 +13,10 @@ interface GalleryProps {
   showAllLink?: boolean;
 }
 
-function ArtworkCard({ artwork, onInquire, isMobile }: { artwork: Artwork; onInquire?: (artwork: Artwork) => void; isMobile?: boolean }) {
+function ArtworkCard({ artwork, onInquire, isMobile, priority = false }: { artwork: Artwork; onInquire?: (artwork: Artwork) => void; isMobile?: boolean; priority?: boolean }) {
   const [isHovered, setIsHovered] = useState(false)
   const [isTapped, setIsTapped] = useState(false)
+  const [isLoaded, setIsLoaded] = useState(false)
   const artMeta = (metadata as any)[artwork.id]
   const displayTitle = artMeta?.displayTitle || artwork.title
 
@@ -35,7 +36,7 @@ function ArtworkCard({ artwork, onInquire, isMobile }: { artwork: Artwork; onInq
   }
 
   return (
-    <Link href={`/gallery/${artwork.id}`}>
+    <Link href={`/gallery/${artwork.id}`} className="focus-visible:outline-none focus-[&>div]:ring-2 focus-[&>div]:ring-[#D4A574] focus-[&>div]:rounded-xl">
       <motion.div
         layout
         initial={{ opacity: 0 }}
@@ -47,7 +48,7 @@ function ArtworkCard({ artwork, onInquire, isMobile }: { artwork: Artwork; onInq
         onClick={() => isMobile && setIsTapped(!isTapped)}
       >
         <div
-          className="relative w-full rounded-xl overflow-hidden bg-[#E8E4DF] select-none"
+          className={`relative w-full rounded-xl overflow-hidden bg-[#E8E4DF] select-none transition-all ${!isLoaded ? 'animate-pulse' : ''}`}
           onContextMenu={(e) => e.preventDefault()}
           onDragStart={(e) => e.preventDefault()}
         >
@@ -71,8 +72,10 @@ function ArtworkCard({ artwork, onInquire, isMobile }: { artwork: Artwork; onInq
               alt={`${displayTitle} in room setting`}
               width={400}
               height={300}
-              className="w-full h-auto object-cover"
+              className={`w-full h-auto object-cover transition-opacity duration-500 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              priority={priority}
+              onLoad={() => setIsLoaded(true)}
               unoptimized
             />
           </motion.div>
@@ -91,7 +94,7 @@ function ArtworkCard({ artwork, onInquire, isMobile }: { artwork: Artwork; onInq
               alt={displayTitle}
               width={400}
               height={300}
-              className="w-full h-auto object-cover"
+              className={`w-full h-auto object-cover transition-opacity duration-500 ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
               unoptimized
             />
@@ -214,7 +217,7 @@ export default function Gallery({ onInquire, limit, showAllLink }: GalleryProps)
             <button
               key={cat.id}
               onClick={() => setActiveCategory(cat.id)}
-              className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${activeCategory === cat.id
+              className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 focus-visible:ring-2 focus-visible:ring-[#D4A574] focus-visible:outline-none ${activeCategory === cat.id
                 ? 'bg-[#2C2C2C] text-[#FDFBF7]'
                 : 'bg-[#E8E4DF] text-[#2C2C2C] hover:bg-[#D4A574] hover:text-white'
                 }`}
@@ -226,8 +229,8 @@ export default function Gallery({ onInquire, limit, showAllLink }: GalleryProps)
 
         <div className="columns-1 sm:columns-2 lg:columns-3 gap-6" style={{ columnFill: 'balance' }}>
           <AnimatePresence mode="popLayout">
-            {filteredArtworks.map((artwork) => (
-              <ArtworkCard key={artwork.id} artwork={artwork} onInquire={onInquire} isMobile={isMobile} />
+            {filteredArtworks.map((artwork, idx) => (
+              <ArtworkCard key={artwork.id} artwork={artwork} onInquire={onInquire} isMobile={isMobile} priority={idx < 6} />
             ))}
           </AnimatePresence>
         </div>

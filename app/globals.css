@@ -4,7 +4,7 @@
 
 /* --- HEADINGS (The "Art" Voice) --- */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: var(--font-cormorant), serif;
   font-weight: 500;
   color: #2c3e50;
 }
@@ -16,14 +16,14 @@ h2 {
 
 /* --- BODY TEXT (The "Calm" Voice) --- */
 body, p, li, input, textarea {
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--font-opensans), sans-serif;
   line-height: 1.7;
   color: #4a4a4a;
 }
 
 /* --- NAVIGATION (The "Utility" Voice) --- */
 nav a, .nav-link {
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--font-opensans), sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: 600;
@@ -49,4 +49,5 @@ img {
     line-height: 1.5;
   }
 }
+/* Smooth scrolling is handled via tailwind class in layout.tsx but kept here as fallback */
 html { scroll-behavior: smooth; }
