@@ -1,19 +1,32 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { motion, useScroll, useTransform } from 'framer-motion'
 import Image from 'next/image'
 import { artworks } from '@/data/artworks'
 
 export default function Hero() {
+  const { scrollY } = useScroll()
+  const y1 = useTransform(scrollY, [0, 1000], [0, -150])
+  const y2 = useTransform(scrollY, [0, 1000], [0, 150])
+
   return (
     <section className="min-h-screen flex flex-col items-center justify-center pt-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       {/* Artwork Background Mosaic */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
         <div className="absolute inset-0 opacity-[0.06] flex gap-4 md:gap-8 justify-center items-center -rotate-[4deg] scale-[1.15]">
           {[0, 1, 2, 3].map((colIndex) => (
-            <div key={colIndex} className={`flex flex-col gap-4 md:gap-8 ${colIndex % 2 === 0 ? '-mt-20' : 'mt-20'}`}>
+            <motion.div 
+              key={colIndex} 
+              style={{ y: colIndex % 2 === 0 ? y1 : y2 }}
+              className={`flex flex-col gap-4 md:gap-8 ${colIndex % 2 === 0 ? '-mt-20' : 'mt-20'}`}
+            >
               {artworks.slice(colIndex * 3, (colIndex + 1) * 3).map((artwork, idx) => (
-                <div key={artwork.id} className="relative w-40 h-56 sm:w-64 sm:h-80 rounded-xl overflow-hidden shadow-2xl shrink-0 bg-[#E8E4DF]">
+                <motion.div 
+                  key={artwork.id} 
+                  whileHover={{ scale: 1.05, rotateZ: colIndex % 2 === 0 ? 2 : -2 }}
+                  transition={{ type: "spring", stiffness: 300, damping: 20 }}
+                  className="relative w-40 h-56 sm:w-64 sm:h-80 rounded-xl overflow-hidden shadow-2xl shrink-0 bg-[#E8E4DF] cursor-crosshair"
+                >
                   <Image
                     src={artwork.full}
                     alt=""
@@ -22,9 +35,9 @@ export default function Hero() {
                     unoptimized
                     priority={colIndex < 2 && idx < 2}
                   />
-                </div>
+                </motion.div>
               ))}
-            </div>
+            </motion.div>
           ))}
         </div>
         {/* Gradient overlays to ensure text readability */}

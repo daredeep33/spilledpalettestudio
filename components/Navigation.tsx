@@ -20,8 +20,11 @@ export default function Navigation() {
   return (
     <>
       {/* Sticky Navigation */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FDFBF7]/90 backdrop-blur-md border-b border-[#E8E4DF]/50">
-        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#FDFBF7]/80 backdrop-blur-xl border-b border-[#E8E4DF]/50 shadow-[0_4px_30px_rgba(0,0,0,0.03)]">
+        {/* Noise Texture Layer */}
+        <div className="absolute inset-0 opacity-[0.04] pointer-events-none bg-noise mix-blend-overlay rounded-b-xl" />
+        
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 relative z-10">
           <div className="flex justify-between items-center h-12 sm:h-16">
             {/* Logo */}
             <Link 
@@ -83,12 +86,14 @@ export default function Navigation() {
         <AnimatePresence>
           {isOpen && (
             <motion.div
-              initial={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: 'auto' }}
-              exit={{ opacity: 0, height: 0 }}
-              className="md:hidden bg-[#FDFBF7]/95 backdrop-blur-md border-t border-[#E8E4DF]"
+              initial={{ opacity: 0, height: 0, filter: 'blur(10px)' }}
+              animate={{ opacity: 1, height: 'auto', filter: 'blur(0px)' }}
+              exit={{ opacity: 0, height: 0, filter: 'blur(10px)' }}
+              className="md:hidden bg-[#FDFBF7]/90 backdrop-blur-2xl border-t border-[#E8E4DF] relative"
             >
-              <div className="px-4 py-4 space-y-3">
+              {/* Noise Texture Layer Mobile Menu */}
+              <div className="absolute inset-0 opacity-[0.04] pointer-events-none bg-noise mix-blend-overlay" />
+              <div className="px-4 py-4 space-y-3 relative z-10">
                 {navLinks.map((link) => {
                   const isActive = link.href === '/' 
                     ? pathname === '/' 

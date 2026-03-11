@@ -39,16 +39,18 @@ function ArtworkCard({ artwork, onInquire, isMobile, priority = false }: { artwo
     <Link href={`/gallery/${artwork.id}`} className="focus-visible:outline-none focus-[&>div]:ring-2 focus-[&>div]:ring-[#D4A574] focus-[&>div]:rounded-xl">
       <motion.div
         layout
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, scale: 0.9 }}
+        whileHover={{ scale: 1.02, y: -8 }}
+        transition={{ type: "spring", stiffness: 300, damping: 25 }}
         className="relative mb-6 break-inside-avoid group cursor-pointer"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         onClick={() => isMobile && setIsTapped(!isTapped)}
       >
         <div
-          className={`relative w-full rounded-xl overflow-hidden bg-[#E8E4DF] select-none transition-all ${!isLoaded ? 'animate-pulse' : ''}`}
+          className={`relative w-full rounded-xl overflow-hidden bg-[#E8E4DF] select-none transition-all duration-500 hover:shadow-[0_20px_40px_rgba(212,165,116,0.15)] ${!isLoaded ? 'animate-pulse' : 'shadow-xl'}`}
           onContextMenu={(e) => e.preventDefault()}
           onDragStart={(e) => e.preventDefault()}
         >

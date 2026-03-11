@@ -45,7 +45,23 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
   };
 
   return (
-    <>
+    <div className="relative z-10">
+      {/* Immersive Theming Background Blobs */}
+      {artMeta?.palette && artMeta.palette.length >= 2 && (
+        <div className="fixed inset-0 pointer-events-none z-[-1] overflow-hidden mix-blend-multiply opacity-30 transition-opacity duration-1000">
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 2, ease: "easeOut" }}
+            className="absolute top-[-10%] left-[-10%] w-[60vw] h-[60vw] rounded-full blur-[120px]"
+            style={{ backgroundColor: artMeta.palette[0] }}
+          />
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 2, delay: 0.5, ease: "easeOut" }}
+            className="absolute bottom-[-10%] right-[-10%] w-[70vw] h-[70vw] rounded-full blur-[140px]"
+            style={{ backgroundColor: artMeta.palette[1] }}
+          />
+        </div>
+      )}
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
         {/* Visuals - With Toggle */}
         <div className="space-y-4">
@@ -260,6 +276,6 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
           </motion.div>
         )}
       </AnimatePresence>
-    </>
+    </div>
   );
 }
