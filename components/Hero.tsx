@@ -71,7 +71,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="font-serif text-6xl sm:text-7xl lg:text-8xl text-[#2C2C2C] leading-[1.05] mb-6"
+          className="font-serif text-6xl sm:text-7xl lg:text-8xl text-[#2C2C2C] leading-[1.05] mb-4"
         >
           Aswathi
           <br />
@@ -79,6 +79,16 @@ export default function Hero() {
           <br />
           Jawahar
         </motion.h1>
+
+        {/* Secondary SEO Heading */}
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.35 }}
+          className="font-serif text-2xl sm:text-3xl text-[#D4A574] mb-6 italic"
+        >
+          Contemporary Botanical Artwork
+        </motion.h2>
 
         {/* Description */}
         <motion.p
