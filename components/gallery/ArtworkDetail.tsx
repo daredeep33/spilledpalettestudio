@@ -195,22 +195,22 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
                 });
                 
                 return (
-                  <div className="flex flex-wrap gap-3">
+                  <div className="flex flex-nowrap overflow-x-auto pb-6 pt-2 -mx-4 px-4 sm:mx-0 sm:px-0 gap-0 scrollbar-hide snap-x">
                     {sortedPalette.map((color: string, index: number) => (
                       <div 
                         key={color} 
-                        className="group relative flex flex-col items-center"
+                        className="group relative flex flex-col items-center flex-shrink-0 snap-start"
                         style={{ 
-                          marginLeft: index > 0 ? '-20px' : '0',
+                          marginLeft: index > 0 ? '-16px' : '0',
                           zIndex: sortedPalette.length - index
                         }}
                       >
                         <motion.div 
                           whileHover={{ scale: 1.15, zIndex: 10 }}
-                          className="w-16 h-16 rounded-full border-3 border-white shadow-lg transition-all"
+                          className="w-14 h-14 sm:w-16 sm:h-16 rounded-full border-[3px] border-[#FDFBF7] shadow-lg transition-all"
                           style={{ backgroundColor: color.toLowerCase() }}
                         />
-                        <span className="mt-3 text-[10px] uppercase tracking-wider text-[#2C2C2C]/60 font-medium">
+                        <span className="mt-3 text-[9px] sm:text-[10px] uppercase tracking-wider text-[#2C2C2C]/60 font-medium">
                           {color}
                         </span>
                       </div>
