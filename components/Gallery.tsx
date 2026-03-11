@@ -42,9 +42,9 @@ function ArtworkCard({ artwork, onInquire, isMobile, priority = false }: { artwo
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, scale: 0.9 }}
-        whileHover={{ scale: 1.02, y: -8 }}
+        whileHover={{ scale: 1.02, y: -8, zIndex: 10 }}
         transition={{ type: "spring", stiffness: 300, damping: 25 }}
-        className="relative mb-6 break-inside-avoid group cursor-pointer"
+        className="relative mb-6 break-inside-avoid cursor-pointer group/card sm:group-hover/gallery:opacity-40 sm:group-hover/gallery:blur-[2px] sm:hover:!opacity-100 sm:hover:!blur-none transition-all duration-700 snap-center scroll-m-24"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         onClick={() => isMobile && setIsTapped(!isTapped)}
@@ -229,7 +229,7 @@ export default function Gallery({ onInquire, limit, showAllLink }: GalleryProps)
           ))}
         </motion.div>
 
-        <div className="columns-1 sm:columns-2 lg:columns-3 gap-6" style={{ columnFill: 'balance' }}>
+        <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 group/gallery sm:max-w-none snap-y snap-mandatory sm:snap-none" style={{ columnFill: 'balance' }}>
           <AnimatePresence mode="popLayout">
             {filteredArtworks.map((artwork, idx) => (
               <ArtworkCard key={artwork.id} artwork={artwork} onInquire={onInquire} isMobile={isMobile} priority={idx < 6} />

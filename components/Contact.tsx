@@ -41,6 +41,12 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    
+    // Micro-haptic feedback on button press (single tiny tick)
+    if (typeof navigator !== 'undefined' && navigator.vibrate) {
+      navigator.vibrate(5);
+    }
+    
     setSubmitting(true)
 
     const form = e.target as HTMLFormElement
@@ -56,6 +62,10 @@ export default function Contact() {
       })
 
       if (response.ok) {
+        // Premium success micro-haptic pattern (tick-tick)
+        if (typeof navigator !== 'undefined' && navigator.vibrate) {
+          navigator.vibrate([10, 30, 10]);
+        }
         setSubmitted(true)
         setFormData({ name: '', email: '', artworkInquiry: '', message: '' })
       }

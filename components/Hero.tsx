@@ -71,38 +71,44 @@ export default function Hero() {
         </motion.div>
 
         {/* Tagline */}
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-[#D4A574] text-sm uppercase tracking-[0.3em] mb-6"
-        >
-          Original Artwork by
-        </motion.p>
+        <div className="overflow-hidden mb-6 mt-4">
+          <motion.p
+            initial={{ y: "100%" }}
+            animate={{ y: 0 }}
+            transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+            className="text-[#D4A574] text-sm uppercase tracking-[0.3em]"
+          >
+            Original Artwork by
+          </motion.p>
+        </div>
 
         {/* Artist Name */}
-        <motion.h1
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          className="font-serif text-6xl sm:text-7xl lg:text-8xl text-[#2C2C2C] leading-[1.05] mb-4"
-        >
-          Aswathi
-          <br />
-          Bindhu
-          <br />
-          Jawahar
-        </motion.h1>
+        <div className="overflow-hidden mb-4">
+          <motion.h1
+            initial={{ y: "110%" }}
+            animate={{ y: 0 }}
+            transition={{ duration: 1.2, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+            className="font-serif text-6xl sm:text-7xl lg:text-8xl text-[#2C2C2C] leading-[1.05]"
+          >
+            Aswathi
+            <br />
+            Bindhu
+            <br />
+            Jawahar
+          </motion.h1>
+        </div>
 
         {/* Secondary SEO Heading */}
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.35 }}
-          className="font-serif text-2xl sm:text-3xl text-[#D4A574] mb-6 italic"
-        >
-          Contemporary Botanical Artwork
-        </motion.h2>
+        <div className="overflow-hidden mb-6">
+          <motion.h2
+            initial={{ y: "100%" }}
+            animate={{ y: 0 }}
+            transition={{ duration: 1, delay: 0.45, ease: [0.16, 1, 0.3, 1] }}
+            className="font-serif text-2xl sm:text-3xl text-[#D4A574] italic"
+          >
+            Contemporary Botanical Artwork
+          </motion.h2>
+        </div>
 
         {/* Description */}
         <motion.p

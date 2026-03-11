@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 import { artworks, type Artwork } from '@/data/artworks';
@@ -13,6 +14,7 @@ interface ArtworkDetailProps {
 }
 
 export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
+  const router = useRouter();
   const artMeta = (metadata as any)[artwork.id];
   const [viewMode, setViewMode] = useState<'artwork' | 'room'>('artwork');
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
@@ -44,8 +46,25 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
     e.preventDefault();
   };
 
+  const handleDragEnd = (event: any, info: any) => {
+    // Swipe right to go back (native iOS feel)
+    if (info.offset.x > 100 && info.velocity.x > 500) {
+      // Gentle haptic feedback on successful swipe if supported
+      if (typeof navigator !== 'undefined' && navigator.vibrate) {
+        navigator.vibrate(10);
+      }
+      router.back();
+    }
+  };
+
   return (
-    <div className="relative z-10">
+    <motion.div 
+      className="relative z-10"
+      drag="x"
+      dragConstraints={{ left: 0, right: 0 }}
+      dragElastic={{ left: 0, right: 0.5 }}
+      onDragEnd={handleDragEnd}
+    >
       {/* Immersive Theming Background Blobs */}
       {artMeta?.palette && artMeta.palette.length >= 2 && (
         <div className="fixed inset-0 pointer-events-none z-[-1] overflow-hidden mix-blend-multiply opacity-30 transition-opacity duration-1000">
@@ -276,6 +295,6 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
           </motion.div>
         )}
       </AnimatePresence>
-    </div>
+    </motion.div>
   );
 }
