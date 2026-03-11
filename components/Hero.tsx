@@ -10,7 +10,7 @@ export default function Hero() {
   const y2 = useTransform(scrollY, [0, 1000], [0, 150])
 
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center pt-16 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+    <section className="min-h-screen flex flex-col items-center justify-center pt-16 px-6 sm:px-8 lg:px-8 relative overflow-hidden">
       {/* Artwork Background Mosaic */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
         <div className="absolute inset-0 opacity-[0.06] flex gap-4 md:gap-8 justify-center items-center -rotate-[4deg] scale-[1.15]">
@@ -76,7 +76,7 @@ export default function Hero() {
             initial={{ y: "100%" }}
             animate={{ y: 0 }}
             transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-            className="text-[#D4A574] text-sm uppercase tracking-[0.3em]"
+            className="text-[#D4A574] text-xs sm:text-sm font-semibold uppercase tracking-[0.3em]"
           >
             Original Artwork by
           </motion.p>
@@ -88,7 +88,7 @@ export default function Hero() {
             initial={{ y: "110%" }}
             animate={{ y: 0 }}
             transition={{ duration: 1.2, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="font-serif text-6xl sm:text-7xl lg:text-8xl text-[#2C2C2C] leading-[1.05]"
+            className="font-serif text-6xl sm:text-7xl lg:text-8xl text-[#2C2C2C] leading-[1.15] sm:leading-[1.05]"
           >
             Aswathi
             <br />

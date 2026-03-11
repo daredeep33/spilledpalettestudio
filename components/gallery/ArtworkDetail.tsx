@@ -134,25 +134,25 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
           </div>
 
           {/* Navigation Arrows */}
-          <div className="flex justify-between pt-4">
+          <div className="flex justify-between pt-4 -mx-2">
             {prevArtwork ? (
               <Link 
                 href={`/gallery/${prevArtwork.id}`}
-                className="flex items-center gap-2 text-[#2C2C2C]/60 hover:text-[#D4A574] transition-colors"
+                className="flex items-center gap-2 text-[#2C2C2C]/70 hover:text-[#D4A574] transition-colors p-3"
               >
                 <span>←</span>
-                <span className="text-sm">Previous</span>
+                <span className="text-sm sm:text-base font-medium uppercase tracking-wider">Previous</span>
               </Link>
-            ) : <div />}
+            ) : <div className="p-3" />}
             {nextArtwork ? (
               <Link 
                 href={`/gallery/${nextArtwork.id}`}
-                className="flex items-center gap-2 text-[#2C2C2C]/60 hover:text-[#D4A574] transition-colors"
+                className="flex items-center gap-2 text-[#2C2C2C]/70 hover:text-[#D4A574] transition-colors p-3"
               >
-                <span className="text-sm">Next</span>
+                <span className="text-sm sm:text-base font-medium uppercase tracking-wider">Next</span>
                 <span>→</span>
               </Link>
-            ) : <div />}
+            ) : <div className="p-3" />}
           </div>
         </div>
 
@@ -180,7 +180,7 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
           {/* Polished Color Palette - Figma Design */}
           {artMeta?.palette && (
             <div className="mb-10">
-              <h3 className="text-xs uppercase tracking-[0.2em] text-[#2C2C2C]/40 mb-6 font-medium">Color Palette</h3>
+              <h3 className="text-xs uppercase tracking-[0.2em] text-[#2C2C2C]/70 mb-6 font-semibold">Color Palette</h3>
               
               {/* Sort by luminance (brightness) */}
               {(() => {

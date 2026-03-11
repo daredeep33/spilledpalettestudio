@@ -187,7 +187,7 @@ export default function Gallery({ onInquire, limit, showAllLink }: GalleryProps)
   const artistPicksCount = artworks.filter(a => a.artistPick).length
 
   return (
-    <section id="gallery" className="py-20 px-4 sm:px-6 lg:px-8 bg-[#FDFBF7]">
+    <section id="gallery" className="py-20 px-6 sm:px-8 lg:px-8 bg-[#FDFBF7]">
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -213,7 +213,7 @@ export default function Gallery({ onInquire, limit, showAllLink }: GalleryProps)
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="flex overflow-x-auto gap-2 mb-12 pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 sm:flex-wrap sm:justify-center scrollbar-hide"
+          className="flex overflow-x-auto gap-2 mb-12 pb-4 -mx-6 px-6 sm:mx-0 sm:px-0 sm:flex-wrap sm:justify-center scrollbar-hide"
         >
           {categories.map((cat) => (
             <button

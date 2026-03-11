@@ -89,7 +89,7 @@ export default function Navigation() {
               initial={{ opacity: 0, height: 0, filter: 'blur(10px)' }}
               animate={{ opacity: 1, height: 'auto', filter: 'blur(0px)' }}
               exit={{ opacity: 0, height: 0, filter: 'blur(10px)' }}
-              className="md:hidden bg-[#FDFBF7]/90 backdrop-blur-2xl border-t border-[#E8E4DF] relative"
+              className="md:hidden bg-[#FDFBF7]/95 backdrop-blur-3xl border-t border-[#E8E4DF] relative"
             >
               {/* Noise Texture Layer Mobile Menu */}
               <div className="absolute inset-0 opacity-[0.04] pointer-events-none bg-noise mix-blend-overlay" />
