@@ -210,7 +210,7 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
                           className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-full border-[3px] border-[#FDFBF7] shadow-lg ring-1 ring-black/5 transition-all"
                           style={{ backgroundColor: color.toLowerCase() }}
                         />
-                        <span className="mt-3 text-[9px] sm:text-[10px] uppercase tracking-wider text-[#2C2C2C]/60 font-medium">
+                        <span className="mt-3 text-[9px] sm:text-[10px] uppercase tracking-wider text-[#2C2C2C]/60 font-medium hidden sm:block">
                           {color}
                         </span>
                       </div>
