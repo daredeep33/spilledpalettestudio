@@ -207,7 +207,7 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
                       >
                         <motion.div 
                           whileHover={{ scale: 1.15, zIndex: 10 }}
-                          className="w-14 h-14 sm:w-16 sm:h-16 rounded-full border-[3px] border-[#FDFBF7] shadow-lg transition-all"
+                          className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-full border-[3px] border-[#FDFBF7] shadow-lg ring-1 ring-black/5 transition-all"
                           style={{ backgroundColor: color.toLowerCase() }}
                         />
                         <span className="mt-3 text-[9px] sm:text-[10px] uppercase tracking-wider text-[#2C2C2C]/60 font-medium">
@@ -224,7 +224,7 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
           {/* Inquire Button */}
           <a
             href={`/?piece=${encodeURIComponent(artwork?.title || '')}#contact`}
-            className="block w-full bg-[#2C2C2C] text-white py-4 rounded-full text-base font-medium hover:bg-[#D4A574] transition-all text-center"
+            className="block w-full max-w-md bg-[#2C2C2C] text-white py-4 rounded-full text-base font-medium hover:bg-[#D4A574] hover:scale-105 active:scale-95 transition-all duration-300 text-center"
           >
             Inquire About This Piece
           </a>

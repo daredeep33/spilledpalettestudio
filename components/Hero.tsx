@@ -88,7 +88,7 @@ export default function Hero() {
             initial={{ y: "110%" }}
             animate={{ y: 0 }}
             transition={{ duration: 1.2, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
-            className="font-serif text-6xl sm:text-7xl lg:text-8xl text-[#2C2C2C] leading-[1.15] sm:leading-[1.05]"
+            className="font-serif text-6xl sm:text-7xl lg:text-8xl font-medium text-[#2C2C2C] leading-[1.15] sm:leading-[1.05]"
           >
             Aswathi
             <br />
@@ -129,13 +129,13 @@ export default function Hero() {
         >
           <a
             href="#gallery"
-            className="inline-flex items-center justify-center bg-[#2C2C2C] text-[#FDFBF7] px-8 py-4 rounded-full text-sm font-medium hover:bg-[#D4A574] transition-all duration-300"
+            className="inline-flex items-center justify-center bg-[#2C2C2C] text-[#FDFBF7] px-8 py-4 rounded-full text-sm font-medium hover:bg-[#D4A574] hover:scale-105 active:scale-95 transition-all duration-300"
           >
             View Collection
           </a>
           <a
             href="#about"
-            className="inline-flex items-center justify-center border border-[#2C2C2C] text-[#2C2C2C] px-8 py-4 rounded-full text-sm font-medium hover:bg-[#2C2C2C] hover:text-[#FDFBF7] transition-all duration-300"
+            className="inline-flex items-center justify-center border border-[#2C2C2C] text-[#2C2C2C] px-8 py-4 rounded-full text-sm font-medium hover:bg-[#2C2C2C] hover:text-[#FDFBF7] hover:scale-105 active:scale-95 transition-all duration-300"
           >
             Meet the Artist
           </a>

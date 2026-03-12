@@ -54,7 +54,7 @@ export default function Navigation() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className={`text-sm font-medium focus-visible:ring-2 focus-visible:ring-[#D4A574] focus-visible:outline-none rounded-md px-2 py-1 -mx-2 transition-colors ${
+                    className={`text-sm md:text-base font-medium focus-visible:ring-2 focus-visible:ring-[#D4A574] focus-visible:outline-none rounded-md px-2 py-1 -mx-2 transition-colors ${
                       isActive 
                         ? 'text-[#D4A574]' 
                         : 'text-[#2C2C2C]/70 hover:text-[#D4A574]'
