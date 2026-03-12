@@ -18,6 +18,15 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
   const artMeta = (metadata as any)[artwork.id];
   const [viewMode, setViewMode] = useState<'artwork' | 'room'>('artwork');
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+  const [copiedColor, setCopiedColor] = useState<string | null>(null);
+
+  const handleCopyColor = (color: string) => {
+    navigator.clipboard.writeText(color);
+    setCopiedColor(color);
+    setTimeout(() => {
+      setCopiedColor(null);
+    }, 2000);
+  };
 
   const currentIndex = artworks.findIndex(a => a.id === artwork.id);
   const prevArtwork = currentIndex > 0 ? artworks[currentIndex - 1] : null;
@@ -205,13 +214,25 @@ export default function ArtworkDetail({ artwork }: ArtworkDetailProps) {
                           zIndex: sortedPalette.length - index
                         }}
                       >
-                        <motion.div 
-                          whileHover={{ scale: 1.15, zIndex: 10 }}
-                          className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-full border-[3px] border-[#FDFBF7] shadow-lg ring-1 ring-black/5 transition-all"
-                          style={{ backgroundColor: color.toLowerCase() }}
-                        />
-                        <span className="mt-3 text-[9px] sm:text-[10px] uppercase tracking-wider text-[#2C2C2C]/60 font-medium hidden sm:block">
-                          {color}
+                        <div
+                          className="cursor-pointer relative"
+                          onClick={() => handleCopyColor(color)}
+                        >
+                          <motion.div 
+                            whileHover={{ scale: 1.15, zIndex: 10 }}
+                            whileTap={{ scale: 0.95 }}
+                            className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 rounded-full border-[3px] border-[#FDFBF7] shadow-lg ring-1 ring-black/5 transition-all"
+                            style={{ backgroundColor: color.toLowerCase() }}
+                          />
+                        </div>
+                        <span 
+                          className={`mt-3 text-[9px] sm:text-[10px] uppercase tracking-wider font-medium transition-colors duration-300 ${
+                            copiedColor === color 
+                              ? 'text-[#D4A574] block' 
+                              : 'text-[#2C2C2C]/60 hidden sm:block'
+                          }`}
+                        >
+                          {copiedColor === color ? 'Copied' : color}
                         </span>
                       </div>
                     ))}
